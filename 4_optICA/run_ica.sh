@@ -9,13 +9,14 @@ function usage {
     printf "  -i|--iter <n_iter>	      Number of random restarts (default: 100)\n"
     printf "  -t|--tolerance <tol>        Tolerance (default: 1e-7)\n"
     printf "  -n|--n-cores <n_cores>      Number of cores to use (default: 8)\n"
-    printf "  -d|--max-dim <max_dim>      Maximum dimensionality for search (default: n_samples)\n"
-    printf "  -m|--min-dim <min_dim>      Minimum dimensionality for search (default: 20)\n"
+    printf "  -max|--max-dim <max_dim>     Maximum dimensionality for search (default: n_samples)\n"
+    printf "  -min|--min-dim <min_dim>     Minimum dimensionality for search (default: 20)\n"
     printf "  -s|--step-size <step_size>  Dimensionality step size (default: n_samples/25)\n"
-    printf "  -o|--outdir <path>          Output directory for files (default: current directory)\n"
-    printf "  -l|--logfile                Name of log file to use if verbose is off (default: ica.log)\n"
-    printf "  -v|--verbose                Send output to stdout rather than writing to file\n"
-    printf "  -h|--help                   Display help information\n"
+    printf "  -o|--outdir <path>           Output directory for files (default: current directory)\n"
+    printf "  -l|--logfile                 Name of log file to use if verbose is off (default: ica.log)\n"
+    printf "  -v|--verbose                 Send output to stdout rather than writing to file\n"
+    printf "  -h|--help                    Display help information\n"
+    printf "  -time|--time-out             Timeout for each ICA run in seconds\n"
     printf "\n"
     exit 1
 }
@@ -29,7 +30,7 @@ STEP=0
 MAXDIM=0
 MINDIM=20
 CORES=8
-VERBOSE=false
+VERBOSE=true
 LOGFILE="ica.log"
 
 POSITIONAL=()
@@ -48,11 +49,11 @@ while [[ $# -gt 0 ]]; do
             TOL=$2
             shift;
             shift;;
-        -m|--min-dim)
+        -min|--min-dim)
             MINDIM=$2
             shift;
             shift;;
-        -d|--max-dim)
+        -max|--max-dim)
             MAXDIM=$2
             shift;
             shift;;
@@ -62,6 +63,10 @@ while [[ $# -gt 0 ]]; do
             shift;;
         -n|--n-cores)
             CORES=$2
+            shift;
+            shift;;
+        -time|--time-out)
+            TIMEOUT=$2
             shift;
             shift;;
         -l|--logfile)
@@ -81,6 +86,17 @@ while [[ $# -gt 0 ]]; do
             shift;;
     esac
 done
+
+# Check if output directory exists, if not create it
+if [ ! -d "$OUTDIR" ]; then
+    mkdir -p "$OUTDIR"
+fi
+
+# Generate a timestamp
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+
+# Set log file name with timestamp
+LOGFILE="$OUTDIR/ica_$TIMESTAMP.log"
 
 set -- "${POSITIONAL[@]}"
 
@@ -141,10 +157,11 @@ for dim in $(seq $MINDIM $STEP $MAXDIM); do
     redirect_cmd echo $bar
     redirect_cmd echo ""
 
-    redirect_cmd mpiexec -n $CORES python -u random_restart_ica.py -f $FILE -i $ITER -o $outsubdir -t $TOL -d $dim 2>&1
-    redirect_cmd mpiexec -n $CORES python -u compute_distance.py -i $ITER -o $outsubdir 2>&1
-    redirect_cmd mpiexec -n $CORES python -u cluster_components.py -i $ITER -o $outsubdir 2>&1
-
+    redirect_cmd mpiexec -n $CORES python -u -m mpi4py random_restart_ica_MPI.py -f $FILE -i $ITER -o $outsubdir -t $TOL -d $dim -time $TIMEOUT 2>&1
+    redirect_cmd mpiexec -n $CORES python -u adjust_csv_MPI.py -o $outsubdir -n $CORES 2>&1
+    redirect_cmd mpiexec -n $CORES python -u -m mpi4py compute_distance.py -i $ITER -o $outsubdir 2>&1
+    redirect_cmd mpiexec -n $CORES python -u -m mpi4py cluster_components.py -i $ITER -o $outsubdir 2>&1
+    
     redirect_cmd echo ""
 
 done

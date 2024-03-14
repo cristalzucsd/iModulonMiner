@@ -17,6 +17,15 @@ TOL: Tolerance for ICA (optional, default: 1e-7)
 
 import argparse
 import os
+import threading
+
+# Limiting threads for various libraries
+os.environ["OMP_NUM_THREADS"] = "1"  # OpenMP
+os.environ["OPENBLAS_NUM_THREADS"] = "1"  # OpenBLAS
+os.environ["MKL_NUM_THREADS"] = "1"  # MKL
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"  # Accelerate
+os.environ["NUMEXPR_NUM_THREADS"] = "1"  # NumExpr
+
 import shutil
 import sys
 import time
@@ -25,7 +34,6 @@ import numpy as np
 import pandas as pd
 from mpi4py import MPI
 from sklearn.decomposition import PCA, FastICA
-
 
 # Argument parsing
 parser = argparse.ArgumentParser(description="Performs ICA with random initialization")
@@ -55,8 +63,15 @@ parser.add_argument(
     default=None,
     help="Number of dimensions to search for",
 )
-args = parser.parse_args()
+parser.add_argument(
+    "-time",
+    type=int,
+    dest="time_out",
+    default=7200,
+    help="Timeout for each ICA run in seconds (default: 7200)",
+)
 
+args = parser.parse_args()
 
 # -----------------------------------------------------------
 # Split the work
@@ -66,9 +81,11 @@ rank = comm.Get_rank()
 size = comm.Get_size()
 
 n_iters = args.iterations
+timeout = args.time_out
 
 worker_tasks = {w: [] for w in range(size)}
 w_idx = 0
+
 for i in range(n_iters):
     worker_tasks[w_idx].append(i)
     w_idx = (w_idx + 1) % size
@@ -91,6 +108,13 @@ else:
         if not os.path.isdir(OUT_DIR):
             os.makedirs(OUT_DIR)
 
+# Create temporary directory for files
+tmp_dir = os.path.join(OUT_DIR, "tmp")
+
+if rank == 0:
+    if not os.path.exists(tmp_dir):
+        os.makedirs(tmp_dir)
+
 # -----------------------------------------------------------
 
 
@@ -105,6 +129,17 @@ def timeit(start):
         print("{:.2f} hours elapsed".format(t / 3600))
     return end
 
+# Watcher function to monitor execution time
+def timeout_watcher(start_time, timeout):
+    global processing_complete
+    processing_complete = False
+    while True:
+        time.sleep(1)
+        if time.time() - start_time > timeout:
+            print(f"Processor {rank} timed out. Aborting MPI job.")
+            comm.Abort(1)
+        if processing_complete:
+            break  # Exit the loop if processing is complete
 
 t = time.time()
 
@@ -130,13 +165,7 @@ if args.n_dims is None:
 else:
     k_comp = args.n_dims
 
-# Create temporary directory for files
-tmp_dir = os.path.join(OUT_DIR, "tmp")
-
-if rank == 0:
-    if not os.path.exists(tmp_dir):
-        os.makedirs(tmp_dir)
-
+# -----------------------------------------------------------
 # -----------------------------------------------------------
 # Run ICA
 
@@ -147,32 +176,29 @@ if rank == 0:
 S = []
 A = []
 
-t1 = time.time()
+start_time = time.time()
+
+# Start the timeout watcher thread
+watcher = threading.Thread(target=timeout_watcher, args=(start_time, timeout))
+watcher.start()
 
 for counter, i in enumerate(worker_tasks[rank]):
     ica = FastICA(whiten=True, max_iter=int(1e10), tol=tol, n_components=k_comp)
-    S.append(pd.DataFrame(ica.fit_transform(X), index=X.index))
-    A.append(pd.DataFrame(ica.mixing_, index=X.columns))
-    if rank == 0:
-        print(
-            "Completed run {} of {} on Processor {}".format(counter + 1, n_tasks, rank)
-        )
-        t = timeit(t)
+    S = pd.DataFrame(ica.fit_transform(X), index=X.index)
+    A = pd.DataFrame(ica.mixing_, index=X.columns)
+    
+    S.to_csv(os.path.join(tmp_dir, "proc_{}_S.csv".format(i)))
+    A.to_csv(os.path.join(tmp_dir, "proc_{}_A.csv".format(i)))
 
-S_all = pd.concat(S, axis=1)
-S_all.columns = range(S_all.shape[1])
-S_all.to_csv(os.path.join(tmp_dir, "proc_{}_S.csv".format(rank)))
-A_all = pd.concat(A, axis=1)
-A_all.columns = range(A_all.shape[1])
-A_all.to_csv(os.path.join(tmp_dir, "proc_{}_A.csv".format(rank)))
+    print("\nCompleted run {} of {} on Processor {}".format(counter + 1, n_tasks, rank))
+    t = timeit(t)
+
+# After completing the tasks
+processing_complete = True
 
 # Wait for processors to finish
-if rank == 0:
-    test = 1
-else:
-    test = 0
-test = comm.bcast(test, root=0)
+comm.Barrier()
 
 if rank == 0:
     print("\nAll ICA runs complete!")
-    timeit(t1)
+    timeit(start_time)
