@@ -15,20 +15,20 @@ The `run_ica.sh` script produces three files and a subdirectory:
 - `ica_runs/`: A subdirectory containing all the **M** and **A** matrices for all dimensions
 
 ## Usage
-```
+```bash
 Usage: run_ica.sh [ARGS] FILE
 
 Arguments
-  -i|--iter <n_iter>	      Number of random restarts (default: 100)
-  -t|--tolerance <tol>        Tolerance (default: 1e-7)
-  -n|--n-cores <n_cores>      Number of cores to use (default: 8)
+  -i|--iter <n_iter>	       Number of random restarts (default: 100)
+  -t|--tolerance <tol>         Tolerance (default: 1e-7)
+  -n|--n-cores <n_cores>       Number of cores to use (default: 8)
   -max|--max-dim <max_dim>     Maximum dimensionality for search (default: n_samples)
   -min|--min-dim <min_dim>     Minimum dimensionality for search (default: 20)
-  -s|--step-size <step_size>  Dimensionality step size
-  -o|--outdir <path>          Output directory for files (default: current directory)
-  -l|--logfile                Name of log file to use if verbose is off (default: ica.log)
-  -v|--verbose                Send output to stdout rather than writing to file
-  -h|--help                   Display help information
+  -s|--step-size <step_size>   Dimensionality step size
+  -o|--outdir <path>           Output directory for files (default: current directory)
+  -l|--logfile                 Name of log file to use if verbose is off (default: ica.log)
+  -v|--verbose                 Send output to stdout rather than writing to file
+  -h|--help                    Display help information
   -time|--time-out             Timeout for each ICA run in seconds (default: 7200)
 ```
 ## Example Usage
