@@ -7,6 +7,7 @@ dependencies:
   - python=3.7
   - matplotlib
   - pandas
+  - adjusttext=0.7.3.1
   - notebook
   - seaborn
   - numpy
