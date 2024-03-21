@@ -13,7 +13,7 @@ dependencies:
   - numpy=1.21.5
   - jupyterlab
   - scipy=1.7.3
-  - entrez-direct
+  - entrez-direct=16.2
   - tqdm=4.64.1
   - ipywidgets=7.6.5
   - mpi4py=3.1.4
