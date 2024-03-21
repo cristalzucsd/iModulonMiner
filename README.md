@@ -20,7 +20,7 @@ We have provided pre-built Docker containers with all necessary software.
 To begin, install [Docker](https://docs.docker.com/get-docker/) and [Nextflow](https://www.nextflow.io/).
 
 ### Local installation
-You can also run each program locally, with all requirements listed in the conda `environment.yaml` file. For Step 5 (Characterized iModulons), additionally install [pymodulon](https://pymodulon.readthedocs.io/en/latest/).
+You can also run each program locally, with all requirements listed in the conda `environment.yml` file. For Step 5 (Characterized iModulons), additionally install [pymodulon](https://pymodulon.readthedocs.io/en/latest/).
 
 ## Cite
 
