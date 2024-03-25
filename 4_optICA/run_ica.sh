@@ -157,7 +157,7 @@ for dim in $(seq $MINDIM $STEP $MAXDIM); do
     redirect_cmd echo $bar
     redirect_cmd echo ""
 
-    redirect_cmd mpiexec -n $CORES python -u -m mpi4py random_restart_ica_MPI.py -f $FILE -i $ITER -o $outsubdir -t $TOL -d $dim -time $TIMEOUT 2>&1
+    redirect_cmd mpiexec -n $CORES python -u -m mpi4py random_restart_ica.py -f $FILE -i $ITER -o $outsubdir -t $TOL -d $dim -time $TIMEOUT 2>&1
     redirect_cmd mpiexec -n $CORES python -u adjust_csv_MPI.py -o $outsubdir -n $CORES 2>&1
     redirect_cmd mpiexec -n $CORES python -u -m mpi4py compute_distance.py -i $ITER -o $outsubdir 2>&1
     redirect_cmd mpiexec -n $CORES python -u -m mpi4py cluster_components.py -i $ITER -o $outsubdir 2>&1
