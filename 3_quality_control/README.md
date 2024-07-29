@@ -2,7 +2,7 @@
 
 This folder contains two Jupyter notebooks outlining five quality control steps. Between the first and second notebooks, you will need to manually curate the experimental metadata to identify which samples are biological/technical replicates.
 
-To run these notebooks, you can either install [Jupyter Notebook](https://jupyter.org/install) and install the dependencies in `requirements.txt`, or use a pre-existing docker container.
+To run these notebooks, you can either install [Jupyter Notebook](https://jupyter.org/install) or install all requirements listed in the `environment.yml` file on the main page, or use a pre-existing docker container.
 
 ## Running the docker container
 1. Install [Docker](https://docs.docker.com/get-docker/)
