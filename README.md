@@ -5,7 +5,7 @@ This repository presents a computational workflow to compute and characterize al
 2. Process the RNA-seq data ([Step 2](2_process_data))
 3. Inspect data to identify high-quality datasets ([Step 3](3_quality_control))
 4. Compute iModulons ([Step 4](4_optICA))
-5. Characterize iModulons using [PyModulon](https://github.com/SBRG/pymodulon) ([Step 5](5_characterization))
+5. Characterize iModulons using [PyModulon](https://github.com/SBRG/pymodulon) ([Step 5](5_characterize_iModulons))
 
 ## Background
 **iModulons** are **i**ndependently-**modul**ated group of genes that are computed through Independent Component Analysis (ICA) of a gene expression dataset. To learn more about iModulons or explore published iModulons, visit [iModulonDB](https://imodulondb.org) or see our publications for [*Escherichia coli*](https://www.nature.com/articles/s41467-019-13483-w), [*Staphylococcus aureus*](https://www.pnas.org/content/117/29/17228), or [*Bacillus subtilis*](https://www.nature.com/articles/s41467-020-20153-9).
