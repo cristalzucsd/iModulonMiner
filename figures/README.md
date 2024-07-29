@@ -2,7 +2,7 @@
 
 This folder contains Jupyter notebooks to recreate the figures in the manuscript.
 
-To run these notebooks, you can either install [Jupyter Notebook](https://jupyter.org/install) and install the dependencies in `requirements.txt`, or use a pre-existing docker container.
+To run these notebooks, you can either install [Jupyter Notebook](https://jupyter.org/install) or install all requirements listed in the `environment.yml` file on the main page, or use a pre-existing docker container.
 
 ## Running the docker container
 1. Install [Docker](https://docs.docker.com/get-docker/)
