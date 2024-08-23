@@ -21,3 +21,7 @@ docker run -p 8888:8888 -v <target-path>:/home/jovyan/work avsastry/modulome-wor
 The above commands will mount the files in your local `<target-path>` to `/home/jovyan/work` in the Docker container. These files are editable, and changes made in the docker container will be reflected on your own machine. Only subfolders and files within `<target-path>` can be accessed by the container, so it is recommended to input the root folder of this repository as the `<target-path>`.
 
 For more options, such as changing the default username, changing the port, or granting root access, see the Jupyter Docker Stacks [Feature page](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html)
+
+## Use of quality control data from alternative alignment pipelines
+
+Alternative pipelines for RNA-seq data processing may provide quality control information in a different format to step 2 of this workflow. Users should consolidate quality control information into the format required by the provided notebooks in order to use these quality control notebooks.

@@ -70,3 +70,8 @@ If you get the error `Process requirement exceed available CPUs` or `Process req
 
 ### Missing R1/R2 columns
 If you get the error `Cannot invoke method split() on null object`, this means you are missing the R1 and R2 columns from your metadata file.
+
+## Pipeline Alternatives
+
+### Use of other pipelines
+Other alignment pipelines can be used for alignment and quantification of RNA-seq data. Example of this can include [NF-Core](https://nf-co.re/rnaseq/). Alignment of eukaryotic organisms is recommended to be done using alternative pipelines. 

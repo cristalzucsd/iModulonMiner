@@ -26,3 +26,6 @@ docker run -p 8888:8888 -v <target-path>:/home/jovyan/work avsastry/modulome-wor
 The above commands will mount the files in your local `<target-path>` to `/home/jovyan/work` in the Docker container. These files are editable, and changes made in the docker container will be reflected on your own machine. Only subfolders and files within `<target-path>` can be accessed by the container, so it is recommended to input the root folder of this repository as the `<target-path>`.
 
 For more options, such as changing the default username, changing the port, or granting root access, see the Jupyter Docker Stacks [Feature page](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html)
+
+## Eukaryotic functions
+Plotting chromosomes and reading gff files for yeast are functions displayed in the eukaryotic_functions notebook. This notebook requires PyModulon 1.0.0 or later in order for functions to be installed correctly. See the [pymodulon github](https://github.com/SBRG/pymodulon) for information on installing this version of the package. 
