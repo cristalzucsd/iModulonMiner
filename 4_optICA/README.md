@@ -35,3 +35,10 @@ Arguments
 ```bash
 ./run_ica.sh -n 16 -min 100 -max 300 -i 96 -v -time 7200 -o ../data/interim/ ../data/processed_data/log_tpm_norm.csv
 ```
+## Alternatives
+**The ICA step is the core step for iModulonMiner and we used FastICA [1] in the workflow. It can be substituted with other ICA implementations like InfoMax ICA [2] or Picard ICA [3], as well as sparse ICA [4]**
+
+[1] Hyvarinen, Aapo. "Fast and robust fixed-point algorithms for independent component analysis." IEEE transactions on Neural Networks 10.3 (1999): 626-634.
+[2] Lee, Te-Won, Mark Girolami, and Terrence J. Sejnowski. "Independent component analysis using an extended infomax algorithm for mixed subgaussian and supergaussian sources." Neural computation 11.2 (1999): 417-441.
+[3] Ablin, Pierre, Jean-François Cardoso, and Alexandre Gramfort. "Faster independent component analysis by preconditioning with Hessian approximations." IEEE Transactions on Signal Processing 66.15 (2018): 4040-4049.
+[4] Wang, Zihang, et al. "Sparse Independent Component Analysis with an Application to Cortical Surface fMRI Data in Autism." Journal of the American Statistical Association (2024): 1-13.
