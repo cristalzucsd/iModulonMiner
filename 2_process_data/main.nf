@@ -236,7 +236,6 @@ process download_fastq {
 
     script:
 
-
     """
     # Convert run_ids to an array
     IFS=';' read -r -a runs <<< "${run_ids}"
