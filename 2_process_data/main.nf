@@ -91,15 +91,17 @@ process bowtie_build {
 
     output:
     file('index*') into index_ch
-    file('cspace_index*') into cspace_index_ch
+    /// file('cspace_index*') into cspace_index_ch
 
     script:
     full_fasta = "${params.organism}.fasta"
     """
     cat ${fasta} > ${full_fasta}
     bowtie2-build --threads ${task.cpus} ${full_fasta} index
-    bowtie2-build -C --threads ${task.cpus} ${full_fasta} cspace_index
     """
+    // the below line was included above, but I'm not sure it's purpose and it doesn't work
+    // bowtie2-build -C --threads ${task.cpus} ${full_fasta} cspace_index
+    
 
 }
 
@@ -356,18 +358,20 @@ process bowtie_align {
     input:
     tuple sample_id, layout, platform, file(fastq) from bowtie_input_ch
     file(index) from index_ch.collect()
-    file(cspace_index) from cspace_index_ch.collect()
+    /// file(cspace_index) from cspace_index_ch.collect()
 
     output:
     tuple sample_id, layout, platform, file("*.sam") into sam_ch, sam_ch2
     file('*_bowtie.txt') into bowtie_results_ch
 
-    script:
-
+    script: 
+    """ /// Removed cspace index stuff as it wasn't working
     if ( platform == 'ABI_SOLID' )
         index_arg = "-C cspace_index"
     else
         index_arg = "index"
+    """
+    index_arg = "index"
 
     if ( layout == 'SINGLE')
         """
