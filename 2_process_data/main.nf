@@ -302,7 +302,7 @@ process trim_galore {
     maxRetries 2
     errorStrategy  { task.attempt <= maxRetries  ? 'retry' : 'ignore' }
 
-    label 'large'
+    label 'medium'
     label 'trim_galore'
 
     publishDir "${params.outdir}/trim_reports", mode: 'copy', pattern: '*trimming_report.txt'
