@@ -238,7 +238,7 @@ process download_fastq {
 
     """
     for run in ${run_ids.replace(';',' ')}; do
-        prefetch --max-size 1000000000000 \$run
+        prefetch --verbose --max-size 1000000000000 \$run
         fasterq-dump \$run -e ${task.cpus}
     done
 
