@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!~/.conda/envs/modulome/bin/python
 
 import argparse
 
