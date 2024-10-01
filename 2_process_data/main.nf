@@ -97,8 +97,8 @@ process bowtie_build {
     full_fasta = "${params.organism}.fasta"
     """
     cat ${fasta} > ${full_fasta}
-    bowtie-build --threads ${task.cpus} ${full_fasta} index
-    bowtie-build -C --threads ${task.cpus} ${full_fasta} cspace_index
+    bowtie2-build --threads ${task.cpus} ${full_fasta} index
+    bowtie2-build -C --threads ${task.cpus} ${full_fasta} cspace_index
     """
 
 }
