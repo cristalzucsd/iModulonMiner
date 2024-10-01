@@ -237,18 +237,11 @@ process download_fastq {
     script:
 
     """
-    # Convert run_ids to an array
-    IFS=';' read -r -a runs <<< "${run_ids}"
-
-    for run in "\${runs[@]}"; do
-        # Use curl to download the SRA file
-        curl -L -O "https://sra-download.ncbi.nlm.nih.gov/traces/sra58/ByRun/sra/SRR/${run:0:6}/${run}/${run}.sra"
-
-        # Convert the .sra file to .fastq using fasterq-dump
+    for run in ${run_ids.replace(';',' ')}; do
+        prefetch --max-size 1000000000000 \$run
         fasterq-dump \$run -e ${task.cpus}
     done
 
-    # Handle output based on layout type
     if [ "${layout}" = "SINGLE" ]; then
         pigz -c *.fastq > ${sample_id}_1.fastq.gz
     else
