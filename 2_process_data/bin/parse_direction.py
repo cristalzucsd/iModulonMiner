@@ -1,4 +1,4 @@
-#!~/.conda/envs/modulome/bin/python
+#!/home/glbrc.org/cdalldorf/.conda/envs/modulome/bin/python
 
 import argparse
 
