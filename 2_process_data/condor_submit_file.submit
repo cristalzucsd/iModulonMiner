@@ -12,11 +12,11 @@
 #  - be kind, and keep in mind that resources are shared among everyone at the center!
 # job requires 1 cpu (typical, unless you know your job can run parallel/multiple threads)
 
-request_cpus = 1
+request_cpus = 4
 
 # overrequesting memory makes a job harder to place, takes longer to do so, and blocks that memory from being available to other jobs
 
-request_memory = 2GB
+request_memory = 16GB
 
 ## Executable is where you can put the name of your script, but you have to make it executable before running it by using chmod 775 htcondor_simple.sh
 
@@ -25,7 +25,7 @@ Executable = condor_submit.sh
 ## Always notify the user when the job fails or completes normally
 
 Notification = ALWAYS
-Notify_user = kmyers2@wisc.edu
+Notify_user = cdalldorf@gmail.com
 
 # "output" logs any STDOUT from execution
 
