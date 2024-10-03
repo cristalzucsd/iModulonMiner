@@ -1,0 +1,49 @@
+#####
+# HTCONDOR INTERACTIVE SUBMIT FILE DEMO
+#
+#  notes:
+#   - htcondor manuals: http://research.cs.wisc.edu/htcondor/manual/
+#   - GLBRC Compute Resource Guide: https://crg.glbrc.org/#/
+#####
+
+## COMPUTE REQUIREMENTS
+# reminders:
+#  - if more resources than available are requested, the job will sit idle until such a time as they are
+#  - be kind, and keep in mind that resources are shared among everyone at the center!
+# job requires 1 cpu (typical, unless you know your job can run parallel/multiple threads)
+
+request_cpus = 1
+
+# overrequesting memory makes a job harder to place, takes longer to do so, and blocks that memory from being available to other jobs
+
+request_memory = 2GB
+
+## Executable is where you can put the name of your script, but you have to make it executable before running it by using chmod 775 htcondor_simple.sh
+
+Executable = condor_submit.sh
+
+## Always notify the user when the job fails or completes normally
+
+Notification = ALWAYS
+Notify_user = kmyers2@wisc.edu
+
+# "output" logs any STDOUT from execution
+
+output = htcondor.stdout.txt
+
+# "error" logs any STDERR from execution
+
+Error = htcondor.submit.err.txt
+
+## "INFO FILES" -- files outputted with info about the submit job`
+# The LOG file is where HTCondor places information about your job's status, success, and resource consumption.
+
+Log = htcondor.submit.log.txt
+
+## SUBMIT YOUR JOB
+# QUEUE is the last statement in the submit file
+# using QUEUE without any numbers executes this job once
+# using QUEUE with a number (e.g. QUEUE 3) tells condor to execute three instances of your job
+# QUEUE is the "start button" for Condor to run!
+
+Queue
