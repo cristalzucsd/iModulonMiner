@@ -15,6 +15,8 @@ printf "Job is running in directory: "; /bin/pwd
 echo
 nextflow run main.nf -profile local
 echo
-echo "Science complete!"
 
+# wrap up
+echo "Science complete!"
+printf "End time: "; /bin/date
 conda deactivate
