@@ -99,19 +99,19 @@ def main():
 	(protocol,sp1,sp2,other)=obj.configure_experiment(refbed=options.refgene_bed, sample_size = options.sample_size, q_cut = options.map_qual)
 	if other <0: other=0.0
 	if protocol == "PairEnd":
-		print("\n\nThis is PairEnd Data")
-		print("Fraction of reads failed to determine: %.4f" % other)
-		print("Fraction of reads explained by \"1++,1--,2+-,2-+\": %.4f" % sp1)
-		print("Fraction of reads explained by \"1+-,1-+,2++,2--\": %.4f" % sp2)
+		print "\n\nThis is PairEnd Data"
+		print "Fraction of reads failed to determine: %.4f" % other
+		print "Fraction of reads explained by \"1++,1--,2+-,2-+\": %.4f" % sp1
+		print "Fraction of reads explained by \"1+-,1-+,2++,2--\": %.4f" % sp2
 		
 	elif protocol == "SingleEnd":
-		print("\n\nThis is SingleEnd Data")
-		print("Fraction of reads failed to determine: %.4f" % other)
-		print("Fraction of reads explained by \"++,--\": %.4f" % sp1)
-		print("Fraction of reads explained by \"+-,-+\": %.4f" % sp2)
+		print "\n\nThis is SingleEnd Data"
+		print "Fraction of reads failed to determine: %.4f" % other
+		print "Fraction of reads explained by \"++,--\": %.4f" % sp1
+		print "Fraction of reads explained by \"+-,-+\": %.4f" % sp2
 		
 	else:
-		print("Unknown Data type")
+		print "Unknown Data type"
 	#print mesg
 
 if __name__ == '__main__':

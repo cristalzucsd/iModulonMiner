@@ -436,8 +436,8 @@ process get_read_direction {
     script:
 
     """
-    infer_experiment.py -r ${bed_file} -i ${samfile} > ${sample_id}.infer_experiment.txt
-    parse_direction.py ${sample_id}.infer_experiment.txt ${layout} | tr -d '\n'
+    python2.7 infer_experiment.py -r ${bed_file} -i ${samfile} > ${sample_id}.infer_experiment.txt
+    python3 parse_direction.py ${sample_id}.infer_experiment.txt ${layout} | tr -d '\n'
     """
 }
 
