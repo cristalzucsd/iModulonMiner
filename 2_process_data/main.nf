@@ -365,21 +365,23 @@ process bowtie_align {
     file('*_bowtie.txt') into bowtie_results_ch
 
     script: 
-    """ /// Removed cspace index stuff as it wasn't working
     if ( platform == 'ABI_SOLID' )
         index_arg = "-C cspace_index"
     else
         index_arg = "index"
-    """
-    index_arg = "index"
+
 
     if ( layout == 'SINGLE')
+        // bowtie -X 1000 -3 3 -n 2 -p ${task.cpus} -S ${index_arg} ${fastq} 1> ${sample_id}.sam 2> ${sample_id}_bowtie.txt
         """
-        bowtie -X 1000 -3 3 -n 2 -p ${task.cpus} -S ${index_arg} ${fastq} 1> ${sample_id}.sam 2> ${sample_id}_bowtie.txt
+        bowtie2 -X 1000 -3 3 --very-sensitive -p ${task.cpus} -x ${index_arg} -U ${fastq} 1> ${sample_id}.sam 2> ${sample_id}_bowtie.txt
         """
+        // bottom one is not tested
     else
+
+        // bowtie -X 1000 -3 3 -n 2 -p ${task.cpus} -S ${index_arg} -1 ${fastq[0]} -2 ${fastq[1]} 1> ${sample_id}.sam 2> ${sample_id}_bowtie.txt
         """
-        bowtie -X 1000 -3 3 -n 2 -p ${task.cpus} -S ${index_arg} -1 ${fastq[0]} -2 ${fastq[1]} 1> ${sample_id}.sam 2> ${sample_id}_bowtie.txt
+        bowtie2 -X 1000 -3 3 -p ${task.cpus} -x ${index_arg} -1 ${fastq[0]} -2 ${fastq[1]} 1> ${sample_id}.sam 2> ${sample_id}_bowtie.txt
         """
 
 }
