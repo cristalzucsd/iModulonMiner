@@ -1,4 +1,5 @@
-#!/home/chris/miniforge3/envs/TF_KALE/bin/python
+#!/home/glbrc.org/cdalldorf/.conda/envs/modulome/bin/python
+
 '''=================================================================================================
 Infer RNA-seq experiment design from SAM/BAM file. This module will determine if the RNA-seq
 experiment is:
