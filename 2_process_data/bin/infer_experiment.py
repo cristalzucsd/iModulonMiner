@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/chris/miniforge3/envs/TF_KALE/bin/python
 '''=================================================================================================
 Infer RNA-seq experiment design from SAM/BAM file. This module will determine if the RNA-seq
 experiment is:
@@ -31,9 +31,9 @@ experiment is:
 
 #import built-in modules
 import os,sys
-if sys.version_info[0] != 2 or sys.version_info[1] != 7:
-	print >>sys.stderr, "\nYou are using python" + str(sys.version_info[0]) + '.' + str(sys.version_info[1]) + " RSeQC needs python2.7!\n"
-	sys.exit()
+if sys.version_info[0] != 3:
+	print("\nYou are using python" + str(sys.version_info[0]) + '.' + str(sys.version_info[1]) + " This verion of RSeQC needs python3!\n", file=sys.stderr)
+	sys.exit()	
 
 import re
 import string
@@ -42,7 +42,6 @@ import warnings
 import string
 import collections
 import math
-import sets
 from time import strftime
 
 #import third-party modules
@@ -61,7 +60,7 @@ __author__ = "Liguo Wang"
 __copyright__ = "Copyleft"
 __credits__ = []
 __license__ = "GPL"
-__version__="2.6.4"
+__version__="5.0.2"
 __maintainer__ = "Liguo Wang"
 __email__ = "wang.liguo@mayo.edu"
 __status__ = "Production"
@@ -71,8 +70,8 @@ def printlog (mesg):
 	'''print progress into stderr and log file'''
 	mesg="@ " + strftime("%Y-%m-%d %H:%M:%S") + ": " + mesg
 	LOG=open('class.log','a')
-	print >>sys.stderr,mesg
-	print >>LOG,mesg
+	print(mesg, file=sys.stderr)
+	print(mesg, file=LOG)
 
 
 def main():
@@ -87,31 +86,31 @@ def main():
 
 	if not (options.input_file and options.refgene_bed):
 		parser.print_help()
-		print >>sys.stderr, '\n\n' + __doc__
+		print('\n\n' + __doc__, file=sys.stderr)
 		sys.exit(0)
 	for f in (options.input_file,options.refgene_bed):
 		if not os.path.exists(f):
-			print >>sys.stderr, '\n\n' + f + " does NOT exists." + '\n'
+			print('\n\n' + f + " does NOT exists." + '\n', file=sys.stderr)
 			sys.exit(0)
 	if options.sample_size <1000:
-		print >>sys.stderr, "Warn: Sample Size too small to give a accurate estimation"
+		print("Warn: Sample Size too small to give a accurate estimation", file=sys.stderr)
 	obj = SAM.ParseBAM(options.input_file)
 	(protocol,sp1,sp2,other)=obj.configure_experiment(refbed=options.refgene_bed, sample_size = options.sample_size, q_cut = options.map_qual)
 	if other <0: other=0.0
 	if protocol == "PairEnd":
-		print "\n\nThis is PairEnd Data"
-		print "Fraction of reads failed to determine: %.4f" % other
-		print "Fraction of reads explained by \"1++,1--,2+-,2-+\": %.4f" % sp1
-		print "Fraction of reads explained by \"1+-,1-+,2++,2--\": %.4f" % sp2
+		print("\n\nThis is PairEnd Data")
+		print("Fraction of reads failed to determine: %.4f" % other)
+		print("Fraction of reads explained by \"1++,1--,2+-,2-+\": %.4f" % sp1)
+		print("Fraction of reads explained by \"1+-,1-+,2++,2--\": %.4f" % sp2)
 		
 	elif protocol == "SingleEnd":
-		print "\n\nThis is SingleEnd Data"
-		print "Fraction of reads failed to determine: %.4f" % other
-		print "Fraction of reads explained by \"++,--\": %.4f" % sp1
-		print "Fraction of reads explained by \"+-,-+\": %.4f" % sp2
+		print("\n\nThis is SingleEnd Data")
+		print("Fraction of reads failed to determine: %.4f" % other)
+		print("Fraction of reads explained by \"++,--\": %.4f" % sp1)
+		print("Fraction of reads explained by \"+-,-+\": %.4f" % sp2)
 		
 	else:
-		print "Unknown Data type"
+		print("Unknown Data type")
 	#print mesg
 
 if __name__ == '__main__':
