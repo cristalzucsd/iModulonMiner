@@ -30,7 +30,7 @@ rseqc_sections:
 
 run_modules:
     - featureCounts
-    - bowtie1
+    - bowtie
     - rseqc
     - cutadapt
     - fastqc
@@ -40,7 +40,7 @@ top_modules: []
 # Order that modules should appear in report. Try to list in order of analysis.
 module_order:
     - featureCounts
-    - bowtie1
+    - bowtie
     - rseqc
     - cutadapt
     - fastqc
