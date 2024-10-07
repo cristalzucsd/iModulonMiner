@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 
-def main(mqc_dir):
+def main(mqc_dir): 
 
     # Load stats tables
     df1 = pd.read_csv(
