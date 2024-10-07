@@ -1,0 +1,3 @@
+Sample	pe_sense	pe_antisense	failed
+SRX10341586	0.0335	0.3646	0.6019
+SRX10341587	0.0443	0.3735	0.5822

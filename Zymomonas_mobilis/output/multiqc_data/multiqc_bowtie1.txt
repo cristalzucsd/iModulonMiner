@@ -1,0 +1,3 @@
+Sample	reads_processed	not_aligned_percentage	reads_aligned	not_aligned	reads_aligned_percentage
+SRX10341586	9088425.0	29.4	6415995.0	2672430.0	70.6
+SRX10341587	8905755.0	32.56	6006005.0	2899750.0	67.44

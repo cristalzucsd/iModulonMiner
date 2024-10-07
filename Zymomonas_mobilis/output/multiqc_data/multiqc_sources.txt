@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	SRX10341586	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/featureCounts/SRX10341586_all.txt.summary
+featureCounts	all_sections	SRX10341587	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/featureCounts/SRX10341587_all.txt.summary
+Bowtie 1	all_sections	SRX10341586	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/bowtie/SRX10341586_bowtie.txt
+Bowtie 1	all_sections	SRX10341587	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/bowtie/SRX10341587_bowtie.txt
+RSeQC	infer_experiment	SRX10341587	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/rseqc/SRX10341587.infer_experiment.txt
+RSeQC	infer_experiment	SRX10341586	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/rseqc/SRX10341586.infer_experiment.txt
+Cutadapt	all_sections	SRX10341586	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/cutadapt/SRX10341586_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX10341587	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/cutadapt/SRX10341587_2.fastq.gz_trimming_report.txt
+FastQC	all_sections	SRX10341586	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/fastqc/SRX10341586_val_2_fastqc.zip
+FastQC	all_sections	SRX10341587	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/f6/852b638609fd1dc3aabd40e69b2b22/fastqc/SRX10341587_val_2_fastqc.zip
