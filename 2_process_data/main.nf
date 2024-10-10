@@ -239,7 +239,7 @@ process download_fastq {
     """
     for run in ${run_ids.replace(';',' ')}; do
         prefetch --max-size 1000000000000 \$run
-        parallel-fasterq-dump -s \$run --threads ${task.cpus} --outdir ./
+        parallel-fastq-dump -s \$run --threads ${task.cpus} --outdir ./
     done
 
     if [ "${layout}" = "SINGLE" ]; then
