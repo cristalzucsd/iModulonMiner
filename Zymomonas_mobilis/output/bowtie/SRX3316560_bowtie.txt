@@ -1,0 +1,5 @@
+Setting the index via positional argument will be deprecated in a future release. Please use -x option instead.
+# reads processed: 26109608
+# reads with at least one alignment: 21115044 (80.87%)
+# reads that failed to align: 4994564 (19.13%)
+Reported 21115044 paired-end alignments
