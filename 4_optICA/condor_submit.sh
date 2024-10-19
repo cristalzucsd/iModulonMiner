@@ -13,7 +13,7 @@ printf "Job is running on node: "; /bin/hostname
 printf "Job running as user: "; /usr/bin/id
 printf "Job is running in directory: "; /bin/pwd
 echo
-./run_ica.sh -n 4 -o ../data/interim/ ../data/processed_data/log_tpm_norm.csv
+./run_ica.sh -n 4 -o ../data/interim ../data/processed_data/log_tpm_norm.csv
 echo
 
 # wrap up
