@@ -144,3 +144,4 @@ dmypy.json
 
 # Misc
 *.pdf
+*.DS_Store
