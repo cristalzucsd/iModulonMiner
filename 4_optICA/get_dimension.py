@@ -49,8 +49,6 @@ def load_mat(dim, mat):
     return df.astype(float)
 
 dims = sorted([int(x) for x in os.listdir(os.path.join(args.out_dir, "ica_runs"))])
-dims.remove(80) # for some reason this dimension didn't run, skipping for now, delete this line later probably
-dims.remove(100)
 M_data = [load_mat(dim, "M") for dim in dims]
 A_data = [load_mat(dim, "A") for dim in dims]
 
