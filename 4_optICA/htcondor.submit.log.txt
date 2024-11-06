@@ -267,3 +267,238 @@
 
 	Job terminated of its own accord at 2024-10-30T01:08:19Z.
 ...
+000 (1368274.000.000) 2024-11-05 10:55:17 Job submitted from host: <144.92.98.21:9618?addrs=144.92.98.21-9618&alias=scarcity-submit.glbrc.org&noUDP&sock=schedd_970_eaf4>
+...
+001 (1368274.000.000) 2024-11-05 10:55:17 Job executing on host: <144.92.98.47:9618?addrs=144.92.98.47-9618&alias=scarcity-10.glbrc.org&noUDP&sock=startd_1797_2bc7>
+...
+006 (1368274.000.000) 2024-11-05 10:55:26 Image size of job updated: 5936
+	3  -  MemoryUsage of job (MB)
+	2160  -  ResidentSetSize of job (KB)
+...
+006 (1368274.000.000) 2024-11-05 11:00:26 Image size of job updated: 33781364
+	195  -  MemoryUsage of job (MB)
+	199512  -  ResidentSetSize of job (KB)
+...
+006 (1368274.000.000) 2024-11-05 11:05:26 Image size of job updated: 33781364
+	433  -  MemoryUsage of job (MB)
+	442760  -  ResidentSetSize of job (KB)
+...
+004 (1368274.000.000) 2024-11-05 12:05:25 Job was evicted.
+	(0) CPU times
+		Usr 0 04:22:34, Sys 0 00:03:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     4.00        4         4 
+	   Disk (KB)            :     1           1    335296 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   433       16384     16384 
+...
+009 (1368274.000.000) 2024-11-05 12:05:25 Job was aborted.
+	via condor_rm (by user cdalldorf)
+...
+000 (1368275.000.000) 2024-11-05 12:06:05 Job submitted from host: <144.92.98.21:9618?addrs=144.92.98.21-9618&alias=scarcity-submit.glbrc.org&noUDP&sock=schedd_970_eaf4>
+...
+001 (1368275.000.000) 2024-11-05 12:06:23 Job executing on host: <144.92.98.47:9618?addrs=144.92.98.47-9618&alias=scarcity-10.glbrc.org&noUDP&sock=startd_1797_2bc7>
+...
+006 (1368275.000.000) 2024-11-05 12:06:31 Image size of job updated: 36488
+	25  -  MemoryUsage of job (MB)
+	25180  -  ResidentSetSize of job (KB)
+...
+006 (1368275.000.000) 2024-11-05 12:11:31 Image size of job updated: 2983648
+	354  -  MemoryUsage of job (MB)
+	362312  -  ResidentSetSize of job (KB)
+...
+006 (1368275.000.000) 2024-11-05 14:11:44 Image size of job updated: 2983648
+	354  -  MemoryUsage of job (MB)
+	362320  -  ResidentSetSize of job (KB)
+...
+000 (1368276.000.000) 2024-11-05 15:06:50 Job submitted from host: <144.92.98.21:9618?addrs=144.92.98.21-9618&alias=scarcity-submit.glbrc.org&noUDP&sock=schedd_970_eaf4>
+...
+004 (1368275.000.000) 2024-11-05 15:07:01 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:18, Sys 0 00:00:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :        1        1    335296 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      354    16384     16384 
+...
+009 (1368275.000.000) 2024-11-05 15:07:01 Job was aborted.
+	via condor_rm (by user cdalldorf)
+...
+001 (1368276.000.000) 2024-11-05 15:07:01 Job executing on host: <144.92.98.74:9618?addrs=144.92.98.74-9618&alias=scarcity-11.glbrc.org&noUDP&sock=startd_1819_42dc>
+...
+006 (1368276.000.000) 2024-11-05 15:07:04 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+004 (1368276.000.000) 2024-11-05 15:07:04 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 4         4 
+	   Disk (KB)            :        1        1    180881 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0    16384     16384 
+...
+009 (1368276.000.000) 2024-11-05 15:07:04 Job was aborted.
+	via condor_rm (by user cdalldorf)
+...
+000 (1368277.000.000) 2024-11-05 15:07:36 Job submitted from host: <144.92.98.21:9618?addrs=144.92.98.21-9618&alias=scarcity-submit.glbrc.org&noUDP&sock=schedd_970_eaf4>
+...
+001 (1368277.000.000) 2024-11-05 15:07:52 Job executing on host: <144.92.98.47:9618?addrs=144.92.98.47-9618&alias=scarcity-10.glbrc.org&noUDP&sock=startd_1797_2bc7>
+...
+006 (1368277.000.000) 2024-11-05 15:08:01 Image size of job updated: 33847932
+	1  -  MemoryUsage of job (MB)
+	856  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 15:13:02 Image size of job updated: 33847932
+	334  -  MemoryUsage of job (MB)
+	341360  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 15:18:03 Image size of job updated: 33847932
+	429  -  MemoryUsage of job (MB)
+	438868  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 17:18:14 Image size of job updated: 33847932
+	442  -  MemoryUsage of job (MB)
+	452572  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 21:18:38 Image size of job updated: 33847932
+	445  -  MemoryUsage of job (MB)
+	455308  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 21:23:38 Image size of job updated: 33847932
+	449  -  MemoryUsage of job (MB)
+	459060  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 23:23:50 Image size of job updated: 33847932
+	456  -  MemoryUsage of job (MB)
+	466900  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 23:28:51 Image size of job updated: 33847932
+	461  -  MemoryUsage of job (MB)
+	471832  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-05 23:33:52 Image size of job updated: 33847932
+	462  -  MemoryUsage of job (MB)
+	472344  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 01:39:04 Image size of job updated: 33847932
+	463  -  MemoryUsage of job (MB)
+	473940  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 01:44:04 Image size of job updated: 33847932
+	465  -  MemoryUsage of job (MB)
+	475220  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 05:34:29 Image size of job updated: 33847932
+	465  -  MemoryUsage of job (MB)
+	475860  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 05:39:30 Image size of job updated: 33847932
+	466  -  MemoryUsage of job (MB)
+	477120  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 05:44:30 Image size of job updated: 33847932
+	467  -  MemoryUsage of job (MB)
+	478140  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 05:54:32 Image size of job updated: 33847932
+	468  -  MemoryUsage of job (MB)
+	478368  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 06:59:39 Image size of job updated: 33847932
+	469  -  MemoryUsage of job (MB)
+	479760  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 07:04:39 Image size of job updated: 33847932
+	470  -  MemoryUsage of job (MB)
+	481152  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 11:40:07 Image size of job updated: 33847932
+	475  -  MemoryUsage of job (MB)
+	486276  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 11:45:07 Image size of job updated: 33847932
+	487  -  MemoryUsage of job (MB)
+	498168  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 11:50:07 Image size of job updated: 33847932
+	488  -  MemoryUsage of job (MB)
+	499208  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 11:55:08 Image size of job updated: 33847932
+	494  -  MemoryUsage of job (MB)
+	505208  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:00:09 Image size of job updated: 33847932
+	494  -  MemoryUsage of job (MB)
+	505720  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:05:09 Image size of job updated: 33847932
+	495  -  MemoryUsage of job (MB)
+	506400  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:10:09 Image size of job updated: 33847932
+	496  -  MemoryUsage of job (MB)
+	507168  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:15:10 Image size of job updated: 33847932
+	497  -  MemoryUsage of job (MB)
+	508192  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:20:11 Image size of job updated: 33847932
+	497  -  MemoryUsage of job (MB)
+	508448  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:25:11 Image size of job updated: 33847932
+	498  -  MemoryUsage of job (MB)
+	508960  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:30:12 Image size of job updated: 33847932
+	498  -  MemoryUsage of job (MB)
+	509216  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:35:13 Image size of job updated: 33847932
+	498  -  MemoryUsage of job (MB)
+	509472  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 12:55:15 Image size of job updated: 33847932
+	498  -  MemoryUsage of job (MB)
+	509528  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 13:00:16 Image size of job updated: 33847932
+	500  -  MemoryUsage of job (MB)
+	511560  -  ResidentSetSize of job (KB)
+...
+006 (1368277.000.000) 2024-11-06 13:05:16 Image size of job updated: 33847932
+	501  -  MemoryUsage of job (MB)
+	512248  -  ResidentSetSize of job (KB)
+...
+005 (1368277.000.000) 2024-11-06 13:31:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 3 16:25:10, Sys 0 00:20:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 3 16:25:10, Sys 0 00:20:12  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.81        4         4 
+	   Disk (KB)            :     1           1    335296 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   501       16384     16384 
+
+	Job terminated of its own accord at 2024-11-06T19:31:20Z.
+...
