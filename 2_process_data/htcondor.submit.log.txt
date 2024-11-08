@@ -369,3 +369,19 @@
 
 	Job terminated of its own accord at 2024-10-19T08:00:46Z.
 ...
+000 (1405959.000.000) 2024-11-08 11:41:32 Job submitted from host: <144.92.98.21:9618?addrs=144.92.98.21-9618&alias=scarcity-submit.glbrc.org&noUDP&sock=schedd_970_eaf4>
+...
+001 (1405959.000.000) 2024-11-08 11:41:33 Job executing on host: <144.92.98.47:9618?addrs=144.92.98.47-9618&alias=scarcity-10.glbrc.org&noUDP&sock=startd_1797_2bc7>
+...
+007 (1405959.000.000) 2024-11-08 11:41:33 Shadow exception!
+	Error from slot1_3@scarcity-10.glbrc.org: Failed to execute '/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/condor_submit.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (1405959.000.000) 2024-11-08 11:41:33 Job was held.
+	Error from slot1_3@scarcity-10.glbrc.org: Failed to execute '/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/condor_submit.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (1405959.000.000) 2024-11-08 11:42:09 Job was aborted.
+	via condor_rm (by user cdalldorf)
+...
