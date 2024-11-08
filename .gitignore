@@ -143,7 +143,7 @@ dmypy.json
 .pyre/
 
 # Misc
-./data/raw_data/private_reads/
+data/raw_data/private_reads/
 *.pdf
 *.DS_Store
 *.Identifier
