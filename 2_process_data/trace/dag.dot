@@ -4,12 +4,12 @@ p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
 p0 -> p1;
 
 p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
-p2 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
-p1 -> p2 [label="genome_ch1"];
-
-p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
 p4 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
 p1 -> p4 [label="genome_ch2"];
+
+p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
+p2 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
+p1 -> p2 [label="genome_ch1"];
 
 p2 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
 p3 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
@@ -28,12 +28,12 @@ p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
 p5 -> p6;
 
 p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
-p26 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
-p6 -> p26 [label="gff_ch"];
-
-p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
 p7 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="first"];
 p6 -> p7;
+
+p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
+p26 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p6 -> p26 [label="gff_ch"];
 
 p7 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="first"];
 p10 [label="gff2bed"];
@@ -64,12 +64,12 @@ p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
 p13 -> p14;
 
 p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
-p17 [label="stage_fastq_paired"];
-p14 -> p17;
-
-p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
 p16 [label="stage_fastq_single"];
 p14 -> p16;
+
+p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
+p17 [label="stage_fastq_paired"];
+p14 -> p17;
 
 p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
 p15 [label="download_fastq"];
