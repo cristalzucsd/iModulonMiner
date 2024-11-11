@@ -1,320 +1,320 @@
-Start time: Tue Nov  5 15:08:05 CST 2024
+Start time: Sat Nov  9 09:55:50 CST 2024
 Job is running on node: scarcity-10.glbrc.org
 Job running as user: uid=444017102(cdalldorf) gid=444000513(domain users) groups=444000513(domain users),444002651(file server users),444004692(scarcity_users),444006528(glbrc_jira-users),444010027(ml_glbrc-scarcity-users),444011153(ml_weiglbrc-all_moderated),444011156,444011193(ml_glbrc-bacterial-group),444011748(guacamole_wei--all),444011961(ml_glbrc-sbf),444012247(ml_glbrc-cop-bacterial-engineering),444012302(ad_tier2_accounts_humans),444012303(ad_tier2_accounts),444012329(sp_all-users),444013091(y16_sbf),444013933(y16_role_all-teams),444014733(rundeck_glbrc_public),444017101(vpn_users),444018224(sp2013_all-users)
 Job is running in directory: /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/4_optICA
 
 
 ############################'#''#''#''#''#'
-# Computing dimension 20 of 278 #
+# Computing dimension 20 of 312 #
 ############################'#''#''#''#''#'
 
 Setting up...
-0.14 seconds elapsed
+0.21 seconds elapsed
 
 Running ICA...
 
 Completed run 1 of 25 on Processor 3
-0.55 seconds elapsed
+0.81 seconds elapsed
 
 Completed run 1 of 25 on Processor 1
-0.87 seconds elapsed
-
-Completed run 1 of 25 on Processor 0
-0.76 seconds elapsed
-
-Completed run 2 of 25 on Processor 3
-0.42 seconds elapsed
+0.94 seconds elapsed
 
 Completed run 1 of 25 on Processor 2
-0.97 seconds elapsed
+1.37 seconds elapsed
 
-Completed run 2 of 25 on Processor 0
-0.29 seconds elapsed
+Completed run 1 of 25 on Processor 0
+1.47 seconds elapsed
 
 Completed run 2 of 25 on Processor 1
-0.39 seconds elapsed
+0.80 seconds elapsed
 
-Completed run 3 of 25 on Processor 3
-0.37 seconds elapsed
-
-Completed run 2 of 25 on Processor 2
-0.39 seconds elapsed
-
-Completed run 3 of 25 on Processor 0
-0.39 seconds elapsed
+Completed run 2 of 25 on Processor 3
+1.07 seconds elapsed
 
 Completed run 3 of 25 on Processor 1
-0.47 seconds elapsed
-
-Completed run 4 of 25 on Processor 3
 0.39 seconds elapsed
 
-Completed run 3 of 25 on Processor 2
-0.47 seconds elapsed
+Completed run 2 of 25 on Processor 2
+0.84 seconds elapsed
 
-Completed run 4 of 25 on Processor 0
-0.49 seconds elapsed
+Completed run 2 of 25 on Processor 0
+0.53 seconds elapsed
+
+Completed run 3 of 25 on Processor 3
+0.41 seconds elapsed
 
 Completed run 4 of 25 on Processor 1
-0.37 seconds elapsed
-
-Completed run 4 of 25 on Processor 2
-0.35 seconds elapsed
-
-Completed run 5 of 25 on Processor 3
-0.46 seconds elapsed
-
-Completed run 5 of 25 on Processor 1
-0.35 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-0.40 seconds elapsed
-
-Completed run 5 of 25 on Processor 2
-0.37 seconds elapsed
-
-Completed run 6 of 25 on Processor 3
-0.43 seconds elapsed
-
-Completed run 6 of 25 on Processor 1
-0.37 seconds elapsed
-
-Completed run 6 of 25 on Processor 0
-0.48 seconds elapsed
-
-Completed run 7 of 25 on Processor 3
 0.36 seconds elapsed
 
-Completed run 6 of 25 on Processor 2
+Completed run 4 of 25 on Processor 3
+0.46 seconds elapsed
+
+Completed run 3 of 25 on Processor 2
+0.55 seconds elapsed
+
+Completed run 3 of 25 on Processor 0
+0.71 seconds elapsed
+
+Completed run 5 of 25 on Processor 1
+0.48 seconds elapsed
+
+Completed run 4 of 25 on Processor 2
+0.45 seconds elapsed
+
+Completed run 5 of 25 on Processor 3
+0.47 seconds elapsed
+
+Completed run 6 of 25 on Processor 1
+0.35 seconds elapsed
+
+Completed run 4 of 25 on Processor 0
+0.61 seconds elapsed
+
+Completed run 6 of 25 on Processor 3
+0.32 seconds elapsed
+
+Completed run 5 of 25 on Processor 2
 0.42 seconds elapsed
 
 Completed run 7 of 25 on Processor 1
-0.45 seconds elapsed
+0.33 seconds elapsed
 
-Completed run 7 of 25 on Processor 0
-0.40 seconds elapsed
-
-Completed run 7 of 25 on Processor 2
-0.48 seconds elapsed
-
-Completed run 8 of 25 on Processor 3
-0.49 seconds elapsed
+Completed run 7 of 25 on Processor 3
+0.41 seconds elapsed
 
 Completed run 8 of 25 on Processor 1
-0.36 seconds elapsed
-
-Completed run 8 of 25 on Processor 0
-0.34 seconds elapsed
-
-Completed run 8 of 25 on Processor 2
-0.30 seconds elapsed
-
-Completed run 9 of 25 on Processor 3
-0.43 seconds elapsed
-
-Completed run 9 of 25 on Processor 1
 0.35 seconds elapsed
 
-Completed run 9 of 25 on Processor 0
-0.31 seconds elapsed
+Completed run 5 of 25 on Processor 0
+0.58 seconds elapsed
 
-Completed run 9 of 25 on Processor 2
-0.49 seconds elapsed
+Completed run 6 of 25 on Processor 2
+0.59 seconds elapsed
 
-Completed run 10 of 25 on Processor 3
-0.37 seconds elapsed
+Completed run 9 of 25 on Processor 1
+0.41 seconds elapsed
 
-Completed run 10 of 25 on Processor 0
-0.29 seconds elapsed
+Completed run 8 of 25 on Processor 3
+0.47 seconds elapsed
+
+Completed run 6 of 25 on Processor 0
+0.51 seconds elapsed
+
+Completed run 7 of 25 on Processor 2
+0.52 seconds elapsed
 
 Completed run 10 of 25 on Processor 1
-0.46 seconds elapsed
+0.37 seconds elapsed
 
-Completed run 11 of 25 on Processor 3
-0.43 seconds elapsed
+Completed run 9 of 25 on Processor 3
+0.42 seconds elapsed
 
-Completed run 10 of 25 on Processor 2
-0.47 seconds elapsed
-
-Completed run 11 of 25 on Processor 0
-0.47 seconds elapsed
+Completed run 7 of 25 on Processor 0
+0.49 seconds elapsed
 
 Completed run 11 of 25 on Processor 1
 0.36 seconds elapsed
 
-Completed run 11 of 25 on Processor 2
-0.36 seconds elapsed
-
-Completed run 12 of 25 on Processor 0
-0.39 seconds elapsed
-
-Completed run 12 of 25 on Processor 3
-0.46 seconds elapsed
-
-Completed run 12 of 25 on Processor 1
-0.41 seconds elapsed
-
-Completed run 12 of 25 on Processor 2
-0.37 seconds elapsed
-
-Completed run 13 of 25 on Processor 0
-0.31 seconds elapsed
-
-Completed run 13 of 25 on Processor 3
-0.35 seconds elapsed
-
-Completed run 13 of 25 on Processor 1
-0.32 seconds elapsed
-
-Completed run 14 of 25 on Processor 3
-0.28 seconds elapsed
-
-Completed run 14 of 25 on Processor 0
-0.37 seconds elapsed
-
-Completed run 14 of 25 on Processor 1
-0.35 seconds elapsed
-
-Completed run 13 of 25 on Processor 2
+Completed run 8 of 25 on Processor 2
 0.47 seconds elapsed
 
-Completed run 15 of 25 on Processor 0
+Completed run 10 of 25 on Processor 3
+0.45 seconds elapsed
+
+Completed run 12 of 25 on Processor 1
+0.37 seconds elapsed
+
+Completed run 8 of 25 on Processor 0
+0.50 seconds elapsed
+
+Completed run 11 of 25 on Processor 3
 0.38 seconds elapsed
 
-Completed run 15 of 25 on Processor 3
-0.46 seconds elapsed
+Completed run 9 of 25 on Processor 2
+0.47 seconds elapsed
 
-Completed run 14 of 25 on Processor 2
-0.36 seconds elapsed
+Completed run 12 of 25 on Processor 3
+0.44 seconds elapsed
+
+Completed run 13 of 25 on Processor 1
+0.61 seconds elapsed
+
+Completed run 9 of 25 on Processor 0
+0.51 seconds elapsed
+
+Completed run 10 of 25 on Processor 2
+0.58 seconds elapsed
+
+Completed run 14 of 25 on Processor 1
+0.40 seconds elapsed
+
+Completed run 13 of 25 on Processor 3
+0.64 seconds elapsed
+
+Completed run 10 of 25 on Processor 0
+0.67 seconds elapsed
+
+Completed run 11 of 25 on Processor 2
+0.61 seconds elapsed
 
 Completed run 15 of 25 on Processor 1
 0.46 seconds elapsed
 
-Completed run 16 of 25 on Processor 3
-0.33 seconds elapsed
+Completed run 14 of 25 on Processor 3
+0.36 seconds elapsed
 
-Completed run 16 of 25 on Processor 0
-0.38 seconds elapsed
-
-Completed run 15 of 25 on Processor 2
-0.42 seconds elapsed
+Completed run 12 of 25 on Processor 2
+0.52 seconds elapsed
 
 Completed run 16 of 25 on Processor 1
-0.46 seconds elapsed
-
-Completed run 17 of 25 on Processor 3
-0.27 seconds elapsed
-
-Completed run 17 of 25 on Processor 0
-0.50 seconds elapsed
-
-Completed run 17 of 25 on Processor 1
-0.30 seconds elapsed
-
-Completed run 16 of 25 on Processor 2
 0.41 seconds elapsed
 
-Completed run 18 of 25 on Processor 3
-0.46 seconds elapsed
+Completed run 11 of 25 on Processor 0
+0.60 seconds elapsed
 
-Completed run 17 of 25 on Processor 2
-0.30 seconds elapsed
+Completed run 15 of 25 on Processor 3
+0.38 seconds elapsed
+
+Completed run 17 of 25 on Processor 1
+0.42 seconds elapsed
+
+Completed run 13 of 25 on Processor 2
+0.54 seconds elapsed
+
+Completed run 12 of 25 on Processor 0
+0.57 seconds elapsed
+
+Completed run 16 of 25 on Processor 3
+0.53 seconds elapsed
 
 Completed run 18 of 25 on Processor 1
+0.49 seconds elapsed
+
+Completed run 13 of 25 on Processor 0
+0.49 seconds elapsed
+
+Completed run 14 of 25 on Processor 2
+0.58 seconds elapsed
+
+Completed run 17 of 25 on Processor 3
+0.57 seconds elapsed
+
+Completed run 19 of 25 on Processor 1
+0.50 seconds elapsed
+
+Completed run 18 of 25 on Processor 3
 0.40 seconds elapsed
+
+Completed run 15 of 25 on Processor 2
+0.48 seconds elapsed
+
+Completed run 14 of 25 on Processor 0
+0.53 seconds elapsed
+
+Completed run 20 of 25 on Processor 1
+0.45 seconds elapsed
+
+Completed run 19 of 25 on Processor 3
+0.49 seconds elapsed
+
+Completed run 16 of 25 on Processor 2
+0.58 seconds elapsed
+
+Completed run 15 of 25 on Processor 0
+0.57 seconds elapsed
+
+Completed run 21 of 25 on Processor 1
+0.53 seconds elapsed
+
+Completed run 20 of 25 on Processor 3
+0.53 seconds elapsed
+
+Completed run 16 of 25 on Processor 0
+0.60 seconds elapsed
+
+Completed run 22 of 25 on Processor 1
+0.42 seconds elapsed
+
+Completed run 17 of 25 on Processor 2
+0.83 seconds elapsed
+
+Completed run 21 of 25 on Processor 3
+0.48 seconds elapsed
+
+Completed run 17 of 25 on Processor 0
+0.51 seconds elapsed
+
+Completed run 23 of 25 on Processor 1
+0.50 seconds elapsed
+
+Completed run 18 of 25 on Processor 2
+0.52 seconds elapsed
+
+Completed run 22 of 25 on Processor 3
+0.53 seconds elapsed
 
 Completed run 18 of 25 on Processor 0
 0.47 seconds elapsed
 
-Completed run 19 of 25 on Processor 3
-0.39 seconds elapsed
-
-Completed run 18 of 25 on Processor 2
-0.35 seconds elapsed
-
-Completed run 19 of 25 on Processor 1
-0.35 seconds elapsed
-
-Completed run 19 of 25 on Processor 0
-0.34 seconds elapsed
-
-Completed run 19 of 25 on Processor 2
-0.27 seconds elapsed
-
-Completed run 20 of 25 on Processor 3
-0.35 seconds elapsed
-
-Completed run 20 of 25 on Processor 1
-0.34 seconds elapsed
-
-Completed run 20 of 25 on Processor 0
-0.39 seconds elapsed
-
-Completed run 20 of 25 on Processor 2
-0.30 seconds elapsed
-
-Completed run 21 of 25 on Processor 3
-0.32 seconds elapsed
-
-Completed run 21 of 25 on Processor 0
-0.31 seconds elapsed
-
-Completed run 21 of 25 on Processor 1
-0.45 seconds elapsed
-
-Completed run 22 of 25 on Processor 3
-0.40 seconds elapsed
-
-Completed run 21 of 25 on Processor 2
-0.50 seconds elapsed
-
-Completed run 22 of 25 on Processor 1
-0.33 seconds elapsed
-
-Completed run 22 of 25 on Processor 0
-0.46 seconds elapsed
+Completed run 24 of 25 on Processor 1
+0.62 seconds elapsed
 
 Completed run 23 of 25 on Processor 3
-0.33 seconds elapsed
+0.39 seconds elapsed
 
-Completed run 22 of 25 on Processor 2
-0.31 seconds elapsed
+Completed run 19 of 25 on Processor 2
+0.59 seconds elapsed
 
-Completed run 23 of 25 on Processor 1
-0.30 seconds elapsed
-
-Completed run 24 of 25 on Processor 3
-0.34 seconds elapsed
-
-Completed run 23 of 25 on Processor 0
-0.42 seconds elapsed
-
-Completed run 23 of 25 on Processor 2
-0.38 seconds elapsed
-
-Completed run 24 of 25 on Processor 1
-0.38 seconds elapsed
-
-Completed run 25 of 25 on Processor 3
-0.48 seconds elapsed
-
-Completed run 24 of 25 on Processor 2
-0.40 seconds elapsed
-
-Completed run 24 of 25 on Processor 0
-0.49 seconds elapsed
+Completed run 19 of 25 on Processor 0
+0.52 seconds elapsed
 
 Completed run 25 of 25 on Processor 1
-0.47 seconds elapsed
+0.40 seconds elapsed
 
-Completed run 25 of 25 on Processor 0
-0.32 seconds elapsed
+Completed run 20 of 25 on Processor 2
+0.56 seconds elapsed
+
+Completed run 24 of 25 on Processor 3
+0.69 seconds elapsed
+
+Completed run 20 of 25 on Processor 0
+0.58 seconds elapsed
+
+Completed run 25 of 25 on Processor 3
+0.44 seconds elapsed
+
+Completed run 21 of 25 on Processor 2
+0.59 seconds elapsed
+
+Completed run 21 of 25 on Processor 0
+0.42 seconds elapsed
+
+Completed run 22 of 25 on Processor 2
+0.55 seconds elapsed
+
+Completed run 22 of 25 on Processor 0
+0.59 seconds elapsed
+
+Completed run 23 of 25 on Processor 2
+0.59 seconds elapsed
+
+Completed run 23 of 25 on Processor 0
+0.62 seconds elapsed
+
+Completed run 24 of 25 on Processor 2
+0.58 seconds elapsed
+
+Completed run 24 of 25 on Processor 0
+0.51 seconds elapsed
 
 Completed run 25 of 25 on Processor 2
-0.36 seconds elapsed
+0.53 seconds elapsed
+
+Completed run 25 of 25 on Processor 0
+0.55 seconds elapsed
 
 All ICA runs complete!
-10.14 seconds elapsed
+14.73 seconds elapsed
 
 Checking and deleting small files.
 
@@ -325,10 +325,10 @@ Adjustment completed
 Computing clusters...
 
 Distance matrix completed!
-53.50 seconds elapsed
+1.11 minutes elapsed
 
 Combining D matrix
-47.63 seconds elapsed
+1.09 minutes elapsed
 
 Clustering
 0.07 seconds elapsed
@@ -336,1053 +336,1169 @@ Clustering
 Identified 20 clusters
 
 Loading individual S and A matrices
-2.50 seconds elapsed
+3.36 seconds elapsed
 
 Gathering final S and A matrices
 
 Final components created
-0.52 seconds elapsed
+0.61 seconds elapsed
 
 Writing files to ../data/interim/ica_runs/20
-5.82 seconds elapsed
+6.70 seconds elapsed
 
 Complete!
 
 
 ############################'#''#''#''#''#'
-# Computing dimension 40 of 278 #
+# Computing dimension 40 of 312 #
 ############################'#''#''#''#''#'
 
 Setting up...
-0.14 seconds elapsed
+0.20 seconds elapsed
 
 Running ICA...
 
-Completed run 1 of 25 on Processor 1
-1.29 seconds elapsed
-
 Completed run 1 of 25 on Processor 3
-1.69 seconds elapsed
+2.18 seconds elapsed
 
-Completed run 1 of 25 on Processor 2
-2.31 seconds elapsed
-
-Completed run 2 of 25 on Processor 1
-1.92 seconds elapsed
-
-Completed run 2 of 25 on Processor 2
-1.32 seconds elapsed
-
-Completed run 2 of 25 on Processor 3
-2.22 seconds elapsed
-
-Completed run 3 of 25 on Processor 1
-1.01 seconds elapsed
+Completed run 1 of 25 on Processor 1
+2.68 seconds elapsed
 
 Completed run 1 of 25 on Processor 0
-4.28 seconds elapsed
-
-Completed run 3 of 25 on Processor 3
-1.03 seconds elapsed
-
-Completed run 3 of 25 on Processor 2
-2.27 seconds elapsed
-
-Completed run 4 of 25 on Processor 1
-1.70 seconds elapsed
-
-Completed run 2 of 25 on Processor 0
-1.93 seconds elapsed
-
-Completed run 4 of 25 on Processor 3
 1.88 seconds elapsed
 
-Completed run 5 of 25 on Processor 1
-1.03 seconds elapsed
+Completed run 1 of 25 on Processor 2
+2.37 seconds elapsed
 
-Completed run 4 of 25 on Processor 2
-1.35 seconds elapsed
+Completed run 2 of 25 on Processor 3
+1.74 seconds elapsed
 
-Completed run 3 of 25 on Processor 0
-1.08 seconds elapsed
+Completed run 2 of 25 on Processor 2
+1.94 seconds elapsed
 
-Completed run 5 of 25 on Processor 3
-0.90 seconds elapsed
+Completed run 3 of 25 on Processor 3
+2.03 seconds elapsed
 
-Completed run 6 of 25 on Processor 1
-1.72 seconds elapsed
+Completed run 2 of 25 on Processor 0
+3.59 seconds elapsed
 
-Completed run 5 of 25 on Processor 2
-1.51 seconds elapsed
-
-Completed run 4 of 25 on Processor 0
-1.85 seconds elapsed
-
-Completed run 6 of 25 on Processor 3
+Completed run 3 of 25 on Processor 2
 2.38 seconds elapsed
 
-Completed run 7 of 25 on Processor 1
-1.86 seconds elapsed
-
-Completed run 6 of 25 on Processor 2
-1.99 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-1.51 seconds elapsed
-
-Completed run 8 of 25 on Processor 1
-0.91 seconds elapsed
-
-Completed run 7 of 25 on Processor 2
-1.35 seconds elapsed
-
-Completed run 7 of 25 on Processor 3
-2.59 seconds elapsed
-
-Completed run 6 of 25 on Processor 0
-2.29 seconds elapsed
-
-Completed run 8 of 25 on Processor 2
-1.97 seconds elapsed
-
-Completed run 9 of 25 on Processor 1
-2.69 seconds elapsed
-
-Completed run 7 of 25 on Processor 0
-1.52 seconds elapsed
-
-Completed run 8 of 25 on Processor 3
-1.99 seconds elapsed
-
-Completed run 10 of 25 on Processor 1
-1.31 seconds elapsed
-
-Completed run 8 of 25 on Processor 0
-0.97 seconds elapsed
-
-Completed run 9 of 25 on Processor 2
-2.42 seconds elapsed
-
-Completed run 11 of 25 on Processor 1
-1.76 seconds elapsed
-
-Completed run 10 of 25 on Processor 2
-1.14 seconds elapsed
-
-Completed run 9 of 25 on Processor 3
-3.66 seconds elapsed
-
-Completed run 12 of 25 on Processor 1
-1.19 seconds elapsed
-
-Completed run 9 of 25 on Processor 0
-2.94 seconds elapsed
-
-Completed run 10 of 25 on Processor 0
-0.84 seconds elapsed
-
-Completed run 13 of 25 on Processor 1
-1.47 seconds elapsed
-
-Completed run 11 of 25 on Processor 2
-2.41 seconds elapsed
-
-Completed run 10 of 25 on Processor 3
-1.89 seconds elapsed
-
-Completed run 14 of 25 on Processor 1
-1.14 seconds elapsed
-
-Completed run 12 of 25 on Processor 2
-1.12 seconds elapsed
-
-Completed run 11 of 25 on Processor 3
-1.93 seconds elapsed
-
-Completed run 11 of 25 on Processor 0
-3.11 seconds elapsed
-
-Completed run 15 of 25 on Processor 1
-1.51 seconds elapsed
-
-Completed run 13 of 25 on Processor 2
-2.30 seconds elapsed
-
-Completed run 16 of 25 on Processor 1
-1.38 seconds elapsed
-
-Completed run 12 of 25 on Processor 0
-1.93 seconds elapsed
-
-Completed run 12 of 25 on Processor 3
-2.28 seconds elapsed
-
-Completed run 14 of 25 on Processor 2
-1.41 seconds elapsed
-
-Completed run 13 of 25 on Processor 3
-1.20 seconds elapsed
-
-Completed run 13 of 25 on Processor 0
-1.48 seconds elapsed
-
-Completed run 17 of 25 on Processor 1
-2.23 seconds elapsed
-
-Completed run 14 of 25 on Processor 3
-1.07 seconds elapsed
-
-Completed run 15 of 25 on Processor 2
-2.14 seconds elapsed
-
-Completed run 16 of 25 on Processor 2
-0.95 seconds elapsed
-
-Completed run 15 of 25 on Processor 3
-1.31 seconds elapsed
-
-Completed run 14 of 25 on Processor 0
-2.30 seconds elapsed
-
-Completed run 16 of 25 on Processor 3
-0.78 seconds elapsed
-
-Completed run 18 of 25 on Processor 1
-3.35 seconds elapsed
-
-Completed run 17 of 25 on Processor 2
-2.21 seconds elapsed
-
-Completed run 17 of 25 on Processor 3
-1.96 seconds elapsed
-
-Completed run 18 of 25 on Processor 2
-1.10 seconds elapsed
-
-Completed run 15 of 25 on Processor 0
-3.13 seconds elapsed
-
-Completed run 18 of 25 on Processor 3
-0.86 seconds elapsed
-
-Completed run 16 of 25 on Processor 0
-1.29 seconds elapsed
-
-Completed run 19 of 25 on Processor 1
-3.29 seconds elapsed
-
-Completed run 19 of 25 on Processor 2
-1.72 seconds elapsed
-
-Completed run 19 of 25 on Processor 3
-1.78 seconds elapsed
-
-Completed run 17 of 25 on Processor 0
-1.27 seconds elapsed
-
-Completed run 20 of 25 on Processor 2
-0.95 seconds elapsed
-
-Completed run 20 of 25 on Processor 3
-0.70 seconds elapsed
-
-Completed run 18 of 25 on Processor 0
-1.04 seconds elapsed
-
-Completed run 20 of 25 on Processor 1
-2.79 seconds elapsed
-
-Completed run 21 of 25 on Processor 3
-2.44 seconds elapsed
-
-Completed run 21 of 25 on Processor 2
-2.99 seconds elapsed
-
-Completed run 21 of 25 on Processor 1
-1.89 seconds elapsed
-
-Completed run 22 of 25 on Processor 3
-1.38 seconds elapsed
-
-Completed run 19 of 25 on Processor 0
-3.72 seconds elapsed
-
-Completed run 23 of 25 on Processor 3
-1.38 seconds elapsed
-
-Completed run 22 of 25 on Processor 2
-2.52 seconds elapsed
-
-Completed run 22 of 25 on Processor 1
-3.30 seconds elapsed
-
-Completed run 20 of 25 on Processor 0
-2.52 seconds elapsed
-
-Completed run 24 of 25 on Processor 3
-2.67 seconds elapsed
-
-Completed run 21 of 25 on Processor 0
-1.00 seconds elapsed
-
-Completed run 23 of 25 on Processor 2
-2.77 seconds elapsed
-
-Completed run 23 of 25 on Processor 1
-1.50 seconds elapsed
-
-Completed run 25 of 25 on Processor 3
-1.35 seconds elapsed
-
-Completed run 24 of 25 on Processor 2
-1.19 seconds elapsed
-
-Completed run 24 of 25 on Processor 1
-1.27 seconds elapsed
-
-Completed run 22 of 25 on Processor 0
-1.50 seconds elapsed
-
-Completed run 25 of 25 on Processor 2
-1.00 seconds elapsed
-
-Completed run 25 of 25 on Processor 1
-1.83 seconds elapsed
-
-Completed run 23 of 25 on Processor 0
-1.95 seconds elapsed
-
-Completed run 24 of 25 on Processor 0
-2.79 seconds elapsed
-
-Completed run 25 of 25 on Processor 0
-1.25 seconds elapsed
-
-All ICA runs complete!
-49.52 seconds elapsed
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-1.26 minutes elapsed
-
-Combining D matrix
-47.37 seconds elapsed
-
-Clustering
-0.11 seconds elapsed
-
-Identified 36 clusters
-
-Loading individual S and A matrices
-3.43 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-0.92 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/40
-6.31 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#'
-# Computing dimension 60 of 278 #
-############################'#''#''#''#''#'
-
-Setting up...
-0.14 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 3
-2.81 seconds elapsed
-
-Completed run 1 of 25 on Processor 1
-5.46 seconds elapsed
-
-Completed run 1 of 25 on Processor 2
-6.45 seconds elapsed
-
-Completed run 1 of 25 on Processor 0
-6.77 seconds elapsed
-
-Completed run 2 of 25 on Processor 3
-5.08 seconds elapsed
-
 Completed run 2 of 25 on Processor 1
-5.53 seconds elapsed
-
-Completed run 2 of 25 on Processor 2
-4.93 seconds elapsed
-
-Completed run 3 of 25 on Processor 3
-6.41 seconds elapsed
-
-Completed run 3 of 25 on Processor 2
-3.98 seconds elapsed
-
-Completed run 2 of 25 on Processor 0
-8.89 seconds elapsed
-
-Completed run 3 of 25 on Processor 1
-5.99 seconds elapsed
-
-Completed run 3 of 25 on Processor 0
-5.17 seconds elapsed
+5.26 seconds elapsed
 
 Completed run 4 of 25 on Processor 3
-7.82 seconds elapsed
+2.74 seconds elapsed
 
-Completed run 4 of 25 on Processor 2
-7.46 seconds elapsed
-
-Completed run 4 of 25 on Processor 0
-4.09 seconds elapsed
-
-Completed run 4 of 25 on Processor 1
-8.76 seconds elapsed
+Completed run 3 of 25 on Processor 1
+1.27 seconds elapsed
 
 Completed run 5 of 25 on Processor 3
-4.97 seconds elapsed
+1.44 seconds elapsed
 
-Completed run 5 of 25 on Processor 1
-4.64 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-6.02 seconds elapsed
-
-Completed run 6 of 25 on Processor 3
-6.32 seconds elapsed
-
-Completed run 5 of 25 on Processor 2
-11.89 seconds elapsed
-
-Completed run 6 of 25 on Processor 0
-4.40 seconds elapsed
-
-Completed run 6 of 25 on Processor 1
-5.28 seconds elapsed
-
-Completed run 7 of 25 on Processor 3
+Completed run 4 of 25 on Processor 2
 2.71 seconds elapsed
 
-Completed run 7 of 25 on Processor 1
-2.64 seconds elapsed
-
-Completed run 8 of 25 on Processor 3
-2.63 seconds elapsed
-
-Completed run 7 of 25 on Processor 0
-3.57 seconds elapsed
-
-Completed run 6 of 25 on Processor 2
-7.34 seconds elapsed
-
-Completed run 8 of 25 on Processor 1
-6.38 seconds elapsed
-
-Completed run 8 of 25 on Processor 0
-6.91 seconds elapsed
-
-Completed run 9 of 25 on Processor 3
-7.91 seconds elapsed
-
-Completed run 7 of 25 on Processor 2
-4.66 seconds elapsed
-
-Completed run 8 of 25 on Processor 2
-3.29 seconds elapsed
-
-Completed run 10 of 25 on Processor 3
-3.89 seconds elapsed
-
-Completed run 9 of 25 on Processor 0
-6.15 seconds elapsed
-
-Completed run 9 of 25 on Processor 1
-7.50 seconds elapsed
-
-Completed run 9 of 25 on Processor 2
-3.33 seconds elapsed
-
-Completed run 10 of 25 on Processor 0
-3.60 seconds elapsed
-
-Completed run 10 of 25 on Processor 1
-3.68 seconds elapsed
-
-Completed run 11 of 25 on Processor 3
-6.42 seconds elapsed
-
-Completed run 11 of 25 on Processor 0
-3.97 seconds elapsed
-
-Completed run 10 of 25 on Processor 2
-8.04 seconds elapsed
-
-Completed run 11 of 25 on Processor 1
-6.85 seconds elapsed
-
-Completed run 12 of 25 on Processor 3
-6.80 seconds elapsed
-
-Completed run 12 of 25 on Processor 0
-5.88 seconds elapsed
-
-Completed run 11 of 25 on Processor 2
-6.32 seconds elapsed
-
-Completed run 13 of 25 on Processor 0
-3.88 seconds elapsed
-
-Completed run 13 of 25 on Processor 3
-6.49 seconds elapsed
-
-Completed run 14 of 25 on Processor 0
-4.77 seconds elapsed
-
-Completed run 14 of 25 on Processor 3
-4.61 seconds elapsed
-
-Completed run 12 of 25 on Processor 2
-8.05 seconds elapsed
-
-Completed run 15 of 25 on Processor 0
-5.53 seconds elapsed
-
-Completed run 16 of 25 on Processor 0
-3.34 seconds elapsed
-
-Completed run 13 of 25 on Processor 2
-12.09 seconds elapsed
-
-Completed run 17 of 25 on Processor 0
-6.25 seconds elapsed
-
-Completed run 14 of 25 on Processor 2
-3.32 seconds elapsed
-
-Completed run 15 of 25 on Processor 2
-4.18 seconds elapsed
-Processor 3 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-Processor 0 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:13143] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:13143] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:13143] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 1 timed out. Aborting MPI job.
-Processor 2 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:13143] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:13143] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-34.76 seconds elapsed
-
-Combining D matrix
-15.64 seconds elapsed
-
-Clustering
-0.07 seconds elapsed
-
-Identified 38 clusters
-
-Loading individual S and A matrices
-2.65 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-0.60 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/60
-2.25 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#'
-# Computing dimension 80 of 278 #
-############################'#''#''#''#''#'
-
-Setting up...
-0.22 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 1
-10.86 seconds elapsed
-
-Completed run 1 of 25 on Processor 3
-11.91 seconds elapsed
-
-Completed run 2 of 25 on Processor 3
-7.37 seconds elapsed
-
-Completed run 2 of 25 on Processor 1
-8.70 seconds elapsed
-
-Completed run 1 of 25 on Processor 2
-21.00 seconds elapsed
-
-Completed run 1 of 25 on Processor 0
-22.98 seconds elapsed
-
-Completed run 2 of 25 on Processor 2
-13.73 seconds elapsed
-
-Completed run 2 of 25 on Processor 0
-14.23 seconds elapsed
-
-Completed run 3 of 25 on Processor 1
-23.30 seconds elapsed
-
-Completed run 3 of 25 on Processor 2
-8.22 seconds elapsed
+Completed run 4 of 25 on Processor 1
+1.07 seconds elapsed
 
 Completed run 3 of 25 on Processor 0
-5.68 seconds elapsed
-
-Completed run 4 of 25 on Processor 2
-7.64 seconds elapsed
-
-Completed run 4 of 25 on Processor 0
-7.51 seconds elapsed
+3.98 seconds elapsed
 
 Completed run 5 of 25 on Processor 2
-12.65 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-13.81 seconds elapsed
-
-Completed run 6 of 25 on Processor 0
-11.10 seconds elapsed
-Processor 1 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-Processor 2 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:06290] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:06290] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:06290] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 0 timed out. Aborting MPI job.
-Processor 3 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:06290] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:06290] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-4.60 seconds elapsed
-
-Combining D matrix
-1.10 seconds elapsed
-
-Clustering
-0.02 seconds elapsed
-
-Identified 41 clusters
-
-Loading individual S and A matrices
-0.87 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-0.20 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/80
-0.50 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#''#'
-# Computing dimension 100 of 278 #
-############################'#''#''#''#''#''#'
-
-Setting up...
-0.19 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 0
-18.08 seconds elapsed
-
-Completed run 1 of 25 on Processor 2
-22.50 seconds elapsed
-
-Completed run 2 of 25 on Processor 0
-12.50 seconds elapsed
-
-Completed run 2 of 25 on Processor 2
-13.38 seconds elapsed
-
-Completed run 1 of 25 on Processor 1
-41.14 seconds elapsed
-
-Completed run 2 of 25 on Processor 1
-20.96 seconds elapsed
-
-Completed run 3 of 25 on Processor 0
-38.22 seconds elapsed
-
-Completed run 3 of 25 on Processor 1
-16.72 seconds elapsed
+1.36 seconds elapsed
 
 Completed run 4 of 25 on Processor 0
-17.12 seconds elapsed
-
-Completed run 4 of 25 on Processor 1
-24.34 seconds elapsed
-
-Completed run 5 of 25 on Processor 1
-20.94 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-48.11 seconds elapsed
-
-Completed run 6 of 25 on Processor 0
-12.90 seconds elapsed
-Processor 1 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-[scarcity-10.glbrc.org:10482] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:10482] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:10482] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 2 timed out. Aborting MPI job.
-Processor 0 timed out. Aborting MPI job.
-Processor 3 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:10482] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:10482] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-4.01 seconds elapsed
-
-Combining D matrix
-0.68 seconds elapsed
-
-Clustering
-0.02 seconds elapsed
-
-Identified 50 clusters
-
-Loading individual S and A matrices
-0.85 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-0.21 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/100
-0.40 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#''#'
-# Computing dimension 120 of 278 #
-############################'#''#''#''#''#''#'
-
-Setting up...
-0.20 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 2
-15.89 seconds elapsed
-
-Completed run 1 of 25 on Processor 1
-27.14 seconds elapsed
-
-Completed run 1 of 25 on Processor 3
-44.53 seconds elapsed
-
-Completed run 2 of 25 on Processor 1
-18.99 seconds elapsed
-
-Completed run 2 of 25 on Processor 2
-32.30 seconds elapsed
-
-Completed run 2 of 25 on Processor 3
-12.79 seconds elapsed
-
-Completed run 3 of 25 on Processor 1
-18.96 seconds elapsed
-
-Completed run 3 of 25 on Processor 2
-18.18 seconds elapsed
-
-Completed run 1 of 25 on Processor 0
-1.13 minutes elapsed
-
-Completed run 3 of 25 on Processor 3
-43.11 seconds elapsed
-
-Completed run 4 of 25 on Processor 1
-36.26 seconds elapsed
-
-Completed run 4 of 25 on Processor 2
-41.66 seconds elapsed
-
-Completed run 2 of 25 on Processor 0
-53.80 seconds elapsed
-
-Completed run 5 of 25 on Processor 1
-26.89 seconds elapsed
-
-Completed run 6 of 25 on Processor 1
-16.12 seconds elapsed
-
-Completed run 5 of 25 on Processor 2
-45.55 seconds elapsed
-
-Completed run 4 of 25 on Processor 3
-55.83 seconds elapsed
-
-Completed run 3 of 25 on Processor 0
-45.05 seconds elapsed
-
-Completed run 5 of 25 on Processor 3
-17.27 seconds elapsed
+1.78 seconds elapsed
 
 Completed run 6 of 25 on Processor 2
-20.99 seconds elapsed
+2.02 seconds elapsed
 
-Completed run 7 of 25 on Processor 1
-33.84 seconds elapsed
+Completed run 5 of 25 on Processor 0
+1.52 seconds elapsed
 
-Completed run 8 of 25 on Processor 1
-28.21 seconds elapsed
+Completed run 5 of 25 on Processor 1
+5.38 seconds elapsed
 
 Completed run 6 of 25 on Processor 3
-35.39 seconds elapsed
+5.57 seconds elapsed
 
 Completed run 7 of 25 on Processor 2
-35.16 seconds elapsed
-
-Completed run 4 of 25 on Processor 0
-46.43 seconds elapsed
-
-Completed run 7 of 25 on Processor 3
-31.09 seconds elapsed
-
-Completed run 9 of 25 on Processor 1
-37.79 seconds elapsed
-
-Completed run 8 of 25 on Processor 2
-39.37 seconds elapsed
-
-Completed run 9 of 25 on Processor 2
-12.15 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-57.05 seconds elapsed
-
-Completed run 10 of 25 on Processor 1
-28.18 seconds elapsed
-
-Completed run 8 of 25 on Processor 3
-47.84 seconds elapsed
-
-Completed run 10 of 25 on Processor 2
-29.36 seconds elapsed
-
-Completed run 11 of 25 on Processor 1
-25.78 seconds elapsed
+2.12 seconds elapsed
 
 Completed run 6 of 25 on Processor 0
-39.75 seconds elapsed
+2.41 seconds elapsed
 
-Completed run 9 of 25 on Processor 3
-43.14 seconds elapsed
+Completed run 7 of 25 on Processor 3
+1.38 seconds elapsed
 
-Completed run 11 of 25 on Processor 2
-46.77 seconds elapsed
+Completed run 6 of 25 on Processor 1
+1.67 seconds elapsed
 
 Completed run 7 of 25 on Processor 0
-32.79 seconds elapsed
-
-Completed run 12 of 25 on Processor 1
-59.70 seconds elapsed
-
-Completed run 12 of 25 on Processor 2
-28.90 seconds elapsed
+2.20 seconds elapsed
 
 Completed run 8 of 25 on Processor 0
-36.52 seconds elapsed
+1.51 seconds elapsed
 
-Completed run 13 of 25 on Processor 2
-24.70 seconds elapsed
+Completed run 8 of 25 on Processor 2
+4.46 seconds elapsed
 
-Completed run 13 of 25 on Processor 1
-37.91 seconds elapsed
+Completed run 7 of 25 on Processor 1
+2.90 seconds elapsed
 
-Completed run 14 of 25 on Processor 1
-20.23 seconds elapsed
+Completed run 8 of 25 on Processor 3
+4.51 seconds elapsed
 
-Completed run 14 of 25 on Processor 2
-28.88 seconds elapsed
+Completed run 8 of 25 on Processor 1
+2.02 seconds elapsed
 
 Completed run 9 of 25 on Processor 0
-42.51 seconds elapsed
+2.49 seconds elapsed
 
-Completed run 15 of 25 on Processor 1
-27.74 seconds elapsed
+Completed run 9 of 25 on Processor 3
+1.51 seconds elapsed
 
-Completed run 15 of 25 on Processor 2
-38.60 seconds elapsed
+Completed run 9 of 25 on Processor 2
+3.83 seconds elapsed
 
 Completed run 10 of 25 on Processor 0
-50.35 seconds elapsed
+1.91 seconds elapsed
 
-Completed run 16 of 25 on Processor 1
-28.96 seconds elapsed
+Completed run 9 of 25 on Processor 1
+1.99 seconds elapsed
+
+Completed run 10 of 25 on Processor 3
+1.77 seconds elapsed
 
 Completed run 11 of 25 on Processor 0
-29.66 seconds elapsed
+1.93 seconds elapsed
 
-Completed run 16 of 25 on Processor 2
-44.49 seconds elapsed
+Completed run 10 of 25 on Processor 1
+1.96 seconds elapsed
 
-Completed run 17 of 25 on Processor 1
-43.73 seconds elapsed
+Completed run 11 of 25 on Processor 3
+1.45 seconds elapsed
+
+Completed run 10 of 25 on Processor 2
+3.14 seconds elapsed
+
+Completed run 11 of 25 on Processor 2
+1.57 seconds elapsed
 
 Completed run 12 of 25 on Processor 0
-39.12 seconds elapsed
+3.10 seconds elapsed
 
-Completed run 17 of 25 on Processor 2
-51.17 seconds elapsed
+Completed run 11 of 25 on Processor 1
+3.36 seconds elapsed
+
+Completed run 12 of 25 on Processor 3
+3.58 seconds elapsed
+
+Completed run 12 of 25 on Processor 1
+1.47 seconds elapsed
 
 Completed run 13 of 25 on Processor 0
-28.29 seconds elapsed
+2.79 seconds elapsed
 
-Completed run 18 of 25 on Processor 2
-19.22 seconds elapsed
+Completed run 12 of 25 on Processor 2
+3.54 seconds elapsed
 
-Completed run 18 of 25 on Processor 1
-1.08 minutes elapsed
+Completed run 13 of 25 on Processor 3
+3.36 seconds elapsed
 
-Completed run 19 of 25 on Processor 2
-13.81 seconds elapsed
+Completed run 13 of 25 on Processor 1
+2.52 seconds elapsed
+
+Completed run 13 of 25 on Processor 2
+2.21 seconds elapsed
 
 Completed run 14 of 25 on Processor 0
-44.16 seconds elapsed
+3.29 seconds elapsed
 
-Completed run 20 of 25 on Processor 2
-30.29 seconds elapsed
+Completed run 14 of 25 on Processor 1
+2.87 seconds elapsed
 
-Completed run 19 of 25 on Processor 1
-36.92 seconds elapsed
-
-Completed run 21 of 25 on Processor 2
-18.71 seconds elapsed
+Completed run 14 of 25 on Processor 3
+3.85 seconds elapsed
 
 Completed run 15 of 25 on Processor 0
-42.32 seconds elapsed
+1.83 seconds elapsed
 
-Completed run 22 of 25 on Processor 2
-25.40 seconds elapsed
+Completed run 14 of 25 on Processor 2
+3.04 seconds elapsed
 
 Completed run 16 of 25 on Processor 0
-23.87 seconds elapsed
+2.06 seconds elapsed
 
-Completed run 20 of 25 on Processor 1
-1.17 minutes elapsed
+Completed run 15 of 25 on Processor 3
+2.28 seconds elapsed
 
-Completed run 23 of 25 on Processor 2
-34.84 seconds elapsed
+Completed run 16 of 25 on Processor 3
+1.94 seconds elapsed
 
-Completed run 21 of 25 on Processor 1
-33.85 seconds elapsed
+Completed run 15 of 25 on Processor 2
+4.84 seconds elapsed
 
-Completed run 24 of 25 on Processor 2
-36.88 seconds elapsed
+Completed run 15 of 25 on Processor 1
+6.16 seconds elapsed
 
 Completed run 17 of 25 on Processor 0
-1.28 minutes elapsed
+3.54 seconds elapsed
 
-Completed run 25 of 25 on Processor 2
-32.44 seconds elapsed
+Completed run 17 of 25 on Processor 3
+2.31 seconds elapsed
 
-Completed run 22 of 25 on Processor 1
-44.67 seconds elapsed
+Completed run 16 of 25 on Processor 1
+1.60 seconds elapsed
 
 Completed run 18 of 25 on Processor 0
-14.66 seconds elapsed
+2.88 seconds elapsed
 
-Completed run 23 of 25 on Processor 1
-23.22 seconds elapsed
+Completed run 17 of 25 on Processor 1
+1.53 seconds elapsed
+
+Completed run 16 of 25 on Processor 2
+3.92 seconds elapsed
+
+Completed run 18 of 25 on Processor 3
+3.25 seconds elapsed
+
+Completed run 19 of 25 on Processor 3
+1.34 seconds elapsed
 
 Completed run 19 of 25 on Processor 0
-34.82 seconds elapsed
+3.06 seconds elapsed
 
-Completed run 24 of 25 on Processor 1
-30.83 seconds elapsed
+Completed run 18 of 25 on Processor 1
+3.71 seconds elapsed
 
 Completed run 20 of 25 on Processor 0
-18.10 seconds elapsed
+2.01 seconds elapsed
 
-Completed run 25 of 25 on Processor 1
-33.69 seconds elapsed
+Completed run 17 of 25 on Processor 2
+4.76 seconds elapsed
+
+Completed run 19 of 25 on Processor 1
+1.81 seconds elapsed
+
+Completed run 20 of 25 on Processor 1
+1.99 seconds elapsed
+
+Completed run 20 of 25 on Processor 3
+5.27 seconds elapsed
 
 Completed run 21 of 25 on Processor 0
-40.62 seconds elapsed
+2.93 seconds elapsed
+
+Completed run 21 of 25 on Processor 1
+1.80 seconds elapsed
+
+Completed run 21 of 25 on Processor 3
+2.32 seconds elapsed
+
+Completed run 18 of 25 on Processor 2
+5.50 seconds elapsed
+
+Completed run 22 of 25 on Processor 3
+2.18 seconds elapsed
 
 Completed run 22 of 25 on Processor 0
-34.89 seconds elapsed
+4.43 seconds elapsed
+
+Completed run 22 of 25 on Processor 1
+3.80 seconds elapsed
 
 Completed run 23 of 25 on Processor 0
-29.90 seconds elapsed
+1.38 seconds elapsed
+
+Completed run 19 of 25 on Processor 2
+4.07 seconds elapsed
+
+Completed run 23 of 25 on Processor 3
+2.65 seconds elapsed
+
+Completed run 23 of 25 on Processor 1
+2.45 seconds elapsed
+
+Completed run 24 of 25 on Processor 3
+1.83 seconds elapsed
+
+Completed run 24 of 25 on Processor 0
+3.41 seconds elapsed
+
+Completed run 20 of 25 on Processor 2
+2.82 seconds elapsed
+
+Completed run 24 of 25 on Processor 1
+2.69 seconds elapsed
+
+Completed run 25 of 25 on Processor 3
+1.85 seconds elapsed
+
+Completed run 25 of 25 on Processor 0
+1.72 seconds elapsed
+
+Completed run 21 of 25 on Processor 2
+3.23 seconds elapsed
+
+Completed run 25 of 25 on Processor 1
+2.86 seconds elapsed
+
+Completed run 22 of 25 on Processor 2
+2.13 seconds elapsed
+
+Completed run 23 of 25 on Processor 2
+2.80 seconds elapsed
+
+Completed run 24 of 25 on Processor 2
+3.13 seconds elapsed
+
+Completed run 25 of 25 on Processor 2
+2.23 seconds elapsed
+
+All ICA runs complete!
+1.27 minutes elapsed
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+1.67 minutes elapsed
+
+Combining D matrix
+1.15 minutes elapsed
+
+Clustering
+0.16 seconds elapsed
+
+Identified 39 clusters
+
+Loading individual S and A matrices
+4.77 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+1.02 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/40
+6.79 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#'
+# Computing dimension 60 of 312 #
+############################'#''#''#''#''#'
+
+Setting up...
+0.44 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 0
+4.19 seconds elapsed
+
+Completed run 1 of 25 on Processor 3
+5.18 seconds elapsed
+
+Completed run 1 of 25 on Processor 2
+6.06 seconds elapsed
+
+Completed run 2 of 25 on Processor 0
+3.13 seconds elapsed
+
+Completed run 1 of 25 on Processor 1
+10.10 seconds elapsed
+
+Completed run 2 of 25 on Processor 1
+3.18 seconds elapsed
+
+Completed run 2 of 25 on Processor 3
+8.51 seconds elapsed
+
+Completed run 2 of 25 on Processor 2
+7.21 seconds elapsed
+
+Completed run 3 of 25 on Processor 0
+6.03 seconds elapsed
+
+Completed run 3 of 25 on Processor 1
+3.03 seconds elapsed
+
+Completed run 3 of 25 on Processor 2
+2.69 seconds elapsed
+
+Completed run 3 of 25 on Processor 3
+5.19 seconds elapsed
+
+Completed run 4 of 25 on Processor 0
+6.56 seconds elapsed
+
+Completed run 4 of 25 on Processor 3
+3.77 seconds elapsed
+
+Completed run 4 of 25 on Processor 1
+6.58 seconds elapsed
+
+Completed run 5 of 25 on Processor 3
+3.60 seconds elapsed
+
+Completed run 5 of 25 on Processor 1
+5.69 seconds elapsed
+
+Completed run 5 of 25 on Processor 0
+9.21 seconds elapsed
+
+Completed run 4 of 25 on Processor 2
+13.34 seconds elapsed
+
+Completed run 6 of 25 on Processor 3
+4.53 seconds elapsed
+
+Completed run 6 of 25 on Processor 0
+3.32 seconds elapsed
+
+Completed run 6 of 25 on Processor 1
+6.82 seconds elapsed
+
+Completed run 7 of 25 on Processor 0
+4.33 seconds elapsed
+
+Completed run 7 of 25 on Processor 3
+8.28 seconds elapsed
+
+Completed run 5 of 25 on Processor 2
+10.78 seconds elapsed
+
+Completed run 8 of 25 on Processor 0
+3.32 seconds elapsed
+
+Completed run 8 of 25 on Processor 3
+3.40 seconds elapsed
+
+Completed run 7 of 25 on Processor 1
+8.74 seconds elapsed
+
+Completed run 9 of 25 on Processor 0
+3.20 seconds elapsed
+
+Completed run 9 of 25 on Processor 3
+3.19 seconds elapsed
+
+Completed run 10 of 25 on Processor 3
+4.34 seconds elapsed
+
+Completed run 8 of 25 on Processor 1
+5.92 seconds elapsed
+
+Completed run 6 of 25 on Processor 2
+10.38 seconds elapsed
+
+Completed run 10 of 25 on Processor 0
+9.14 seconds elapsed
+
+Completed run 11 of 25 on Processor 3
+5.41 seconds elapsed
+
+Completed run 9 of 25 on Processor 1
+7.47 seconds elapsed
+
+Completed run 7 of 25 on Processor 2
+6.62 seconds elapsed
+
+Completed run 12 of 25 on Processor 3
+2.36 seconds elapsed
+
+Completed run 13 of 25 on Processor 3
+3.08 seconds elapsed
+
+Completed run 11 of 25 on Processor 0
+9.66 seconds elapsed
+
+Completed run 10 of 25 on Processor 1
+5.61 seconds elapsed
+
+Completed run 8 of 25 on Processor 2
+6.99 seconds elapsed
+
+Completed run 12 of 25 on Processor 0
+4.95 seconds elapsed
+
+Completed run 14 of 25 on Processor 3
+9.17 seconds elapsed
+
+Completed run 9 of 25 on Processor 2
+6.73 seconds elapsed
+
+Completed run 11 of 25 on Processor 1
+11.09 seconds elapsed
+
+Completed run 13 of 25 on Processor 0
+8.29 seconds elapsed
+
+Completed run 10 of 25 on Processor 2
+5.97 seconds elapsed
+
+Completed run 12 of 25 on Processor 1
+3.67 seconds elapsed
+
+Completed run 15 of 25 on Processor 3
+9.94 seconds elapsed
+
+Completed run 13 of 25 on Processor 1
+2.92 seconds elapsed
+
+Completed run 14 of 25 on Processor 0
+8.01 seconds elapsed
+
+Completed run 16 of 25 on Processor 3
+8.20 seconds elapsed
+
+Completed run 11 of 25 on Processor 2
+10.77 seconds elapsed
+
+Completed run 15 of 25 on Processor 0
+5.76 seconds elapsed
+
+Completed run 16 of 25 on Processor 0
+3.55 seconds elapsed
+
+Completed run 12 of 25 on Processor 2
+6.05 seconds elapsed
+
+Completed run 17 of 25 on Processor 3
+6.30 seconds elapsed
+
+Completed run 17 of 25 on Processor 0
+2.64 seconds elapsed
+
+Completed run 14 of 25 on Processor 1
+15.80 seconds elapsed
+
+Completed run 18 of 25 on Processor 3
+4.40 seconds elapsed
+
+Completed run 15 of 25 on Processor 1
+2.49 seconds elapsed
+
+Completed run 13 of 25 on Processor 2
+6.01 seconds elapsed
+
+Completed run 18 of 25 on Processor 0
+6.58 seconds elapsed
+
+Completed run 14 of 25 on Processor 2
+6.04 seconds elapsed
+
+Completed run 19 of 25 on Processor 0
+5.42 seconds elapsed
+
+Completed run 19 of 25 on Processor 3
+10.38 seconds elapsed
+
+Completed run 16 of 25 on Processor 1
+10.22 seconds elapsed
+
+Completed run 15 of 25 on Processor 2
+5.24 seconds elapsed
+
+Completed run 20 of 25 on Processor 3
+3.22 seconds elapsed
+
+Completed run 20 of 25 on Processor 0
+7.67 seconds elapsed
+
+Completed run 16 of 25 on Processor 2
+6.08 seconds elapsed
+
+Completed run 21 of 25 on Processor 0
+4.39 seconds elapsed
+
+Completed run 21 of 25 on Processor 3
+8.25 seconds elapsed
+
+Completed run 17 of 25 on Processor 2
+3.88 seconds elapsed
+
+Completed run 17 of 25 on Processor 1
+12.27 seconds elapsed
+
+Completed run 22 of 25 on Processor 0
+5.53 seconds elapsed
+
+Completed run 18 of 25 on Processor 1
+4.54 seconds elapsed
+
+Completed run 22 of 25 on Processor 3
+8.24 seconds elapsed
+
+Completed run 19 of 25 on Processor 1
+3.44 seconds elapsed
+
+Completed run 20 of 25 on Processor 1
+3.13 seconds elapsed
+
+Completed run 23 of 25 on Processor 3
+4.33 seconds elapsed
+
+Completed run 18 of 25 on Processor 2
+15.59 seconds elapsed
+
+Completed run 23 of 25 on Processor 0
+12.11 seconds elapsed
+
+Completed run 24 of 25 on Processor 3
+4.54 seconds elapsed
+
+Completed run 21 of 25 on Processor 1
+6.86 seconds elapsed
+
+Completed run 19 of 25 on Processor 2
+3.22 seconds elapsed
+
+Completed run 25 of 25 on Processor 3
+2.99 seconds elapsed
+
+Completed run 20 of 25 on Processor 2
+4.85 seconds elapsed
+
+Completed run 22 of 25 on Processor 1
+6.06 seconds elapsed
+
+Completed run 24 of 25 on Processor 0
+7.93 seconds elapsed
+
+Completed run 23 of 25 on Processor 1
+5.11 seconds elapsed
+
+Completed run 21 of 25 on Processor 2
+6.98 seconds elapsed
+
+Completed run 22 of 25 on Processor 2
+4.10 seconds elapsed
+
+Completed run 24 of 25 on Processor 1
+5.62 seconds elapsed
+
+Completed run 25 of 25 on Processor 0
+16.92 seconds elapsed
+
+Completed run 23 of 25 on Processor 2
+9.93 seconds elapsed
+
+Completed run 25 of 25 on Processor 1
+11.29 seconds elapsed
+
+Completed run 24 of 25 on Processor 2
+9.36 seconds elapsed
+
+All ICA runs complete!
+3.06 minutes elapsed
+
+Completed run 25 of 25 on Processor 2
+8.71 seconds elapsed
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+2.18 minutes elapsed
+
+Combining D matrix
+1.14 minutes elapsed
+
+Clustering
+0.17 seconds elapsed
+
+Identified 42 clusters
+
+Loading individual S and A matrices
+6.54 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+1.45 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/60
+6.79 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#'
+# Computing dimension 80 of 312 #
+############################'#''#''#''#''#'
+
+Setting up...
+0.20 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 3
+5.59 seconds elapsed
+
+Completed run 1 of 25 on Processor 1
+13.73 seconds elapsed
+
+Completed run 1 of 25 on Processor 0
+14.81 seconds elapsed
+
+Completed run 1 of 25 on Processor 2
+17.83 seconds elapsed
+
+Completed run 2 of 25 on Processor 1
+7.08 seconds elapsed
+
+Completed run 2 of 25 on Processor 3
+17.49 seconds elapsed
+
+Completed run 3 of 25 on Processor 3
+8.41 seconds elapsed
+
+Completed run 2 of 25 on Processor 2
+13.34 seconds elapsed
+
+Completed run 3 of 25 on Processor 1
+11.66 seconds elapsed
+
+Completed run 2 of 25 on Processor 0
+16.86 seconds elapsed
+
+Completed run 3 of 25 on Processor 0
+17.45 seconds elapsed
+
+Completed run 4 of 25 on Processor 3
+23.49 seconds elapsed
+
+Completed run 5 of 25 on Processor 3
+8.43 seconds elapsed
+
+Completed run 4 of 25 on Processor 0
+13.90 seconds elapsed
+
+Completed run 3 of 25 on Processor 2
+34.49 seconds elapsed
+
+Completed run 6 of 25 on Processor 3
+11.90 seconds elapsed
+
+Completed run 5 of 25 on Processor 0
+19.51 seconds elapsed
+
+Completed run 4 of 25 on Processor 2
+21.65 seconds elapsed
+
+Completed run 6 of 25 on Processor 0
+10.20 seconds elapsed
+
+Completed run 7 of 25 on Processor 3
+21.36 seconds elapsed
+
+Completed run 8 of 25 on Processor 3
+16.06 seconds elapsed
+
+Completed run 7 of 25 on Processor 0
+20.57 seconds elapsed
+
+Completed run 5 of 25 on Processor 2
+27.76 seconds elapsed
+
+Completed run 9 of 25 on Processor 3
+12.49 seconds elapsed
+
+Completed run 6 of 25 on Processor 2
+11.44 seconds elapsed
+
+Completed run 10 of 25 on Processor 3
+7.04 seconds elapsed
+
+Completed run 8 of 25 on Processor 0
+19.78 seconds elapsed
+
+Completed run 7 of 25 on Processor 2
+17.48 seconds elapsed
+
+Completed run 9 of 25 on Processor 0
+13.96 seconds elapsed
+
+Completed run 11 of 25 on Processor 3
+16.25 seconds elapsed
+
+Completed run 8 of 25 on Processor 2
+10.91 seconds elapsed
+
+Completed run 12 of 25 on Processor 3
+9.93 seconds elapsed
+
+Completed run 10 of 25 on Processor 0
+16.49 seconds elapsed
+
+Completed run 9 of 25 on Processor 2
+9.43 seconds elapsed
+
+Completed run 13 of 25 on Processor 3
+13.30 seconds elapsed
+
+Completed run 11 of 25 on Processor 0
+8.50 seconds elapsed
+
+Completed run 12 of 25 on Processor 0
+13.69 seconds elapsed
+
+Completed run 10 of 25 on Processor 2
+24.15 seconds elapsed
+
+Completed run 13 of 25 on Processor 0
+9.91 seconds elapsed
+
+Completed run 11 of 25 on Processor 2
+10.89 seconds elapsed
+
+Completed run 14 of 25 on Processor 3
+29.70 seconds elapsed
+
+Completed run 14 of 25 on Processor 0
+12.73 seconds elapsed
+
+Completed run 15 of 25 on Processor 0
+7.65 seconds elapsed
+
+Completed run 15 of 25 on Processor 3
+18.71 seconds elapsed
+
+Completed run 16 of 25 on Processor 0
+15.97 seconds elapsed
+
+Completed run 16 of 25 on Processor 3
+15.36 seconds elapsed
+
+Completed run 17 of 25 on Processor 3
+12.08 seconds elapsed
+
+Completed run 17 of 25 on Processor 0
+15.47 seconds elapsed
+
+Completed run 18 of 25 on Processor 0
+5.62 seconds elapsed
+
+Completed run 18 of 25 on Processor 3
+16.49 seconds elapsed
+
+Completed run 19 of 25 on Processor 0
+11.08 seconds elapsed
+
+Completed run 20 of 25 on Processor 0
+14.12 seconds elapsed
+
+Completed run 19 of 25 on Processor 3
+18.11 seconds elapsed
+
+Completed run 21 of 25 on Processor 0
+5.69 seconds elapsed
+
+Completed run 20 of 25 on Processor 3
+11.12 seconds elapsed
+
+Completed run 21 of 25 on Processor 3
+5.16 seconds elapsed
+
+Completed run 22 of 25 on Processor 0
+21.40 seconds elapsed
+
+Completed run 22 of 25 on Processor 3
+12.12 seconds elapsed
+
+Completed run 23 of 25 on Processor 3
+11.95 seconds elapsed
+
+Completed run 24 of 25 on Processor 3
+11.32 seconds elapsed
+
+Completed run 25 of 25 on Processor 3
+14.20 seconds elapsed
+Processor 1 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:19058] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 0 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:19058] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:19058] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+48.71 seconds elapsed
+
+Combining D matrix
+17.49 seconds elapsed
+
+Clustering
+0.09 seconds elapsed
+
+Identified 47 clusters
+
+Loading individual S and A matrices
+3.90 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.72 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/80
+2.55 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 100 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.25 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 0
+15.75 seconds elapsed
+
+Completed run 1 of 25 on Processor 2
+20.70 seconds elapsed
+
+Completed run 2 of 25 on Processor 2
+16.20 seconds elapsed
+
+Completed run 2 of 25 on Processor 0
+31.78 seconds elapsed
+
+Completed run 3 of 25 on Processor 0
+16.25 seconds elapsed
+
+Completed run 3 of 25 on Processor 2
+27.65 seconds elapsed
+
+Completed run 4 of 25 on Processor 2
+8.89 seconds elapsed
+
+Completed run 5 of 25 on Processor 2
+19.13 seconds elapsed
+Processor 1 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:24723] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:24723] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:24723] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 2 timed out. Aborting MPI job.
+Processor 0 timed out. Aborting MPI job.
+Processor 3 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:24723] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:24723] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+1.89 seconds elapsed
+
+Combining D matrix
+0.29 seconds elapsed
+
+Clustering
+0.01 seconds elapsed
+
+Identified 49 clusters
+
+Loading individual S and A matrices
+0.52 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.16 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/100
+0.45 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 120 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.16 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 0
+45.67 seconds elapsed
+
+Completed run 1 of 25 on Processor 1
+54.10 seconds elapsed
+
+Completed run 2 of 25 on Processor 0
+26.90 seconds elapsed
+Processor 2 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:06503] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:06503] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:06503] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 1 timed out. Aborting MPI job.
+Processor 0 timed out. Aborting MPI job.
+Processor 3 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:06503] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:06503] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+0.84 seconds elapsed
+
+Combining D matrix
+0.14 seconds elapsed
+
+Clustering
+0.01 seconds elapsed
+
+Identified 54 clusters
+
+Loading individual S and A matrices
+0.19 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.12 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/120
+0.41 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 140 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.18 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 2
+33.06 seconds elapsed
+
+Completed run 1 of 25 on Processor 3
+46.52 seconds elapsed
+
+Completed run 1 of 25 on Processor 0
+1.00 minutes elapsed
+
+Completed run 2 of 25 on Processor 2
+1.08 minutes elapsed
+
+Completed run 2 of 25 on Processor 3
+1.05 minutes elapsed
+
+Completed run 2 of 25 on Processor 0
+56.92 seconds elapsed
+
+Completed run 3 of 25 on Processor 2
+24.08 seconds elapsed
+
+Completed run 4 of 25 on Processor 2
+30.31 seconds elapsed
+
+Completed run 3 of 25 on Processor 0
+40.02 seconds elapsed
+
+Completed run 5 of 25 on Processor 2
+28.29 seconds elapsed
+
+Completed run 3 of 25 on Processor 3
+2.20 minutes elapsed
+
+Completed run 4 of 25 on Processor 0
+1.77 minutes elapsed
+
+Completed run 4 of 25 on Processor 3
+37.07 seconds elapsed
+
+Completed run 5 of 25 on Processor 0
+18.51 seconds elapsed
+
+Completed run 6 of 25 on Processor 0
+54.61 seconds elapsed
+
+Completed run 5 of 25 on Processor 3
+2.44 minutes elapsed
+
+Completed run 6 of 25 on Processor 3
+1.12 minutes elapsed
+
+Completed run 7 of 25 on Processor 3
+22.35 seconds elapsed
+
+Completed run 8 of 25 on Processor 3
+38.75 seconds elapsed
+
+Completed run 9 of 25 on Processor 3
+32.07 seconds elapsed
+
+Completed run 10 of 25 on Processor 3
+44.59 seconds elapsed
 Processor 0 timed out. Aborting MPI job.
 --------------------------------------------------------------------------
 MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
@@ -1392,192 +1508,14 @@ NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
 You may or may not see output from other processes, depending on
 exactly when Open MPI kills them.
 --------------------------------------------------------------------------
-[scarcity-10.glbrc.org:22802] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 3 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:22802] 1 more process has sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:22802] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-2.08 minutes elapsed
-
-Combining D matrix
-47.67 seconds elapsed
-
-Clustering
-0.20 seconds elapsed
-
-Identified 57 clusters
-
-Loading individual S and A matrices
-8.57 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-1.30 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/120
-4.76 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#''#'
-# Computing dimension 140 of 278 #
-############################'#''#''#''#''#''#'
-
-Setting up...
-0.29 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 1
-19.88 seconds elapsed
-
-Completed run 1 of 25 on Processor 0
-33.35 seconds elapsed
-
-Completed run 2 of 25 on Processor 1
-46.51 seconds elapsed
-
-Completed run 2 of 25 on Processor 0
-36.45 seconds elapsed
-
-Completed run 1 of 25 on Processor 2
-1.20 minutes elapsed
-
-Completed run 1 of 25 on Processor 3
-1.38 minutes elapsed
-
-Completed run 3 of 25 on Processor 1
-28.68 seconds elapsed
-
-Completed run 3 of 25 on Processor 0
-1.06 minutes elapsed
-
-Completed run 4 of 25 on Processor 1
-49.37 seconds elapsed
-
-Completed run 2 of 25 on Processor 3
-1.05 minutes elapsed
-
-Completed run 2 of 25 on Processor 2
-1.30 minutes elapsed
-
-Completed run 3 of 25 on Processor 2
-38.62 seconds elapsed
-
-Completed run 4 of 25 on Processor 0
-56.44 seconds elapsed
-
-Completed run 5 of 25 on Processor 1
-49.06 seconds elapsed
-
-Completed run 3 of 25 on Processor 3
-56.45 seconds elapsed
-
-Completed run 4 of 25 on Processor 2
-37.80 seconds elapsed
-
-Completed run 4 of 25 on Processor 3
-42.15 seconds elapsed
-
-Completed run 6 of 25 on Processor 1
-1.04 minutes elapsed
-
-Completed run 5 of 25 on Processor 3
-25.96 seconds elapsed
-
-Completed run 5 of 25 on Processor 2
-45.85 seconds elapsed
-
-Completed run 7 of 25 on Processor 1
-26.83 seconds elapsed
-
-Completed run 5 of 25 on Processor 0
-1.76 minutes elapsed
-
-Completed run 6 of 25 on Processor 2
-59.53 seconds elapsed
-
-Completed run 6 of 25 on Processor 0
-43.05 seconds elapsed
-
-Completed run 8 of 25 on Processor 1
-56.99 seconds elapsed
-
-Completed run 6 of 25 on Processor 3
-1.25 minutes elapsed
-
-Completed run 7 of 25 on Processor 0
-27.07 seconds elapsed
-
-Completed run 9 of 25 on Processor 1
-40.25 seconds elapsed
-
-Completed run 8 of 25 on Processor 0
-24.89 seconds elapsed
-
-Completed run 7 of 25 on Processor 2
-1.19 minutes elapsed
-
-Completed run 7 of 25 on Processor 3
-1.02 minutes elapsed
-
-Completed run 10 of 25 on Processor 1
-34.46 seconds elapsed
-
-Completed run 9 of 25 on Processor 0
-1.21 minutes elapsed
-
-Completed run 8 of 25 on Processor 3
-1.07 minutes elapsed
-
-Completed run 9 of 25 on Processor 3
-31.48 seconds elapsed
-
-Completed run 8 of 25 on Processor 2
-1.84 minutes elapsed
-
-Completed run 9 of 25 on Processor 2
-37.19 seconds elapsed
-
-Completed run 10 of 25 on Processor 2
-43.78 seconds elapsed
-
-Completed run 11 of 25 on Processor 2
-49.99 seconds elapsed
-
-Completed run 12 of 25 on Processor 2
-46.21 seconds elapsed
-
-Completed run 13 of 25 on Processor 2
-52.46 seconds elapsed
-Processor 3 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-Processor 2 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:04366] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:04366] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:04366] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 0 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:25500] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:25500] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:25500] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
 Processor 1 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:04366] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:04366] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Processor 3 timed out. Aborting MPI job.
+Processor 2 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:25500] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:25500] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
 
 Checking and deleting small files.
 
@@ -1588,440 +1526,172 @@ Adjustment completed
 Computing clusters...
 
 Distance matrix completed!
-37.36 seconds elapsed
+10.25 seconds elapsed
 
 Combining D matrix
-8.05 seconds elapsed
+2.03 seconds elapsed
 
 Clustering
-0.09 seconds elapsed
+0.04 seconds elapsed
 
-Identified 69 clusters
+Identified 73 clusters
 
 Loading individual S and A matrices
-4.03 seconds elapsed
+1.95 seconds elapsed
 
 Gathering final S and A matrices
 
 Final components created
-0.77 seconds elapsed
+0.43 seconds elapsed
 
 Writing files to ../data/interim/ica_runs/140
-1.46 seconds elapsed
+0.77 seconds elapsed
 
 Complete!
 
 
 ############################'#''#''#''#''#''#'
-# Computing dimension 160 of 278 #
+# Computing dimension 160 of 312 #
 ############################'#''#''#''#''#''#'
 
 Setting up...
-0.25 seconds elapsed
+0.21 seconds elapsed
 
 Running ICA...
 
-Completed run 1 of 25 on Processor 0
-51.99 seconds elapsed
-
 Completed run 1 of 25 on Processor 1
-1.03 minutes elapsed
-
-Completed run 1 of 25 on Processor 2
-1.20 minutes elapsed
-
-Completed run 2 of 25 on Processor 0
-41.24 seconds elapsed
+56.31 seconds elapsed
 
 Completed run 2 of 25 on Processor 1
-1.12 minutes elapsed
+40.84 seconds elapsed
 
-Completed run 2 of 25 on Processor 2
-1.02 minutes elapsed
+Completed run 1 of 25 on Processor 2
+1.62 minutes elapsed
 
-Completed run 1 of 25 on Processor 3
-2.36 minutes elapsed
-
-Completed run 3 of 25 on Processor 0
-1.51 minutes elapsed
-
-Completed run 3 of 25 on Processor 2
-2.05 minutes elapsed
-
-Completed run 4 of 25 on Processor 0
-1.53 minutes elapsed
+Completed run 1 of 25 on Processor 0
+1.87 minutes elapsed
 
 Completed run 3 of 25 on Processor 1
-3.32 minutes elapsed
+51.08 seconds elapsed
+
+Completed run 2 of 25 on Processor 0
+38.16 seconds elapsed
+
+Completed run 2 of 25 on Processor 2
+1.18 minutes elapsed
+
+Completed run 3 of 25 on Processor 0
+49.78 seconds elapsed
+
+Completed run 3 of 25 on Processor 2
+38.86 seconds elapsed
 
 Completed run 4 of 25 on Processor 1
-45.63 seconds elapsed
+1.07 minutes elapsed
+
+Completed run 4 of 25 on Processor 0
+40.07 seconds elapsed
 
 Completed run 4 of 25 on Processor 2
-2.45 minutes elapsed
+59.41 seconds elapsed
+
+Completed run 5 of 25 on Processor 0
+31.60 seconds elapsed
 
 Completed run 5 of 25 on Processor 1
-1.27 minutes elapsed
-
-Completed run 5 of 25 on Processor 2
-1.13 minutes elapsed
+1.08 minutes elapsed
 
 Completed run 6 of 25 on Processor 1
-34.79 seconds elapsed
+41.64 seconds elapsed
+
+Completed run 6 of 25 on Processor 0
+1.35 minutes elapsed
+
+Completed run 5 of 25 on Processor 2
+1.56 minutes elapsed
+
+Completed run 7 of 25 on Processor 1
+46.98 seconds elapsed
+
+Completed run 7 of 25 on Processor 0
+1.44 minutes elapsed
 
 Completed run 6 of 25 on Processor 2
-59.90 seconds elapsed
+1.51 minutes elapsed
 
-Completed run 7 of 25 on Processor 1
-1.00 minutes elapsed
-
-Completed run 2 of 25 on Processor 3
-7.44 minutes elapsed
+Completed run 8 of 25 on Processor 0
+1.33 minutes elapsed
 
 Completed run 7 of 25 on Processor 2
-1.20 minutes elapsed
-
-Completed run 8 of 25 on Processor 1
-1.21 minutes elapsed
-
-Completed run 8 of 25 on Processor 2
-1.01 minutes elapsed
-
-Completed run 9 of 25 on Processor 2
-21.80 seconds elapsed
-
-Completed run 3 of 25 on Processor 3
-1.65 minutes elapsed
-
-Completed run 9 of 25 on Processor 1
-1.19 minutes elapsed
-
-Completed run 10 of 25 on Processor 2
-53.11 seconds elapsed
-
-Completed run 10 of 25 on Processor 1
-1.40 minutes elapsed
-
-Completed run 4 of 25 on Processor 3
-1.53 minutes elapsed
-
-Completed run 11 of 25 on Processor 1
-35.80 seconds elapsed
-
-Completed run 12 of 25 on Processor 1
-41.13 seconds elapsed
-
-Completed run 5 of 25 on Processor 3
-1.57 minutes elapsed
-
-Completed run 6 of 25 on Processor 3
-59.14 seconds elapsed
-
-Completed run 13 of 25 on Processor 1
-2.01 minutes elapsed
-
-Completed run 7 of 25 on Processor 3
-1.86 minutes elapsed
-
-Completed run 14 of 25 on Processor 1
-1.24 minutes elapsed
-
-Completed run 8 of 25 on Processor 3
-34.51 seconds elapsed
-
-Completed run 15 of 25 on Processor 1
-55.61 seconds elapsed
-
-Completed run 9 of 25 on Processor 3
-1.08 minutes elapsed
-Processor 3 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-[scarcity-10.glbrc.org:27527] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:27527] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:27527] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 0 timed out. Aborting MPI job.
-Processor 1 timed out. Aborting MPI job.
-Processor 2 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:27527] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:27527] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-36.74 seconds elapsed
-
-Combining D matrix
-6.88 seconds elapsed
-
-Clustering
-0.10 seconds elapsed
-
-Identified 81 clusters
-
-Loading individual S and A matrices
-3.91 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-0.79 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/160
-1.26 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#''#'
-# Computing dimension 180 of 278 #
-############################'#''#''#''#''#''#'
-
-Setting up...
-0.23 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 1
-1.71 minutes elapsed
-
-Completed run 1 of 25 on Processor 3
-2.03 minutes elapsed
-
-Completed run 2 of 25 on Processor 3
-1.93 minutes elapsed
-
-Completed run 3 of 25 on Processor 3
-1.54 minutes elapsed
-Processor 3 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-[scarcity-10.glbrc.org:24281] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:24281] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:24281] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 0 timed out. Aborting MPI job.
-Processor 2 timed out. Aborting MPI job.
-Processor 1 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:24281] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:24281] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-1.09 seconds elapsed
-
-Combining D matrix
-0.16 seconds elapsed
-
-Clustering
-0.02 seconds elapsed
-
-Identified 77 clusters
-
-Loading individual S and A matrices
-0.38 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-0.17 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/180
-0.42 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#''#'
-# Computing dimension 200 of 278 #
-############################'#''#''#''#''#''#'
-
-Setting up...
-0.22 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 3
-1.12 minutes elapsed
-
-Completed run 1 of 25 on Processor 0
-1.77 minutes elapsed
-
-Completed run 1 of 25 on Processor 2
-2.00 minutes elapsed
-
-Completed run 1 of 25 on Processor 1
-2.80 minutes elapsed
-
-Completed run 2 of 25 on Processor 3
-1.97 minutes elapsed
-
-Completed run 2 of 25 on Processor 2
 1.98 minutes elapsed
 
-Completed run 2 of 25 on Processor 0
-2.40 minutes elapsed
+Completed run 8 of 25 on Processor 2
+58.55 seconds elapsed
 
-Completed run 3 of 25 on Processor 3
-1.62 minutes elapsed
+Completed run 9 of 25 on Processor 0
+2.09 minutes elapsed
 
-Completed run 2 of 25 on Processor 1
-2.10 minutes elapsed
+Completed run 9 of 25 on Processor 2
+1.19 minutes elapsed
 
-Completed run 3 of 25 on Processor 2
-1.53 minutes elapsed
+Completed run 10 of 25 on Processor 0
+1.26 minutes elapsed
 
-Completed run 3 of 25 on Processor 0
-1.41 minutes elapsed
+Completed run 11 of 25 on Processor 0
+27.57 seconds elapsed
 
-Completed run 3 of 25 on Processor 1
-1.74 minutes elapsed
+Completed run 10 of 25 on Processor 2
+1.19 minutes elapsed
 
-Completed run 4 of 25 on Processor 0
-1.10 minutes elapsed
+Completed run 11 of 25 on Processor 2
+36.00 seconds elapsed
 
-Completed run 4 of 25 on Processor 3
-2.01 minutes elapsed
+Completed run 12 of 25 on Processor 0
+1.05 minutes elapsed
 
-Completed run 4 of 25 on Processor 1
-1.21 minutes elapsed
+Completed run 13 of 25 on Processor 0
+1.06 minutes elapsed
 
-Completed run 5 of 25 on Processor 3
-1.48 minutes elapsed
-
-Completed run 5 of 25 on Processor 1
-1.41 minutes elapsed
-
-Completed run 5 of 25 on Processor 0
-3.44 minutes elapsed
-
-Completed run 6 of 25 on Processor 1
-1.91 minutes elapsed
-
-Completed run 6 of 25 on Processor 3
-3.06 minutes elapsed
-
-Completed run 6 of 25 on Processor 0
-1.62 minutes elapsed
-
-Completed run 7 of 25 on Processor 1
-1.63 minutes elapsed
-
-Completed run 7 of 25 on Processor 3
-1.74 minutes elapsed
-
-Completed run 7 of 25 on Processor 0
-2.19 minutes elapsed
-
-Completed run 8 of 25 on Processor 0
-1.20 minutes elapsed
-
-Completed run 8 of 25 on Processor 1
-2.53 minutes elapsed
-
-Completed run 8 of 25 on Processor 3
-2.86 minutes elapsed
-
-Completed run 9 of 25 on Processor 1
-1.31 minutes elapsed
-
-Completed run 9 of 25 on Processor 3
+Completed run 12 of 25 on Processor 2
 1.40 minutes elapsed
 
-Completed run 9 of 25 on Processor 0
-2.37 minutes elapsed
-
-Completed run 10 of 25 on Processor 1
-2.56 minutes elapsed
-
-Completed run 10 of 25 on Processor 3
-2.31 minutes elapsed
-
-Completed run 10 of 25 on Processor 0
-2.77 minutes elapsed
-
-Completed run 11 of 25 on Processor 0
-2.09 minutes elapsed
-
-Completed run 11 of 25 on Processor 3
-2.85 minutes elapsed
-
-Completed run 12 of 25 on Processor 0
-2.57 minutes elapsed
-
-Completed run 12 of 25 on Processor 3
-2.58 minutes elapsed
-
-Completed run 13 of 25 on Processor 0
-1.42 minutes elapsed
-
-Completed run 13 of 25 on Processor 3
-1.77 minutes elapsed
-
 Completed run 14 of 25 on Processor 0
-3.83 minutes elapsed
+50.99 seconds elapsed
 
-Completed run 11 of 25 on Processor 1
-11.72 minutes elapsed
+Completed run 13 of 25 on Processor 2
+1.16 minutes elapsed
 
 Completed run 15 of 25 on Processor 0
-2.82 minutes elapsed
+39.13 seconds elapsed
 
-Completed run 12 of 25 on Processor 1
-3.39 minutes elapsed
+Completed run 14 of 25 on Processor 2
+52.62 seconds elapsed
 
 Completed run 16 of 25 on Processor 0
-2.48 minutes elapsed
-
-Completed run 13 of 25 on Processor 1
-3.20 minutes elapsed
+57.07 seconds elapsed
 
 Completed run 17 of 25 on Processor 0
-2.17 minutes elapsed
+1.16 minutes elapsed
 
 Completed run 18 of 25 on Processor 0
-3.22 minutes elapsed
-Processor 1 timed out. Aborting MPI job.
+1.04 minutes elapsed
+Processor 3 timed out. Aborting MPI job.
 --------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
 with errorcode 1.
 
 NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
 You may or may not see output from other processes, depending on
 exactly when Open MPI kills them.
 --------------------------------------------------------------------------
-[scarcity-10.glbrc.org:30392] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:30392] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:30392] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:14050] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:14050] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:14050] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
 Processor 2 timed out. Aborting MPI job.
-Processor 3 timed out. Aborting MPI job.
+Processor 1 timed out. Aborting MPI job.
 Processor 0 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:30392] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:30392] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[scarcity-10.glbrc.org:14050] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:14050] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
 
 Checking and deleting small files.
 
@@ -2032,222 +1702,64 @@ Adjustment completed
 Computing clusters...
 
 Distance matrix completed!
-1.13 minutes elapsed
+35.99 seconds elapsed
 
 Combining D matrix
-10.63 seconds elapsed
-
-Clustering
-0.17 seconds elapsed
-
-Identified 106 clusters
-
-Loading individual S and A matrices
-6.42 seconds elapsed
-
-Gathering final S and A matrices
-
-Final components created
-1.38 seconds elapsed
-
-Writing files to ../data/interim/ica_runs/200
-1.79 seconds elapsed
-
-Complete!
-
-
-############################'#''#''#''#''#''#'
-# Computing dimension 220 of 278 #
-############################'#''#''#''#''#''#'
-
-Setting up...
-0.36 seconds elapsed
-
-Running ICA...
-
-Completed run 1 of 25 on Processor 2
-2.01 minutes elapsed
-
-Completed run 1 of 25 on Processor 0
-2.04 minutes elapsed
-
-Completed run 1 of 25 on Processor 3
-3.04 minutes elapsed
-
-Completed run 2 of 25 on Processor 2
-2.00 minutes elapsed
-
-Completed run 2 of 25 on Processor 3
-1.70 minutes elapsed
-
-Completed run 2 of 25 on Processor 0
-3.11 minutes elapsed
-
-Completed run 3 of 25 on Processor 2
-2.37 minutes elapsed
-
-Completed run 3 of 25 on Processor 3
-2.09 minutes elapsed
-
-Completed run 3 of 25 on Processor 0
-2.04 minutes elapsed
-
-Completed run 4 of 25 on Processor 3
-3.14 minutes elapsed
-
-Completed run 4 of 25 on Processor 0
-3.06 minutes elapsed
-
-Completed run 4 of 25 on Processor 2
-4.25 minutes elapsed
-
-Completed run 5 of 25 on Processor 0
-1.63 minutes elapsed
-
-Completed run 5 of 25 on Processor 2
-1.39 minutes elapsed
-
-Completed run 6 of 25 on Processor 0
-4.03 minutes elapsed
-
-Completed run 7 of 25 on Processor 0
-1.85 minutes elapsed
-
-Completed run 8 of 25 on Processor 0
-2.91 minutes elapsed
-
-Completed run 9 of 25 on Processor 0
-5.20 minutes elapsed
-
-Completed run 10 of 25 on Processor 0
-2.36 minutes elapsed
-
-Completed run 11 of 25 on Processor 0
-1.53 minutes elapsed
-
-Completed run 12 of 25 on Processor 0
-3.38 minutes elapsed
-
-Completed run 13 of 25 on Processor 0
-2.46 minutes elapsed
-
-Completed run 14 of 25 on Processor 0
-2.30 minutes elapsed
-
-Completed run 15 of 25 on Processor 0
-3.65 minutes elapsed
-
-Completed run 16 of 25 on Processor 0
-3.02 minutes elapsed
-
-Completed run 17 of 25 on Processor 0
-2.88 minutes elapsed
-
-Completed run 18 of 25 on Processor 0
-2.78 minutes elapsed
-
-Completed run 19 of 25 on Processor 0
-2.74 minutes elapsed
-
-Completed run 20 of 25 on Processor 0
-2.14 minutes elapsed
-
-Completed run 21 of 25 on Processor 0
-2.76 minutes elapsed
-
-Completed run 22 of 25 on Processor 0
-1.28 minutes elapsed
-
-Completed run 23 of 25 on Processor 0
-1.58 minutes elapsed
-Processor 2 timed out. Aborting MPI job.
---------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
-with errorcode 1.
-
-NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
-You may or may not see output from other processes, depending on
-exactly when Open MPI kills them.
---------------------------------------------------------------------------
-[scarcity-10.glbrc.org:16659] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:16659] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:16659] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-Processor 1 timed out. Aborting MPI job.
-Processor 3 timed out. Aborting MPI job.
-Processor 0 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:16659] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:16659] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-
-Checking and deleting small files.
-
-Renaming to sequential order completed.
-
-Adjustment completed
-
-Computing clusters...
-
-Distance matrix completed!
-33.82 seconds elapsed
-
-Combining D matrix
-4.76 seconds elapsed
+6.82 seconds elapsed
 
 Clustering
 0.11 seconds elapsed
 
-Identified 118 clusters
+Identified 88 clusters
 
 Loading individual S and A matrices
-4.67 seconds elapsed
+4.13 seconds elapsed
 
 Gathering final S and A matrices
 
 Final components created
-1.10 seconds elapsed
+0.99 seconds elapsed
 
-Writing files to ../data/interim/ica_runs/220
-1.16 seconds elapsed
+Writing files to ../data/interim/ica_runs/160
+1.40 seconds elapsed
 
 Complete!
 
 
 ############################'#''#''#''#''#''#'
-# Computing dimension 240 of 278 #
+# Computing dimension 180 of 312 #
 ############################'#''#''#''#''#''#'
 
 Setting up...
-0.38 seconds elapsed
+0.31 seconds elapsed
 
 Running ICA...
 
-Completed run 1 of 25 on Processor 2
-1.21 minutes elapsed
-
 Completed run 1 of 25 on Processor 3
-2.54 minutes elapsed
+1.63 minutes elapsed
 
-Completed run 2 of 25 on Processor 3
-3.05 minutes elapsed
+Completed run 1 of 25 on Processor 1
+1.94 minutes elapsed
 
-Completed run 3 of 25 on Processor 3
-2.52 minutes elapsed
-Processor 2 timed out. Aborting MPI job.--------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+Completed run 2 of 25 on Processor 1
+1.01 minutes elapsed
+Processor 3 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
 with errorcode 1.
 
 NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
 You may or may not see output from other processes, depending on
 exactly when Open MPI kills them.
 --------------------------------------------------------------------------
-
-[scarcity-10.glbrc.org:03284] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:03284] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:03284] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:07195] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:07195] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:07195] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
 Processor 1 timed out. Aborting MPI job.
+Processor 2 timed out. Aborting MPI job.
 Processor 0 timed out. Aborting MPI job.
-Processor 3 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:03284] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:03284] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[scarcity-10.glbrc.org:07195] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:07195] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
 
 Checking and deleting small files.
 
@@ -2258,156 +1770,217 @@ Adjustment completed
 Computing clusters...
 
 Distance matrix completed!
-1.43 seconds elapsed
+0.80 seconds elapsed
+
+Combining D matrix
+0.12 seconds elapsed
+
+Clustering
+0.01 seconds elapsed
+
+Identified 83 clusters
+
+Loading individual S and A matrices
+0.27 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.18 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/180
+0.52 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 200 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.18 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 2
+1.08 minutes elapsed
+
+Completed run 1 of 25 on Processor 3
+2.85 minutes elapsed
+
+Completed run 2 of 25 on Processor 2
+2.91 minutes elapsed
+
+Completed run 2 of 25 on Processor 3
+1.51 minutes elapsed
+Processor 0 timed out. Aborting MPI job.--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+Processor 1 timed out. Aborting MPI job.
+Processor 2 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:25467] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:25467] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 3 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:25467] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:25467] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+1.44 seconds elapsed
+
+Combining D matrix
+0.15 seconds elapsed
+
+Clustering
+0.01 seconds elapsed
+
+Identified 86 clusters
+
+Loading individual S and A matrices
+0.41 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.20 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/200
+0.46 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 220 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.15 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 1
+2.29 minutes elapsed
+
+Completed run 1 of 25 on Processor 0
+3.03 minutes elapsed
+Processor 2 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:12780] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:12780] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:12780] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 1 timed out. Aborting MPI job.
+Processor 0 timed out. Aborting MPI job.
+Processor 3 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:12780] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:12780] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+0.30 seconds elapsed
 
 Combining D matrix
 0.08 seconds elapsed
 
 Clustering
-0.01 seconds elapsed
+0.00 seconds elapsed
 
-Identified 110 clusters
+Identified 220 clusters
 
 Loading individual S and A matrices
-0.50 seconds elapsed
+0.18 seconds elapsed
 
 Gathering final S and A matrices
 
 Final components created
-0.26 seconds elapsed
+0.53 seconds elapsed
 
-Writing files to ../data/interim/ica_runs/240
-0.45 seconds elapsed
+Writing files to ../data/interim/ica_runs/220
+0.93 seconds elapsed
 
 Complete!
 
 
 ############################'#''#''#''#''#''#'
-# Computing dimension 260 of 278 #
+# Computing dimension 240 of 312 #
 ############################'#''#''#''#''#''#'
 
 Setting up...
-0.23 seconds elapsed
+0.15 seconds elapsed
 
 Running ICA...
 
 Completed run 1 of 25 on Processor 1
-3.74 minutes elapsed
+2.44 minutes elapsed
 
 Completed run 1 of 25 on Processor 2
-4.56 minutes elapsed
-
-Completed run 1 of 25 on Processor 0
-5.13 minutes elapsed
-
-Completed run 1 of 25 on Processor 3
-6.27 minutes elapsed
+4.17 minutes elapsed
 
 Completed run 2 of 25 on Processor 1
-2.53 minutes elapsed
+3.04 minutes elapsed
 
 Completed run 2 of 25 on Processor 2
-2.92 minutes elapsed
-
-Completed run 2 of 25 on Processor 0
-3.72 minutes elapsed
-
-Completed run 3 of 25 on Processor 1
-4.28 minutes elapsed
-
-Completed run 2 of 25 on Processor 3
-6.36 minutes elapsed
+2.37 minutes elapsed
 
 Completed run 3 of 25 on Processor 2
-5.58 minutes elapsed
-
-Completed run 3 of 25 on Processor 3
-3.37 minutes elapsed
-
-Completed run 4 of 25 on Processor 1
-6.90 minutes elapsed
+2.55 minutes elapsed
 
 Completed run 4 of 25 on Processor 2
-4.81 minutes elapsed
+2.41 minutes elapsed
 
 Completed run 5 of 25 on Processor 2
-4.48 minutes elapsed
-
-Completed run 5 of 25 on Processor 1
-5.22 minutes elapsed
+3.65 minutes elapsed
 
 Completed run 6 of 25 on Processor 2
-2.48 minutes elapsed
+5.13 minutes elapsed
 
 Completed run 7 of 25 on Processor 2
-3.60 minutes elapsed
-
-Completed run 8 of 25 on Processor 2
-3.13 minutes elapsed
-
-Completed run 9 of 25 on Processor 2
-3.88 minutes elapsed
-
-Completed run 6 of 25 on Processor 1
-14.49 minutes elapsed
-
-Completed run 10 of 25 on Processor 2
-2.62 minutes elapsed
-
-Completed run 4 of 25 on Processor 3
-24.20 minutes elapsed
-
-Completed run 11 of 25 on Processor 2
-2.70 minutes elapsed
-
-Completed run 7 of 25 on Processor 1
-3.93 minutes elapsed
-
-Completed run 5 of 25 on Processor 3
-3.68 minutes elapsed
-
-Completed run 8 of 25 on Processor 1
-4.59 minutes elapsed
-
-Completed run 12 of 25 on Processor 2
-5.33 minutes elapsed
-
-Completed run 13 of 25 on Processor 2
-2.96 minutes elapsed
-
-Completed run 14 of 25 on Processor 2
-3.01 minutes elapsed
-
-Completed run 9 of 25 on Processor 1
-8.21 minutes elapsed
-
-Completed run 15 of 25 on Processor 2
-2.34 minutes elapsed
-
-Completed run 10 of 25 on Processor 1
-3.36 minutes elapsed
-
-Completed run 11 of 25 on Processor 1
-2.26 minutes elapsed
-
-Completed run 12 of 25 on Processor 1
-4.89 minutes elapsed
-Processor 1 timed out. Aborting MPI job.
+2.28 minutes elapsed
+Processor 3 timed out. Aborting MPI job.
 --------------------------------------------------------------------------
-MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
 with errorcode 1.
 
 NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
 You may or may not see output from other processes, depending on
 exactly when Open MPI kills them.
 --------------------------------------------------------------------------
-[scarcity-10.glbrc.org:22095] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
-[scarcity-10.glbrc.org:22095] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
 Processor 0 timed out. Aborting MPI job.
-Processor 3 timed out. Aborting MPI job.
+Processor 1 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:31160] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:31160] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:31160] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
 Processor 2 timed out. Aborting MPI job.
-[scarcity-10.glbrc.org:22095] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
-[scarcity-10.glbrc.org:22095] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[scarcity-10.glbrc.org:31160] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:31160] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
 
 Checking and deleting small files.
 
@@ -2418,34 +1991,356 @@ Adjustment completed
 Computing clusters...
 
 Distance matrix completed!
-55.66 seconds elapsed
+3.72 seconds elapsed
 
 Combining D matrix
-19.53 seconds elapsed
+0.38 seconds elapsed
 
 Clustering
-0.17 seconds elapsed
+0.03 seconds elapsed
 
-Identified 154 clusters
+Identified 131 clusters
 
 Loading individual S and A matrices
-7.48 seconds elapsed
+1.35 seconds elapsed
 
 Gathering final S and A matrices
 
 Final components created
-1.60 seconds elapsed
+0.51 seconds elapsed
 
-Writing files to ../data/interim/ica_runs/260
-3.62 seconds elapsed
+Writing files to ../data/interim/ica_runs/240
+0.66 seconds elapsed
 
 Complete!
 
 
+############################'#''#''#''#''#''#'
+# Computing dimension 260 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.18 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 0
+2.85 minutes elapsed
+
+Completed run 1 of 25 on Processor 1
+3.38 minutes elapsed
+
+Completed run 1 of 25 on Processor 2
+6.35 minutes elapsed
+
+Completed run 2 of 25 on Processor 0
+4.10 minutes elapsed
+
+Completed run 2 of 25 on Processor 1
+5.47 minutes elapsed
+
+Completed run 3 of 25 on Processor 1
+1.78 minutes elapsed
+Processor 2 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:18297] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:18297] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:18297] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 1 timed out. Aborting MPI job.
+Processor 0 timed out. Aborting MPI job.
+Processor 3 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:18297] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:18297] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+2.34 seconds elapsed
+
+Combining D matrix
+0.23 seconds elapsed
+
+Clustering
+0.04 seconds elapsed
+
+Identified 144 clusters
+
+Loading individual S and A matrices
+0.92 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.51 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/260
+0.75 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 280 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.15 seconds elapsed
+
+Running ICA...
+
+Completed run 1 of 25 on Processor 3
+3.17 minutes elapsed
+
+Completed run 1 of 25 on Processor 1
+3.56 minutes elapsed
+
+Completed run 1 of 25 on Processor 2
+3.80 minutes elapsed
+
+Completed run 1 of 25 on Processor 0
+6.38 minutes elapsed
+
+Completed run 2 of 25 on Processor 3
+3.28 minutes elapsed
+
+Completed run 2 of 25 on Processor 1
+4.73 minutes elapsed
+
+Completed run 3 of 25 on Processor 3
+4.09 minutes elapsed
+
+Completed run 3 of 25 on Processor 1
+2.52 minutes elapsed
+Processor 1 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:04926] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:04926] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:04926] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 0 timed out. Aborting MPI job.
+Processor 3 timed out. Aborting MPI job.
+Processor 2 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:04926] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:04926] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+3.70 seconds elapsed
+
+Combining D matrix
+0.31 seconds elapsed
+
+Clustering
+0.03 seconds elapsed
+
+Identified 158 clusters
+
+Loading individual S and A matrices
+1.41 seconds elapsed
+
+Gathering final S and A matrices
+
+Final components created
+0.61 seconds elapsed
+
+Writing files to ../data/interim/ica_runs/280
+0.62 seconds elapsed
+
+Complete!
+
+
+############################'#''#''#''#''#''#'
+# Computing dimension 300 of 312 #
+############################'#''#''#''#''#''#'
+
+Setting up...
+0.17 seconds elapsed
+
+Running ICA...
+Processor 1 timed out. Aborting MPI job.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+Processor 0 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:26096] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:26096] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+Processor 2 timed out. Aborting MPI job.
+Processor 3 timed out. Aborting MPI job.
+[scarcity-10.glbrc.org:26096] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:26096] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Checking and deleting small files.
+
+Renaming to sequential order completed.
+
+Adjustment completed
+
+Computing clusters...
+
+Distance matrix completed!
+0.00 seconds elapsed
+Traceback (most recent call last):
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+Traceback (most recent call last):
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+Traceback (most recent call last):
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+Traceback (most recent call last):
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+
+Combining D matrix
+    "__main__", mod_spec)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    "__main__", mod_spec)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    "__main__", mod_spec)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    "__main__", mod_spec)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/__main__.py", line 7, in <module>
+    exec(code, run_globals)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/__main__.py", line 7, in <module>
+    exec(code, run_globals)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/__main__.py", line 7, in <module>
+    exec(code, run_globals)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/__main__.py", line 7, in <module>
+    main()
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 198, in main
+    main()
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 198, in main
+    main()
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 198, in main
+    run_command_line(args)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 47, in run_command_line
+    run_command_line(args)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 47, in run_command_line
+    main()
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 198, in main
+    run_command_line(args)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 47, in run_command_line
+    run_path(sys.argv[0], run_name='__main__')
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 263, in run_path
+    run_path(sys.argv[0], run_name='__main__')
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 263, in run_path
+    run_path(sys.argv[0], run_name='__main__')
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 263, in run_path
+    run_command_line(args)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/mpi4py/run.py", line 47, in run_command_line
+    pkg_name=pkg_name, script_name=fname)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 96, in _run_module_code
+    pkg_name=pkg_name, script_name=fname)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 96, in _run_module_code
+    pkg_name=pkg_name, script_name=fname)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 96, in _run_module_code
+    run_path(sys.argv[0], run_name='__main__')
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 263, in run_path
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    pkg_name=pkg_name, script_name=fname)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 96, in _run_module_code
+    exec(code, run_globals)
+  File "cluster_components.py", line 159, in <module>
+    exec(code, run_globals)
+  File "cluster_components.py", line 159, in <module>
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "cluster_components.py", line 159, in <module>
+    D = sparse.bmat(block, "csr")
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/scipy/sparse/construct.py", line 550, in bmat
+    D = sparse.bmat(block, "csr")
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/scipy/sparse/construct.py", line 550, in bmat
+    D = sparse.bmat(block, "csr")
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/scipy/sparse/construct.py", line 550, in bmat
+    exec(code, run_globals)
+  File "cluster_components.py", line 159, in <module>
+    D = sparse.bmat(block, "csr")
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/scipy/sparse/construct.py", line 550, in bmat
+    raise ValueError('blocks must be 2-D')
+ValueError: blocks must be 2-D
+    raise ValueError('blocks must be 2-D')
+ValueError: blocks must be 2-D
+    raise ValueError('blocks must be 2-D')
+ValueError: blocks must be 2-D
+    raise ValueError('blocks must be 2-D')
+ValueError: blocks must be 2-D
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[scarcity-10.glbrc.org:08517] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:08517] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:08517] PMIX ERROR: UNREACHABLE in file server/pmix_server.c at line 2193
+[scarcity-10.glbrc.org:08517] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[scarcity-10.glbrc.org:08517] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+
 Computing optimal set of independent components
 
-Optimal Dimensionality: 120
-
+Traceback (most recent call last):
+  File "get_dimension.py", line 52, in <module>
+    M_data = [load_mat(dim, "M") for dim in dims]
+  File "get_dimension.py", line 52, in <listcomp>
+    M_data = [load_mat(dim, "M") for dim in dims]
+  File "get_dimension.py", line 46, in load_mat
+    os.path.join(args.out_dir, "ica_runs", str(dim), mat + ".csv"), index_col=0
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '../data/interim/ica_runs/300/M.csv'
 
 Science complete!
-End time: Wed Nov  6 13:31:14 CST 2024
+End time: Sun Nov 10 10:21:14 CST 2024
