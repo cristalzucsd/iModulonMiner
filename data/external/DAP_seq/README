@@ -1,0 +1,45 @@
+This DAP-seq data was provided by Michael Wolfe. This is the email he wrote describing it:
+
+#########################################################################################
+
+Hey Chris,
+
+I am attaching two files here:
+
+The first (DAPseq_peak_to_gene_mapping.tsv) contains a mapping of each identified DAP-seq peak to the start of each gene in the ZM4 and associated plasmids genbank files (accession numbers: CP023715.1.gbk-CP023719.1.gbk). The fields of this file are as follows:
+
+chrm - chromosome name of peak
+peak_start - 0-based peak center coordinates
+peak_end - 0-based peak center coordinates
+TF - transcription factor the peak belongs to
+peak_enrichment - enrichment above the control sample as called by Macs2 peak caller (https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-9-r137), the higher this value the more TF signal is at that position. You could maybe use this as your “score”
+gene_start - 0-based coordinate of the gene start the peak is mapped to
+gene - identity of the gene the peak is mapped to
+gene_strand - direction of the gene
+distance - signed distance in bp (upstream vs. downstream) of the peak relative to the gene. Peak must be within 200 bp of gene start to be considered an interaction
+simple_name - a simple description of the TF generating the peaks
+class - class of the TF generating the peaks
+
+The second file (DAPseq_peak_to_promoter_mapping.tsv) is similar but is instead mapping each peak to the nearest experimentally determined promoter from (10.1128/mSystems.00250-20). This gives a cleaner mapping to actual TSSs but has the caveat of only mapping to genes actually being expressed in these conditions. Personally, I think its probably less biased to use the to gene mapping rather than the to promoter mapping. This file has the following different fields:
+
+prom_start - promoter start position
+prom_end - promoter end position
+promoter - promoter ID from the paper above
+prom_strand - direction of promoter
+gene - mapping of promoter to gene
+
+Generating these files is as simple as doing standard ChIP-analysis (cut adapt, trimmomatic, bowtie2, macs2) to identify peaks relative to the average of four negative controls of DAP-seq performed without a protein added. Taking the peak summits for each protein and using bedtools closest to map them to gene starts or promoter positions and then filtering for peak-gene or peak-promoter pairs that were within 200 bp. Happy to give more details on the analysis pipeline if you need or want them.
+
+DAP-seq has a lot of caveats as it is performed in vitro with synthesized proteins. It should be thought of as a mapping of all possible binding sites for a given TF in the absence of any co-factors and in an aerobic/micro-aerobic environment. Furthermore, the mapping is on sonicated DNA so any supercoiling or large-scale DNA structure effects on binding will be missed with this assay as will any effects of other DNA structuring or binding proteins. For more details checkout the most recent DAP-seq paper by the authors who completed these experiments: 10.1038/s41592-021-01312-2
+
+Unfortunately the sigma factors completely failed in the DAP-seq procedure. We tried to guess at removing their auto inhibitory domains to get them to bind to the DNA but it didn’t seem to work.
+
+Please let me know if you have any questions and I am looking forward to seeing what you can do with this data!
+
+-Mike
+
+-
+Michael Wolfe, Ph.D.
+Postdoctoral Research Associate
+Landick Lab
+University of Wisconsin-Madison
