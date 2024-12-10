@@ -1,55 +1,55 @@
-,regulator,pvalue,qvalue,precision,recall,f1score,TP,regulon_size,imodulon_size,n_regs,explained_variance,category,additional_info,single_gene,percent_anaero_essential,percent_aero_essential
-noise_5,,,,,,,,,130.0,,0.0038236518481996606,noise,,,0.08461538461538462,0.07692307692307693
-nitrogen_fixation,,,,,,,,,10.0,,0.024465667840652183,metabolism,,,0.0,0.0
-translation_2,,,,,,,,,18.0,,0.016510241333979936,translation,,,0.05555555555555555,0.0
-ATP_synthase_1,,,,,,,,,26.0,,0.027866071610092025,energy_production,,,0.34615384615384615,0.34615384615384615
-iron_transport,,,,,,,,,8.0,,0.016343067829434288,transport,,,0.0,0.25
-low_pH_response,,,,,,,,,13.0,,0.007107587583820907,stress_response,many unknown genes potentially can propose hypothetical functions,,0.07692307692307693,0.07692307692307693
-SG_1,,,,,,,,,1.0,,0.0012798669904822146,single_gene,,True,0.0,0.0
-nucleotides_1,,,,,,,,,5.0,,0.0075085049979931595,metabolism,has a few post-translation modifiers which seem to be a lot of these iModulons maybe something to do with heat tolerance except they aren't that active in the heat samples,,0.2,0.4
-unknown_5,,,,,,,,,15.0,,0.008345727181631402,uncharacterized,,,0.06666666666666667,0.2
-SG_2,,,,,,,,,1.0,,0.0032976281433814147,single_gene,,True,1.0,1.0
-transport_2,,,,,,,,,4.0,,0.007449561650700431,transport,,,0.0,0.0
-SG_3,,,,,,,,,1.0,,0.002938362762234137,single_gene,,True,1.0,1.0
-SG_4,,,,,,,,,1.0,,0.000967607872521481,single_gene,,True,0.0,0.0
-unknown_8,,,,,,,,,4.0,,0.002015930726930515,uncharacterized,,,0.25,0.25
-oxidation_response,,,,,,,,,25.0,,0.01512121804345512,stress_response,,,0.04,0.32
-cell_wall_1,,,,,,,,,6.0,,0.009942503890650878,structural,I think this may be a species difference,,0.0,0.0
-motility_1,,,,,,,,,16.0,,0.015779502153043135,structural,,,0.0,0.0
-SG_5,,,,,,,,,1.0,,0.006582865586825304,single_gene,,True,0.0,0.0
-SG_6,,,,,,,,,1.0,,0.006867585422302147,single_gene,,True,0.0,0.0
-noise_4,,,,,,,,,19.0,,0.0038798064193565907,noise,it has some consistent amount of translation/transcriptional genes but there's spaced really randomly and there is pretty bad replicate agreement about its activity so I'm saying noise,,0.15789473684210525,0.21052631578947367
-transport_1,,,,,,,,,13.0,,0.010561166515548281,transport,,,0.0,0.07692307692307693
-SG_7,,,,,,,,,1.0,,0.0008392065248441494,single_gene,,True,0.0,0.0
-SG_8,,,,,,,,,1.0,,0.004645881847718414,single_gene,,True,0.0,0.0
-ABC_transporters,,,,,,,,,10.0,,0.008713842215725465,transport,,,0.0,0.0
-noise_2,,,,,,,,,62.0,,0.007954197286730857,noise,,,0.11290322580645161,0.14516129032258066
-unknown_2,,,,,,,,,16.0,,0.027889340959360798,uncharacterized,lots of hypothetical proteins but good looking iModulon with high activity in pH samples,,0.0,0.0
-SG_9,,,,,,,,,1.0,,0.0005024308098956487,single_gene,,True,0.0,0.0
-SG_10,,,,,,,,,1.0,,0.0015121544420703126,single_gene,,True,0.0,0.0
-NaAc_response,,,,,,,,,2.0,,0.007269306606237258,stress_response,,,0.0,0.0
-unknown_7,,,,,,,,,3.0,,0.0021135275042275525,uncharacterized,,,0.0,0.0
-unknown_4,,,,,,,,,3.0,,0.008388410527152113,uncharacterized,,,0.0,0.0
-SG_11,,,,,,,,,1.0,,0.004763362770376034,single_gene,,True,0.0,0.0
-tetR_family_KO_2,,,,,,,,,4.0,,0.003759221331876006,regulatory,,,0.0,0.0
-translation_3,,,,,,,,,8.0,,0.0077248183073055365,translation,,,0.125,0.375
-SG_12,,,,,,,,,1.0,,0.0011814138205427094,single_gene,,True,0.0,0.0
-phage_response_2,,,,,,,,,5.0,,0.01673734758583012,stress_response,,,0.0,0.0
-glutamate_synthase,,,,,,,,,2.0,,0.015355679508855191,metabolism,,,1.0,1.0
-noise_1,,,,,,,,,52.0,,0.008226950792308507,noise,,,0.038461538461538464,0.038461538461538464
-cell_wall_2,,,,,,,,,16.0,,0.0031071229652815946,structural,maybe noise. I think it more likely is two iModulons mushed together,,0.125,0.125
-SG_13,,,,,,,,,1.0,,0.0005950769576698045,single_gene,,True,0.0,0.0
-SG_14,ZCP4_0095+ZCP4_0128,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,0.006526594137524766,single_gene,,True,0.0,0.0
-phage_response_1,,,,,,,,,13.0,,0.024946609869035075,stress_response,,,0.07692307692307693,0.07692307692307693
-iron_sulfur,,,,,,,,,4.0,,0.004532490163364433,stress_response,not very confident in this one should comare to others,,0.0,0.0
-noise_3,ZCP4_0900/ZCP4_0375,9.265269976351114e-10,1.2498849198097653e-06,0.6052631578947368,0.07467532467532467,0.1329479768786127,23.0,308.0,38.0,2.0,0.005829626698950929,noise,,,0.15789473684210525,0.23684210526315788
-sulfur_metabolism,,,,,,,,,9.0,,0.0027341591146292643,metabolism,,,0.0,0.0
-tetR_family_KO_1,,,,,,,,,1.0,,0.0046977163067069005,regulatory,,,1.0,0.0
-unknown_1,,,,,,,,,21.0,,0.036618185083616805,uncharacterized,,,0.047619047619047616,0.09523809523809523
-SG_15,,,,,,,,,1.0,,0.0018412751595286991,single_gene,,True,0.0,0.0
-methionine_transport,,,,,,,,,5.0,,0.003305193291681996,transport,,,0.6,0.0
-unknown_6,,,,,,,,,117.0,,0.006332912756310649,uncharacterized,a lot of these are from one plasmid which is potentially interesting? It looks like real noise though but I suppose a chromosome's noise could be on its own? I first would want to check how highly correlated the plasmid's genes are with each other before looking too much into this,,0.05128205128205128,0.05128205128205128
-ATP_synthase_2,,,,,,,,,25.0,,0.004841824662171201,energy_production,,,0.44,0.16
-translation_1,,,,,,,,,39.0,,0.0644581439853884,translation,,,0.15384615384615385,0.15384615384615385
-unknown_3,,,,,,,,,5.0,,0.009187316819142533,uncharacterized,,,0.0,0.0
-SG_16,,,,,,,,,1.0,,0.003111809667452725,single_gene,,True,0.0,0.0
+,regulator,pvalue,qvalue,precision,recall,f1score,TP,regulon_size,imodulon_size,n_regs,additional_info,old_name,category,single_gene,explained_variance,flipped?,should_be_flipped?,percent_anaero_essential,percent_aero_essential
+noise_5,,,,,,,,,130.0,,,noise_5,noise,,0.0038236518481991055,,,0.08461538461538462,0.07692307692307693
+nitrogen_fixation,,,,,,,,,10.0,,,nitrogen_fixation,metabolism,,0.02446566784065196,,,0.0,0.0
+translation_2,,,,,,,,,18.0,,,translation_2,translation,,0.016510241333979048,,,0.05555555555555555,0.0
+glycolysis_and_ATP_synthase,,,,,,,,,26.0,,,ATP_synthase_1,metabolism,,0.02786607161009147,,,0.34615384615384615,0.34615384615384615
+siderophore_receptor,,,,,,,,,8.0,,,iron_transport,transport,,0.016343067829433178,,,0.0,0.25
+low_pH_response,,,,,,,,,13.0,,many unknown genes potentially can propose hypothetical functions,low_pH_response,stress_response,,0.007107587583820352,,,0.07692307692307693,0.07692307692307693
+SG_1,,,,,,,,,1.0,,,SG_1,single_gene,True,0.0012798669904815485,,,0.0,0.0
+ribonucleoside_reductase,,,,,,,,,5.0,,has a few post-translation modifiers which seem to be a lot of these iModulons maybe something to do with heat tolerance except they aren't that active in the heat samples,nucleotides_1,metabolism,,0.007508504997991938,,,0.2,0.4
+aldose_transport_maybe,,,,,,,,,15.0,,,unknown_5,uncharacterized,,0.008345727181631069,,,0.06666666666666667,0.2
+SG_2,,,,,,,,,1.0,,,SG_2,single_gene,True,0.0032976281433808596,,,1.0,1.0
+transport_2,,,,,,,,,4.0,,,transport_2,transport,,0.007449561650699654,,,0.0,0.0
+SG_3,,,,,,,,,1.0,,,SG_3,single_gene,True,0.0029383627622335817,,,1.0,1.0
+SG_4,,,,,,,,,1.0,,,SG_4,single_gene,True,0.0009676078725209258,,,0.0,0.0
+unknown_3,,,,,,,,,4.0,,,unknown_8,uncharacterized,,0.0020159307269297377,,,0.25,0.25
+oxidation_response,,,,,,,,,25.0,,,oxidation_response,stress_response,,0.015121218043454565,,,0.04,0.32
+toxin_secretion,,,,,,,,,6.0,,I think this may be a species difference,cell_wall_1,defense,,0.00994250389064999,,,0.0,0.0
+motility,,,,,,,,,16.0,,,motility_1,structural,,0.015779502153042357,,,0.0,0.0
+SG_5,,,,,,,,,1.0,,,SG_5,single_gene,True,0.006582865586824749,,,0.0,0.0
+SG_6,,,,,,,,,1.0,,,SG_6,single_gene,True,0.006867585422301481,,,0.0,0.0
+noise_4,,,,,,,,,19.0,,it has some consistent amount of translation/transcriptional genes but there's spaced really randomly and there is pretty bad replicate agreement about its activity so I'm saying noise,noise_4,noise,,0.0038798064193560355,,,0.15789473684210525,0.21052631578947367
+transport_1,,,,,,,,,13.0,,,transport_1,transport,,0.01056116651554806,,,0.0,0.07692307692307693
+SG_7,,,,,,,,,1.0,,,SG_7,single_gene,True,0.0008392065248433722,,,0.0,0.0
+SG_8,,,,,,,,,1.0,,,SG_8,single_gene,True,0.004645881847717859,,,0.0,0.0
+sulfur_transport,,,,,,,,,10.0,,,ABC_transporters,transport,,0.008713842215725243,,,0.0,0.0
+noise_2,,,,,,,,,62.0,,,noise_2,noise,,0.007954197286730302,,,0.11290322580645161,0.14516129032258066
+fructose_transport_maybe,,,,,,,,,16.0,,lots of hypothetical proteins but good looking iModulon with high activity in pH samples,unknown_2,uncharacterized,,0.027889340959360465,,,0.0,0.0
+SG_9,,,,,,,,,1.0,,,SG_9,single_gene,True,0.0005024308098946495,,,0.0,0.0
+SG_10,,,,,,,,,1.0,,,SG_10,single_gene,True,0.0015121544420697575,,,0.0,0.0
+NaAc_response,,,,,,,,,2.0,,,NaAc_response,stress_response,,0.007269306606236259,,,0.0,0.0
+unknown_2,,,,,,,,,3.0,,,unknown_7,uncharacterized,,0.0021135275042275525,,,0.0,0.0
+unknown_1,,,,,,,,,3.0,,,unknown_4,uncharacterized,,0.008388410527151557,,,0.0,0.0
+SG_11,,,,,,,,,1.0,,,SG_11,single_gene,True,0.004763362770375368,,,0.0,0.0
+tetR_family_KO_2,,,,,,,,,4.0,,,tetR_family_KO_2,regulatory,,0.003759221331875451,,,0.0,0.0
+iron_ABC_transport,,,,,,,,,8.0,,,translation_3,transport,,0.00772481830730487,,,0.125,0.375
+SG_12,,,,,,,,,1.0,,,SG_12,single_gene,True,0.0011814138205421543,,,0.0,0.0
+phage_shock,,,,,,,,,5.0,,,phage_response_2,stress_response,,0.016737347585829898,,,0.0,0.0
+glutamate_synthase,,,,,,,,,2.0,,,glutamate_synthase,metabolism,,0.015355679508854636,,,1.0,1.0
+membrane_cobalmin,,,,,,,,,52.0,,,noise_1,structural,,0.008226950792308285,,,0.038461538461538464,0.038461538461538464
+cell_wall,,,,,,,,,16.0,,maybe noise. I think it more likely is two iModulons mushed together,cell_wall_2,structural,,0.0031071229652809285,,,0.125,0.125
+SG_13,,,,,,,,,1.0,,,SG_13,single_gene,True,0.0005950769576694714,,,0.0,0.0
+SG_14,ZCP4_0095+ZCP4_0128,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,,SG_14,single_gene,True,0.006526594137523545,,,0.0,0.0
+phage_formation,,,,,,,,,13.0,,,phage_response_1,stress_response,,0.02494660986903441,,yes,0.07692307692307693,0.07692307692307693
+iron_sulfur,,,,,,,,,4.0,,not very confident in this one should comare to others,iron_sulfur,stress_response,,0.004532490163363767,,,0.0,0.0
+cell_cycle_maybe,ZCP4_0900/ZCP4_0375,9.265269976351114e-10,1.2498849198097653e-06,0.6052631578947368,0.07467532467532467,0.1329479768786127,23.0,308.0,38.0,2.0,,noise_3,uncharacterized,,0.00582962669894993,,,0.15789473684210525,0.23684210526315788
+sulfur_metabolism,,,,,,,,,9.0,,,sulfur_metabolism,metabolism,,0.002734159114628487,,,0.0,0.0
+tetR_family_KO_1,,,,,,,,,1.0,,,tetR_family_KO_1,regulatory,,0.004697716306705679,,,1.0,0.0
+fermentation_stress_response_maybe,,,,,,,,,21.0,,,unknown_1,uncharacterized,,0.03661818508361625,,,0.047619047619047616,0.09523809523809523
+SG_15,,,,,,,,,1.0,,,SG_15,single_gene,True,0.001841275159528033,,,0.0,0.0
+methionine_transport,,,,,,,,,5.0,,,methionine_transport,transport,,0.003305193291681774,,,0.6,0.0
+plasmid,,,,,,,,,22.0,,"a lot of these are from one plasmid which is potentially interesting? it looks like real noise though but I suppose a chromosome's noise could be on its own? I first would want to check how highly correlated the plasmid's genes are with each other before looking too much into this. I think this is an issue of cutoffs, I may want to manually recluster the genes in this iModulon",unknown_6,uncharacterized,,0.006332912756309761,,,0.0,0.0
+ETC_and_MEP,,,,,,,,,25.0,,,ATP_synthase_2,metabolism,,0.004841824662170868,,,0.44,0.16
+translation_1,,,,,,,,,39.0,,,translation_1,translation,,0.06445814398538818,,,0.15384615384615385,0.15384615384615385
+alternative_carbon_maybe,,,,,,,,,5.0,,,unknown_3,uncharacterized,,0.009187316819142088,,,0.0,0.0
+SG_16,,,,,,,,,1.0,,,SG_16,single_gene,True,0.00311180966745217,,,0.0,0.0
