@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="5.5.7" release="Wed Jun 19 13:59:04 2024 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>fimo --oc ../data/interim/FIMO_output/ ../data/external/PRODORIC_MEME_format.meme ../Zymomonas_mobilis/sequence_files/promoter_sequences.fasta</command-line>
+<settings>
+<setting name="output directory">../data/interim/FIMO_output/</setting>
+<setting name="MEME file name">../data/external/PRODORIC_MEME_format.meme</setting>
+<setting name="sequence file name">../Zymomonas_mobilis/sequence_files/promoter_sequences.fasta</setting>
+<setting name="background file name">--nrdb--</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">2</setting>
+</settings>
+<sequence-data num-sequences="1898" num-residues="1894641" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="MexR_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="GTTGATCTTATCAAC"/>
+<motif name="Anr_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="TTGACCTGCATCAA"/>
+<motif name="NarL_Escherichia_coli" alt="" width="7" best-possible-match="TACCCAT"/>
+<motif name="Fnr_Escherichia_coli" alt="" width="14" best-possible-match="TTGATTTATATCAA"/>
+<motif name="Fnr_Bacillus_subtilis" alt="" width="16" best-possible-match="TGTGAAATACTTCACA"/>
+<motif name="SpoIIID_Bacillus_subtilis" alt="" width="10" best-possible-match="AAGGACAACC"/>
+<motif name="ArgR_Pseudomonas_aeruginosa" alt="" width="16" best-possible-match="TGTCGCGTCTGCGCAA"/>
+<motif name="GlpR_Escherichia_coli" alt="" width="17" best-possible-match="GTTCGTTATTGATCATT"/>
+<motif name="ResD_Bacillus_subtilis" alt="" width="21" best-possible-match="TGAATATTTTTTGAATAATAT"/>
+<motif name="IHF_Pseudomonas_aeruginosa" alt="" width="8" best-possible-match="CAATGGTT"/>
+<motif name="RhlR_Pseudomonas_aeruginosa" alt="" width="16" best-possible-match="CTGCCAGATCTGGCAG"/>
+<motif name="LasR_Pseudomonas_aeruginosa" alt="" width="20" best-possible-match="ACCTACCTGATCTGCTAGGT"/>
+<motif name="Fur_Pseudomonas_aeruginosa" alt="" width="19" best-possible-match="GAAAATGATTATCATTATC"/>
+<motif name="HP166_Helicobacter_pylori" alt="" width="12" best-possible-match="AAACGAATCATT"/>
+<motif name="Fur_Helicobacter_pylori" alt="" width="17" best-possible-match="ATTATATTAATTATAAT"/>
+<motif name="CtsR_Bacillus_subtilis" alt="" width="17" best-possible-match="AGTCAAAGATAGTCAAA"/>
+<motif name="CtsR_Listeria_monocytogenes" alt="" width="17" best-possible-match="AGTCAAAATTAGTCAAA"/>
+<motif name="Spo0A_Bacillus_subtilis" alt="" width="12" best-possible-match="TTTGTCGAAAAA"/>
+<motif name="AraR_Bacillus_subtilis" alt="" width="16" best-possible-match="ATTTGTACGTACAAAT"/>
+<motif name="CcpA_Bacillus_subtilis" alt="" width="14" best-possible-match="TGAAAGCGTTTTCA"/>
+<motif name="ComK_Bacillus_subtilis" alt="" width="13" best-possible-match="AAAATAAGATTTT"/>
+<motif name="CcpC_Bacillus_subtilis" alt="" width="6" best-possible-match="ATAAGT"/>
+<motif name="DinR_Bacillus_subtilis" alt="" width="14" best-possible-match="CGAACATATGTTCG"/>
+<motif name="TnrA_Bacillus_subtilis" alt="" width="17" best-possible-match="TGTTAGAAAATATTACA"/>
+<motif name="GlnR_Bacillus_subtilis" alt="" width="17" best-possible-match="TGTTAATAATTATAACA"/>
+<motif name="IHF_Escherichia_coli" alt="" width="13" best-possible-match="AAATTATTGATTT"/>
+<motif name="Fis_Escherichia_coli" alt="" width="15" best-possible-match="GTTTAAAATTTAACC"/>
+<motif name="DegU_Bacillus_subtilis" alt="" width="20" best-possible-match="AGAAATATAATCCATTTCAG"/>
+<motif name="PhoP_Escherichia_coli" alt="" width="17" best-possible-match="TGTTTATGTTTTGTTTA"/>
+<motif name="PvdS_Pseudomonas_aeruginosa" alt="" width="9" best-possible-match="GCTAAATTC"/>
+<motif name="AlgU_Pseudomonas_aeruginosa" alt="" width="11" best-possible-match="GAACTTTCCAA"/>
+<motif name="CovR_Streptococcus_pyogenes" alt="" width="11" best-possible-match="AAATATTAAAA"/>
+<motif name="RofA_Streptococcus_pyogenes" alt="" width="12" best-possible-match="TTTTCTTAAAAA"/>
+<motif name="sigma45_Escherichia_coli" alt="" width="16" best-possible-match="TGGCACAAAAATTGCA"/>
+<motif name="CsrR_Streptococcus_pyogenes" alt="" width="13" best-possible-match="ATTTTTAAAAAAA"/>
+<motif name="RegR_Bradyrhizobium_japonicum" alt="" width="16" best-possible-match="TGCGACATATTGACGC"/>
+<motif name="AhrC_Bacillus_subtilis" alt="" width="18" best-possible-match="CTTGCATTTTTATTCATG"/>
+<motif name="CitT_Bacillus_subtilis" alt="" width="6" best-possible-match="AACAAA"/>
+<motif name="CodY_Bacillus_subtilis" alt="" width="15" best-possible-match="AATTTTCAAAAAATT"/>
+<motif name="ComA_Bacillus_subtilis" alt="" width="16" best-possible-match="TTGCGGTATCCCGCAT"/>
+<motif name="GerE_Bacillus_subtilis" alt="" width="12" best-possible-match="ATATAGGCCATT"/>
+<motif name="GltC_Bacillus_subtilis" alt="" width="15" best-possible-match="ATCTCATTTTGATAT"/>
+<motif name="GltR_Bacillus_subtilis" alt="" width="15" best-possible-match="ATTTAAAATTAAGAT"/>
+<motif name="Hpr_Bacillus_subtilis" alt="" width="9" best-possible-match="AATATTATT"/>
+<motif name="IolR_Bacillus_subtilis" alt="" width="11" best-possible-match="TAACCAAAAAT"/>
+<motif name="LevR_Bacillus_subtilis" alt="" width="8" best-possible-match="TGTATTAA"/>
+<motif name="LicT_Bacillus_subtilis" alt="" width="29" best-possible-match="GGATTGTTACTGATAAAGCAGGCAAAACC"/>
+<motif name="MntR_Bacillus_subtilis" alt="" width="18" best-possible-match="TTTTGCATTAGGGAAACT"/>
+<motif name="Mta_Bacillus_subtilis" alt="" width="22" best-possible-match="GACTCTACCGTAACTAGATGGT"/>
+<motif name="PhoP_Bacillus_subtilis" alt="" width="6" best-possible-match="TTAACA"/>
+<motif name="PucR_Bacillus_subtilis" alt="" width="11" best-possible-match="TTTCTTTGTTT"/>
+<motif name="PurR_Bacillus_subtilis" alt="" width="14" best-possible-match="AAATACGAACATTA"/>
+<motif name="PrfA_Listeria_monocytogenes" alt="" width="14" best-possible-match="TTAACAAATGTTAA"/>
+<motif name="RocR_Bacillus_subtilis" alt="" width="21" best-possible-match="TACGCAAAATAATTTTGCATT"/>
+<motif name="SigB_Bacillus_subtilis" alt="" width="12" best-possible-match="GTTTTAGGGAAA"/>
+<motif name="SigD_Bacillus_subtilis" alt="" width="12" best-possible-match="CTGGACCGATTA"/>
+<motif name="SigE_Bacillus_subtilis" alt="" width="11" best-possible-match="TCATACATACA"/>
+<motif name="SigH_Bacillus_subtilis" alt="" width="11" best-possible-match="AGGAATTGAAT"/>
+<motif name="SigL_Bacillus_subtilis" alt="" width="18" best-possible-match="TGGCACGGATCTTGCATT"/>
+<motif name="SigW_Bacillus_subtilis" alt="" width="15" best-possible-match="TGAAACCTTCGTATA"/>
+<motif name="SigX_Bacillus_subtilis" alt="" width="15" best-possible-match="TGAAACTTTCGTCTA"/>
+<motif name="SinR_Bacillus_subtilis" alt="" width="12" best-possible-match="TTTGTCGAATAT"/>
+<motif name="TreR_Bacillus_subtilis" alt="" width="14" best-possible-match="GTTGTATATACAAG"/>
+<motif name="Xre_Bacillus_subtilis" alt="" width="15" best-possible-match="GATACAAAATGTATC"/>
+<motif name="XylR_Bacillus_subtilis" alt="" width="10" best-possible-match="TTAGTTTGTT"/>
+<motif name="Zur_Bacillus_subtilis" alt="" width="18" best-possible-match="AATCGTAATCATTTCGAT"/>
+<motif name="ArcA_Escherichia_coli" alt="" width="10" best-possible-match="TGTTAATTAT"/>
+<motif name="CaiF_Escherichia_coli" alt="" width="34" best-possible-match="TTTCAATATTGTTTTATTGATCACCAATATTGAA"/>
+<motif name="CRP_Escherichia_coli" alt="" width="16" best-possible-match="TGTGATCTAGATCACA"/>
+<motif name="CysB_Escherichia_coli" alt="" width="15" best-possible-match="TTATTCCTCTTTTAA"/>
+<motif name="MhpR_Escherichia_coli" alt="" width="17" best-possible-match="GGTGCACCTGGTGCACA"/>
+<motif name="Lrp_Escherichia_coli" alt="" width="12" best-possible-match="CAGAATATTTTT"/>
+<motif name="Mlc_Escherichia_coli" alt="" width="21" best-possible-match="TTATTTTACAGTTCGAAATTA"/>
+<motif name="DnaA_Escherichia_coli" alt="" width="9" best-possible-match="TTATCCACA"/>
+<motif name="PhoB_Escherichia_coli" alt="" width="22" best-possible-match="CTGTCATAAATCTGTCATTTAT"/>
+<motif name="Sigma54_Escherichia_coli" alt="" width="11" best-possible-match="TGGCATTTGCA"/>
+<motif name="AlgR_Pseudomonas_aeruginosa" alt="" width="9" best-possible-match="CCGTTCGTC"/>
+<motif name="Dnr_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="TTGACTTTCATCAA"/>
+<motif name="ExsA_Pseudomonas_aeruginosa" alt="" width="8" best-possible-match="TAAAAAAA"/>
+<motif name="FleQ_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="GTCAATAAATTGAC"/>
+<motif name="GlpR_Pseudomonas_aeruginosa" alt="" width="20" best-possible-match="ACCCTTCGAAATTGAAAAAG"/>
+<motif name="NarL_Pseudomonas_aeruginosa" alt="" width="7" best-possible-match="TGTTTAT"/>
+<motif name="OxyR_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="ATTGATTTTCTCAAT"/>
+<motif name="PhhR_Pseudomonas_aeruginosa" alt="" width="18" best-possible-match="TGTAAAGTTTTTTTTACG"/>
+<motif name="TrpI_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="GTAATTTTTTCTGTT"/>
+<motif name="Vfr_Pseudomonas_aeruginosa" alt="" width="16" best-possible-match="TGTGATCTAGTTCTCA"/>
+<motif name="Ada_Escherichia_coli" alt="" width="13" best-possible-match="AATTTTATAGCAA"/>
+<motif name="AraC_Escherichia_coli" alt="" width="15" best-possible-match="TATGGATTATTCTGC"/>
+<motif name="ArgR_Escherichia_coli" alt="" width="14" best-possible-match="TGAATAAAAATTCA"/>
+<motif name="CynR_Escherichia_coli" alt="" width="9" best-possible-match="ATAAGTTAA"/>
+<motif name="CpxR_Escherichia_coli" alt="" width="14" best-possible-match="GTAAAAAAACGTAA"/>
+<motif name="CytR_Escherichia_coli" alt="" width="5" best-possible-match="TGCAA"/>
+<motif name="DeoR_Escherichia_coli" alt="" width="16" best-possible-match="TGTTAGAATTCTAACA"/>
+<motif name="FadR_Escherichia_coli" alt="" width="12" best-possible-match="CTGGTCTGACTT"/>
+<motif name="Cra_Escherichia_coli" alt="" width="12" best-possible-match="TGAATCGTTTCA"/>
+<motif name="FlhD-FlhC_Escherichia_coli" alt="" width="16" best-possible-match="AAATTCCGCCTCTTTT"/>
+<motif name="FhlA_Escherichia_coli" alt="" width="16" best-possible-match="CTTTGCGTCAAAAATG"/>
+<motif name="Fur_Escherichia_coli" alt="" width="19" best-possible-match="GATAATGATAATCATTATC"/>
+<motif name="GalR_Escherichia_coli" alt="" width="16" best-possible-match="ATGTAACCGTTTCCAC"/>
+<motif name="GalS_Escherichia_coli" alt="" width="12" best-possible-match="TTGTAACGGTTT"/>
+<motif name="EmrR_Escherichia_coli" alt="" width="9" best-possible-match="GTCAGCTAT"/>
+<motif name="Sigma28_Escherichia_coli" alt="" width="12" best-possible-match="TAAAGCCGATAA"/>
+<motif name="GntR_Escherichia_coli" alt="" width="16" best-possible-match="ATGTTACCCGTAACAT"/>
+<motif name="ArgP_Escherichia_coli" alt="" width="8" best-possible-match="TCTTATTA"/>
+<motif name="GadX_Escherichia_coli" alt="" width="18" best-possible-match="TTAGGTTAATTTTATTAT"/>
+<motif name="IlvY_Escherichia_coli" alt="" width="21" best-possible-match="ATATTTCAATTTTTGCAATAT"/>
+<motif name="LacI_Escherichia_coli" alt="" width="21" best-possible-match="AATTGTGAGCGGATAACAATT"/>
+<motif name="MalI_Escherichia_coli" alt="" width="16" best-possible-match="GATAAAACGTTTTATC"/>
+<motif name="MalT_Escherichia_coli" alt="" width="10" best-possible-match="GGAGGATAGG"/>
+<motif name="LexA_Escherichia_coli" alt="" width="16" best-possible-match="CTGTATATATATACAG"/>
+<motif name="OmpR_Escherichia_coli" alt="" width="18" best-possible-match="TTTAAATATTGATATACA"/>
+<motif name="GcvA_Escherichia_coli" alt="" width="17" best-possible-match="ATTTTATATTAACTAAT"/>
+<motif name="MarR_Escherichia_coli" alt="" width="23" best-possible-match="TTTTACTTGCCTGGGCAATTTTT"/>
+<motif name="MetJ_Escherichia_coli" alt="" width="8" best-possible-match="TGACGTCT"/>
+<motif name="ModE_Escherichia_coli" alt="" width="23" best-possible-match="CGCTATATACATGCCTATATAAC"/>
+<motif name="Nac_Escherichia_coli" alt="" width="11" best-possible-match="ATAAGAAAATC"/>
+<motif name="NagC_Escherichia_coli" alt="" width="23" best-possible-match="TTTATTTTACTATTCAAAATATT"/>
+<motif name="NhaR_Escherichia_coli" alt="" width="13" best-possible-match="TCGTAATTTTTCA"/>
+<motif name="NtrC_Escherichia_coli" alt="" width="13" best-possible-match="GCACCATAATGGT"/>
+<motif name="OxyR_Escherichia_coli" alt="" width="15" best-possible-match="ATAGATTAAAACTAT"/>
+<motif name="MngR_Escherichia_coli" alt="" width="14" best-possible-match="TAATACAAATTTAA"/>
+<motif name="PdhR_Escherichia_coli" alt="" width="17" best-possible-match="TACTGGTTAGACCATTT"/>
+<motif name="MetR_Escherichia_coli" alt="" width="13" best-possible-match="TGAAAAAATTTCA"/>
+<motif name="RcsA-RcsB_Escherichia_coli" alt="" width="14" best-possible-match="TAAGGAATATCCTA"/>
+<motif name="MarA_Escherichia_coli" alt="" width="20" best-possible-match="ATGGCACGTTTTGCTAAATT"/>
+<motif name="NarP_Escherichia_coli" alt="" width="7" best-possible-match="TACGTTT"/>
+<motif name="Rob_Escherichia_coli" alt="" width="20" best-possible-match="ATGGCACGTTTTGCTAACTT"/>
+<motif name="RhaS_Escherichia_coli" alt="" width="16" best-possible-match="CTTTCTCCTGTGGTTG"/>
+<motif name="RhaR_Escherichia_coli" alt="" width="18" best-possible-match="TATCTTAAATTTTCGACG"/>
+<motif name="SoxR_Escherichia_coli" alt="" width="10" best-possible-match="TCCTCAAGTT"/>
+<motif name="SoxS_Escherichia_coli" alt="" width="20" best-possible-match="ATGGCACAAATTGTTAACTT"/>
+<motif name="SdiA_Escherichia_coli" alt="" width="18" best-possible-match="AAAAGCATTTGAGGAAAA"/>
+<motif name="YdiH_Bacillus_subtilis" alt="" width="22" best-possible-match="TTTGTGAATTATTGAGCAAATT"/>
+<motif name="TreR_Escherichia_coli" alt="" width="15" best-possible-match="TCGTTTCGTGAACGT"/>
+<motif name="TorR_Escherichia_coli" alt="" width="10" best-possible-match="CTGTTCATAT"/>
+<motif name="XapR_Escherichia_coli" alt="" width="13" best-possible-match="AAAAGTGTATTGG"/>
+<motif name="ZraR_Escherichia_coli" alt="" width="17" best-possible-match="GAGTAAAAATGACTCGC"/>
+<motif name="TyrR_Escherichia_coli" alt="" width="18" best-possible-match="TGTAAATAAATCTTTACA"/>
+<motif name="TrpR_Escherichia_coli" alt="" width="20" best-possible-match="TGTACTAGTTAACTAGTACA"/>
+<motif name="PlaR_Escherichia_coli" alt="" width="21" best-possible-match="AAATGAAACATTGTTTCATTT"/>
+<motif name="XylR_Escherichia_coli" alt="" width="13" best-possible-match="GAAATATAACAAT"/>
+<motif name="AmrZ_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="GGCCATAAGCCGGC"/>
+<motif name="LsrR_Escherichia_coli" alt="" width="20" best-possible-match="AAAAATTACATTAAAAATTT"/>
+<motif name="SarA_Staphylococcus_aureus" alt="" width="12" best-possible-match="ATTATTAATTAA"/>
+<motif name="PsrA_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="CAAACGTGTGTTTG"/>
+<motif name="FnrL_Rhodobacter_sphaeroides" alt="" width="14" best-possible-match="TTGATCCGGGTCAA"/>
+<motif name="PpsR_Rhodobacter_sphaeroides" alt="" width="18" best-possible-match="TGTCAAATAAAATTGACA"/>
+<motif name="NnrR_Rhodobacter_sphaeroides" alt="" width="14" best-possible-match="TTGCGCCGCCGCAA"/>
+<motif name="KdgR_Bacillus_subtilis" alt="" width="18" best-possible-match="TTTGAAACCGTTTTCAAA"/>
+<motif name="SigI_Bacillus_subtilis" alt="" width="10" best-possible-match="ACCCCCCGAA"/>
+<motif name="FadR_Bacillus_subtilis" alt="" width="20" best-possible-match="ATGAATGAATATTCATTCAT"/>
+<motif name="RghR_Bacillus_subtilis" alt="" width="6" best-possible-match="ATTGAC"/>
+<motif name="NatR_Bacillus_subtilis" alt="" width="9" best-possible-match="TTCACGACA"/>
+<motif name="CymR_Bacillus_subtilis" alt="" width="25" best-possible-match="AATACATATTAGACTTATAGGAATT"/>
+<motif name="CovR_Streptococcus_agalactiae" alt="" width="9" best-possible-match="TATTTTAAT"/>
+<motif name="MelR_Escherichia_coli" alt="" width="18" best-possible-match="TTTTCCTTTAAATCAGAT"/>
+<motif name="LeuO_Escherichia_coli" alt="" width="9" best-possible-match="TGTATTATT"/>
+<motif name="DevR_Mycobacterium_tuberculosis" alt="" width="18" best-possible-match="TAGGGACAAATGTCCCTA"/>
+<motif name="MurR_Escherichia_coli" alt="" width="8" best-possible-match="ATGATTCC"/>
+<motif name="CmeR_Campylobacter_jejuni" alt="" width="7" best-possible-match="TGTAATA"/>
+<motif name="AbrB_Bacillus_subtilis" alt="" width="19" best-possible-match="AAATATCCATAATTTTCAA"/>
+<motif name="McbR_Corynebacterium_glutamicum" alt="" width="16" best-possible-match="TAGACAGAGTGGTCTA"/>
+<motif name="PrrA_Rhodobacter_sphaeroides" alt="" width="9" best-possible-match="GCTGCAGGG"/>
+<motif name="NtcA_Synechocystis_sp." alt="" width="14" best-possible-match="GTAACAAAATATAC"/>
+<motif name="NtcA_Synechococcus_sp." alt="" width="14" best-possible-match="GTAGCAGATGCTAC"/>
+<motif name="SdpR_Bacillus_subtilis" alt="" width="7" best-possible-match="TCTAAAT"/>
+<motif name="Abh_Bacillus_subtilis" alt="" width="11" best-possible-match="TGTTAGTTTTA"/>
+<motif name="SigM_Bacillus_subtilis" alt="" width="12" best-possible-match="TGAAACCCCGTC"/>
+<motif name="YodB_Bacillus_subtilis" alt="" width="15" best-possible-match="TACTTTTTTTTAGTA"/>
+<motif name="YycF_Bacillus_subtilis" alt="" width="17" best-possible-match="TGTAATATAAATGTAAT"/>
+<motif name="ChbR_Escherichia_coli" alt="" width="19" best-possible-match="AGGTCAAAGAAATACTATT"/>
+<motif name="LmrA_Bacillus_subtilis" alt="" width="18" best-possible-match="ATTATATAGAACGGTCTA"/>
+<motif name="PurR_Escherichia_coli" alt="" width="16" best-possible-match="AGGAAAACGTTTGCGT"/>
+<motif name="NsrR_Escherichia_coli" alt="" width="11" best-possible-match="AAGATGCATTT"/>
+<motif name="YkvE_Bacillus_subtilis" alt="" width="18" best-possible-match="TATCTTGAATTCGAGATA"/>
+<motif name="CcpN_Bacillus_subtilis" alt="" width="10" best-possible-match="TGTGATATAC"/>
+<motif name="YrkP_Bacillus_subtilis" alt="" width="10" best-possible-match="TTCATAAATT"/>
+<motif name="Sigma54_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="TGGCACGGTTGTTGC"/>
+<motif name="EvgA_Escherichia_coli" alt="" width="18" best-possible-match="TTCCTACAGCTGTAAGAA"/>
+<motif name="SlyA_Escherichia_coli" alt="" width="12" best-possible-match="TTATAAATTAAA"/>
+<motif name="RelB_Escherichia_coli" alt="" width="12" best-possible-match="TTGTAATTACAT"/>
+<motif name="NemR_Escherichia_coli" alt="" width="14" best-possible-match="AAACCAGTCGGTTT"/>
+<motif name="AmtR_Corynebacterium_glutamicum" alt="" width="9" best-possible-match="ATCTATAGA"/>
+<motif name="CtrA_Dinoroseobacter_shibae" alt="" width="16" best-possible-match="TTAACGCAGCGTTAAC"/>
+<motif name="FnrL_Dinoroseobacter_shibae" alt="" width="14" best-possible-match="TTGATCTAGGTCAA"/>
+<motif name="DnrD_Dinoroseobacter_shibae" alt="" width="14" best-possible-match="TTGACGTAGGTCAA"/>
+<motif name="DnrE_Dinoroseobacter_shibae" alt="" width="14" best-possible-match="TTGATATTGTGTAA"/>
+<motif name="DnrF_Dinoroseobacter_shibae" alt="" width="14" best-possible-match="TTGATCTATTTCAA"/>
+<motif name="PpsR_Dinoroseobacter_shibae" alt="" width="18" best-possible-match="TGTCAATTAAATCTGACA"/>
+<motif name="Rex_Clostridium_acetobutylicum" alt="" width="18" best-possible-match="TTGTTATATTTTTAACAA"/>
+<motif name="Rex_Clostridium_beijerinckii" alt="" width="18" best-possible-match="TTGTTTTAATTTTAACAA"/>
+<motif name="Spo0A_Clostridium_beijerinckii" alt="" width="7" best-possible-match="TGTAGAA"/>
+<motif name="Spo0A_Clostridium_acetobutylicum" alt="" width="7" best-possible-match="TGTCGAA"/>
+<motif name="Spo0A_Clostridioides_difficile" alt="" width="7" best-possible-match="TGTAAAA"/>
+<motif name="RgaR_Clostridioides_difficile" alt="" width="27" best-possible-match="CCAGTTTTACATTTTTAACAACCAGTT"/>
+<motif name="CodY_Clostridioides_difficile" alt="" width="15" best-possible-match="AATTTTTTGAAAATT"/>
+<motif name="Fur_Clostridioides_difficile" alt="" width="19" best-possible-match="AATTGATAATAATAATCAA"/>
+<motif name="PerR_Clostridium_acetobutylicum" alt="" width="12" best-possible-match="AATTAATAAATA"/>
+<motif name="Fur_Bradyrhizobium_japonicum" alt="" width="6" best-possible-match="TGCAAT"/>
+<motif name="CosR_Campylobacter_jejuni" alt="" width="21" best-possible-match="TTTAAATAAAATTTATGATTT"/>
+<motif name="CcpA_Clostridioides_difficile" alt="" width="16" best-possible-match="AAGAAAACGTTTTCTT"/>
+<motif name="ClgR_Corynebacterium_glutamicum" alt="" width="15" best-possible-match="TTCGCTAACAGCGTT"/>
+<motif name="GlxR_Corynebacterium_glutamicum" alt="" width="16" best-possible-match="TGTTACTGAGTTCACT"/>
+<motif name="LexA_Corynebacterium_glutamicum" alt="" width="16" best-possible-match="TCGAACATATGTTCGA"/>
+<motif name="Zur_Corynebacterium_glutamicum" alt="" width="21" best-possible-match="TAATGATAACGGTTTTCAATA"/>
+<motif name="CsgD_Escherichia_coli" alt="" width="14" best-possible-match="AAAAGTGATAAATA"/>
+<motif name="NikR_Helicobacter_pylori" alt="" width="25" best-possible-match="TATTATAATTTTAATTATTTTAATA"/>
+<motif name="Fur_Listeria_monocytogenes" alt="" width="19" best-possible-match="GATAATAATTCTCATTTAG"/>
+<motif name="LexA_Listeria_monocytogenes" alt="" width="21" best-possible-match="AATAAGAACATATGTTCGTTT"/>
+<motif name="MogR_Listeria_monocytogenes" alt="" width="13" best-possible-match="TTTTTTAAAAAAA"/>
+<motif name="DevR_Mycobacterium_tuberculosis" alt="" width="14" best-possible-match="GGGACAAATGTCCC"/>
+<motif name="IdeR_Mycobacterium_tuberculosis" alt="" width="19" best-possible-match="TTAGGTTAGGCTAACCTAA"/>
+<motif name="LexA_Mycobacterium_tuberculosis" alt="" width="18" best-possible-match="TCGAACACATGTTCGATA"/>
+<motif name="Zur_Mycobacterium_tuberculosis" alt="" width="21" best-possible-match="TTATGAAAATCATTTTCGAAA"/>
+<motif name="AmpR_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="TCTGCTCGAAATTT"/>
+<motif name="AlgZ_Pseudomonas_aeruginosa" alt="" width="10" best-possible-match="GCCATTATCA"/>
+<motif name="CueR_Pseudomonas_aeruginosa" alt="" width="17" best-possible-match="CTTGACACGATGTCAAG"/>
+<motif name="DesT_Pseudomonas_aeruginosa" alt="" width="16" best-possible-match="GTGAACGATTGTTGAC"/>
+<motif name="IscR_Pseudomonas_aeruginosa" alt="" width="25" best-possible-match="ATTCCTGAGTTTTTTGCTCGGTTTT"/>
+<motif name="LexA_Pseudomonas_aeruginosa" alt="" width="16" best-possible-match="CTGTATAAATATACAG"/>
+<motif name="MexT_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="ATCACCCCTGTCGAT"/>
+<motif name="OhrR_Pseudomonas_aeruginosa" alt="" width="11" best-possible-match="AATTCATGCAC"/>
+<motif name="PchR_Pseudomonas_aeruginosa" alt="" width="28" best-possible-match="ATCGAATGAAAAAGCCCGGCAATCGAAA"/>
+<motif name="PtxR_Pseudomonas_aeruginosa" alt="" width="10" best-possible-match="CGGCGCGCCG"/>
+<motif name="PtxS_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="TGAAACGTTTTTTA"/>
+<motif name="RsaL_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="TATGAAATTCGCATA"/>
+<motif name="VqsM_Pseudomonas_aeruginosa" alt="" width="15" best-possible-match="GGATCTTTTCGGCCA"/>
+<motif name="VqsR_Pseudomonas_aeruginosa" alt="" width="18" best-possible-match="TCGCCAGGGGTGCGGCGA"/>
+<motif name="LexA_Rhodobacter_sphaeroides" alt="" width="15" best-possible-match="GTTCACCGTATGTTC"/>
+<motif name="SigB_Clostridioides_difficile" alt="" width="13" best-possible-match="TTGTTTGGGTATA"/>
+<motif name="SigD_Clostridioides_difficile" alt="" width="11" best-possible-match="TAAAGCGATAA"/>
+<motif name="SigE_Clostridioides_difficile" alt="" width="11" best-possible-match="ATACATATATT"/>
+<motif name="SigF_Clostridioides_difficile" alt="" width="15" best-possible-match="GTATAGTAAATAATA"/>
+<motif name="SigG_Clostridioides_difficile" alt="" width="12" best-possible-match="GAATAAATAATA"/>
+<motif name="SigH_Clostridioides_difficile" alt="" width="16" best-possible-match="AAAGGAATTATAGAAT"/>
+<motif name="SigK_Clostridioides_difficile" alt="" width="18" best-possible-match="AATAAGTAACCATATTAT"/>
+<motif name="LexA_Staphylococcus_aureus" alt="" width="14" best-possible-match="CGAACAAAAGTGAG"/>
+<motif name="Crp_Synechocystis_sp." alt="" width="16" best-possible-match="TGTGATCTAGATCACA"/>
+<motif name="LexA_Synechocystis_sp." alt="" width="15" best-possible-match="CTAATTACTTTCCTA"/>
+<motif name="OxyR_Rhodobacter_sphaeroides" alt="" width="11" best-possible-match="TCTTCATGAAA"/>
+<motif name="XylR_Bacillus_licheniformis" alt="" width="9" best-possible-match="TTTGTTTAA"/>
+<motif name="PenI_Bacillus_licheniformis" alt="" width="12" best-possible-match="TTACATATGTAA"/>
+<motif name="ArgR_Bacillus_licheniformis" alt="" width="19" best-possible-match="TTTATCATAATTATTCATT"/>
+<motif name="CcpA_Bacillus_megaterium" alt="" width="14" best-possible-match="TGAAAACGTTTACA"/>
+<motif name="Bm3R1_Bacillus_megaterium" alt="" width="15" best-possible-match="ATCAAAAGCTGGTGG"/>
+<motif name="LitR_Bacillus_megaterium" alt="" width="28" best-possible-match="TGTATAATATTTTTATATATATTATATA"/>
+<motif name="BkdR_Bacillus_subtilis" alt="" width="14" best-possible-match="TGCAAATATTTGCA"/>
+<motif name="NiaR_Bacillus_subtilis" alt="" width="22" best-possible-match="TATATGTGTAAAGACAGGTGTA"/>
+<motif name="PerR_Bacillus_subtilis" alt="" width="15" best-possible-match="TTATAATTATTATAA"/>
+<motif name="YxaF_Bacillus_subtilis" alt="" width="18" best-possible-match="ATTATATAGAACGGTCTA"/>
+<motif name="HrcA_Campylobacter_jejuni" alt="" width="10" best-possible-match="TTAGCACTCT"/>
+<motif name="HspR_Campylobacter_jejuni" alt="" width="21" best-possible-match="CTTTAGTTAATTTAACTAAAG"/>
+<motif name="Cap37_Clostridium_acetobutylicum" alt="" width="16" best-possible-match="ATATTTTTATATAAAT"/>
+<motif name="AdhR_Clostridium_beijerinckii" alt="" width="18" best-possible-match="TTGGCATAAATATTGCTT"/>
+<motif name="SsuR_Corynebacterium_glutamicum" alt="" width="21" best-possible-match="TTTTTATCCAGGTTGAAAGCT"/>
+<motif name="Cbl_Escherichia_coli" alt="" width="21" best-possible-match="TTTAGAAATTTTTTTACTAAA"/>
+<motif name="CzcR_Pseudomonas_aeruginosa" alt="" width="5" best-possible-match="ATTAC"/>
+<motif name="PhoB_Pseudomonas_aeruginosa" alt="" width="22" best-possible-match="CATGAACTTTTCATGACAAAAG"/>
+<motif name="CodY_Listeria_monocytogenes" alt="" width="16" best-possible-match="AATTCAAAAAACTTTT"/>
+<motif name="DegU_Listeria_monocytogenes" alt="" width="5" best-possible-match="GTAAT"/>
+<motif name="BfmR_Pseudomonas_aeruginosa" alt="" width="14" best-possible-match="AACAAACCGTTACA"/>
+<motif name="PilR_Pseudomonas_aeruginosa" alt="" width="9" best-possible-match="CATACTGTC"/>
+<motif name="QscR_Pseudomonas_aeruginosa" alt="" width="20" best-possible-match="ACCTGCCCGAAAGGGAAGGT"/>
+<motif name="ErfA_Pseudomonas_aeruginosa" alt="" width="17" best-possible-match="ATAACACTTTGTGTCAT"/>
+<motif name="GacA_Pseudomonas_aeruginosa" alt="" width="18" best-possible-match="TGTAAGCATTAACTTACA"/>
+<motif name="MvaT_Pseudomonas_aeruginosa" alt="" width="19" best-possible-match="TATTGAATTTTAATGAATA"/>
+<motif name="ArcA_Salmonella_enterica" alt="" width="9" best-possible-match="GTTAATTTA"/>
+<motif name="CpxR_Salmonella_enterica" alt="" width="15" best-possible-match="GTAAAAATATGTAAA"/>
+<motif name="CsgD_Salmonella_enterica" alt="" width="11" best-possible-match="TGGGTGATGTA"/>
+<motif name="Fis_Salmonella_enterica" alt="" width="15" best-possible-match="GTCTAGAAGCCGTTC"/>
+<motif name="Fur_Salmonella_enterica" alt="" width="6" best-possible-match="AATAAT"/>
+<motif name="H-NS_Salmonella_enterica" alt="" width="9" best-possible-match="TATTATTTT"/>
+<motif name="HilC_Salmonella_enterica" alt="" width="28" best-possible-match="CTTTTTTTGTAATAATAATACAAATATT"/>
+<motif name="HilD_Salmonella_enterica" alt="" width="28" best-possible-match="CTTTTTTTGTAATAATAATACAAATATT"/>
+<motif name="OmpR_Salmonella_enterica" alt="" width="12" best-possible-match="TTTAAGATTATA"/>
+<motif name="PhoP_Salmonella_enterica" alt="" width="16" best-possible-match="TTTATTATTTGTTTAT"/>
+<motif name="RamA_Salmonella_enterica" alt="" width="20" best-possible-match="ATGGCACGTAAAACCAAATT"/>
+<motif name="Rgg3_Streptococcus_pyogenes" alt="" width="23" best-possible-match="TTTTCCCACTTTCACAACAAAAA"/>
+<motif name="SlyA_Salmonella_enterica" alt="" width="12" best-possible-match="TTTGGATTTTAA"/>
+<motif name="CysB_Salmonella_enterica" alt="" width="6" best-possible-match="GGTTAT"/>
+<motif name="FruR_Salmonella_enterica" alt="" width="12" best-possible-match="TGAATCGTTTCA"/>
+<motif name="MetR_Salmonella_enterica" alt="" width="13" best-possible-match="TGAAAATTTCTCA"/>
+<motif name="MgrA_Staphylococcus_aureus" alt="" width="6" best-possible-match="ATAATT"/>
+<motif name="PerR_Streptococcus_pyogenes" alt="" width="15" best-possible-match="TTATAATGATTTTAA"/>
+<motif name="Rgg2_Streptococcus_pyogenes" alt="" width="23" best-possible-match="TTTTCCCACTTTCACAACAAAAA"/>
+<motif name="GluR_Thermotoga_maritima" alt="" width="23" best-possible-match="ATTTAATTACTTTGTAATTTAAT"/>
+<motif name="ManR_Thermotoga_maritima" alt="" width="23" best-possible-match="TTATTAGTAAATTTTATTTATTA"/>
+<motif name="NiaR_Thermotoga_maritima" alt="" width="17" best-possible-match="TTTACAGCAGGTGTAAA"/>
+<motif name="TreR_Thermotoga_maritima" alt="" width="23" best-possible-match="TTTTTTTCATTTTACGAATAAAT"/>
+<motif name="UxaR_Thermotoga_maritima" alt="" width="17" best-possible-match="TGAAATATCAGATATCT"/>
+<motif name="XylR_Thermotoga_maritima" alt="" width="23" best-possible-match="ATTATTTCTTGAAAGAAAAAAAT"/>
+<motif name="HspR_Helicobacter_pylori" alt="" width="21" best-possible-match="CTTTATTGAATGAGACTAAAT"/>
+<motif name="HrcA_Helicobacter_pylori" alt="" width="28" best-possible-match="TTATCACTTTTTTAAAATAATTGATAAA"/>
+<motif name="AgrA_Staphylococcus_aureus" alt="" width="30" best-possible-match="ACAGTTAAGTATTTATTTCGTATAGTTAAG"/>
+<motif name="SaeR_Staphylococcus_aureus" alt="" width="16" best-possible-match="GTTAAGATATAGTTAA"/>
+<motif name="Fur_Vibrio_cholerae" alt="" width="19" best-possible-match="GATAATTATTTTTATTATT"/>
+<motif name="HapR_Vibrio_cholerae" alt="" width="14" best-possible-match="TGATAATTTTTTAA"/>
+<motif name="ToxR_Vibrio_cholerae" alt="" width="10" best-possible-match="TGATTTTTGA"/>
+<motif name="ToxT_Vibrio_cholerae" alt="" width="13" best-possible-match="TATTTTTTTAATT"/>
+<motif name="AphA_Vibrio_cholerae" alt="" width="16" best-possible-match="ATGCAACAAATTGCAT"/>
+<motif name="AphB_Vibrio_cholerae" alt="" width="17" best-possible-match="TGCAAAATTATATTTCA"/>
+<motif name="IgrB_Vibrio_cholerae" alt="" width="18" best-possible-match="ATAGTTCGGTCCAAATAT"/>
+<motif name="CRP_Vibrio_cholerae" alt="" width="16" best-possible-match="AGTGATATATATCACA"/>
+<motif name="HlyU_Vibrio_cholerae" alt="" width="11" best-possible-match="ACTAAATTTGT"/>
+<motif name="PhoB_Vibrio_cholerae" alt="" width="18" best-possible-match="ATTTCATATAAGTTTCAT"/>
+<motif name="Fur_Yersinia_pestis" alt="" width="19" best-possible-match="AATGATAATCATTATCAAT"/>
+<motif name="YbtA_Yersinia_pestis" alt="" width="13" best-possible-match="ACCCGTTTCGGGT"/>
+<motif name="CRP_Yersinia_pestis" alt="" width="16" best-possible-match="TGATATATATCACACT"/>
+<motif name="PhoP_Yersinia_pestis" alt="" width="18" best-possible-match="TGTTTAAATTTTTTATTA"/>
+<motif name="RovA_Yersinia_pestis" alt="" width="12" best-possible-match="TTATTATAATAA"/>
+<motif name="Zur_Yersinia_pestis" alt="" width="17" best-possible-match="ATGTTATATTATTACAT"/>
+<motif name="RcsA-RcsB_Yersinia_pestis" alt="" width="14" best-possible-match="TAAGATTATTCTTA"/>
+<motif name="NodD_Rhizobium_leguminosarum" alt="" width="15" best-possible-match="ATCCATATAATGGAT"/>
+<motif name="Px_Rhizobium_leguminosarum" alt="" width="19" best-possible-match="CAACCCATACTGTTTATTA"/>
+<motif name="Mur_Rhizobium_leguminosarum" alt="" width="21" best-possible-match="TGCAATTCATTCTTAATTGCA"/>
+<motif name="CRP_Rhizobium_leguminosarum" alt="" width="17" best-possible-match="TGTGAATTAAATTTGTT"/>
+<motif name="RosR_Rhizobium_leguminosarum" alt="" width="22" best-possible-match="TGGAATCTTTGTCTGGATTCCA"/>
+<motif name="PhoB_Rhizobium_leguminosarum" alt="" width="18" best-possible-match="CTGTGATGCATTGCTATA"/>
+<motif name="Fnr_Rhizobium_leguminosarum" alt="" width="14" best-possible-match="TTGATATTGATCAA"/>
+<motif name="NifA_Klebsiella_pneumoniae" alt="" width="16" best-possible-match="TGTTGGAAATAAGACA"/>
+<motif name="NAC_Klebsiella_pneumoniae" alt="" width="15" best-possible-match="ATTACATTTTCTTAT"/>
+<motif name="CitB_Klebsiella_pneumoniae" alt="" width="20" best-possible-match="GTTTTTTTTTTATTTTATTT"/>
+<motif name="Fur_Klebsiella_pneumoniae" alt="" width="19" best-possible-match="GATAATAATAATCATTATT"/>
+<motif name="RcsA-RcsB_Klebsiella_pneumoniae" alt="" width="13" best-possible-match="TAAGATTATTCTT"/>
+<motif name="CpxR_Klebsiella_pneumoniae" alt="" width="15" best-possible-match="GTAAAGAATGGCATA"/>
+<motif name="CRP_Klebsiella_pneumoniae" alt="" width="16" best-possible-match="TGTGATTTAAATCACA"/>
+<motif name="PecS_Klebsiella_pneumoniae" alt="" width="16" best-possible-match="TATATTCTGTCCAATA"/>
+<motif name="UlaR_Klebsiella_pneumoniae" alt="" width="16" best-possible-match="CAATTTTTTTTTGATT"/>
+<motif name="GadW_Escherichia_coli" alt="" width="18" best-possible-match="ATAGGATTTTGTTATTTT"/>
+<motif name="Lrp_Salmonella_enterica" alt="" width="10" best-possible-match="CGTTTTTTAT"/>
+<motif name="ArsR_Helicobacter_pylori" alt="" width="13" best-possible-match="TAAATTGTTTTTC"/>
+<motif name="CitB_Escherichia_coli" alt="" width="20" best-possible-match="GTTTTTTAATTAATTTAATA"/>
+<motif name="DcuR_Escherichia_coli" alt="" width="15" best-possible-match="TTTTATTAATTTTAA"/>
+<motif name="CopR_Pseudomonas_aeruginosa" alt="" width="16" best-possible-match="CTGACAGCATTGTAAT"/>
+<motif name="CueR_Escherichia_coli" alt="" width="20" best-possible-match="ACCTTCCCGTAAGGGGAAGG"/>
+<motif name="CusR_Escherichia_coli" alt="" width="16" best-possible-match="ATTACAAATTTGTAAT"/>
+<motif name="YedW_Escherichia_coli" alt="" width="18" best-possible-match="CATTACAAATTTGTAATG"/>
+<motif name="VarR_Vibrio_cholerae" alt="" width="13" best-possible-match="TGTTGAAAAAATA"/>
+<motif name="Irr_Bradyrhizobium_japonicum" alt="" width="21" best-possible-match="AATTTAGAATGATTCTAAATT"/>
+<motif name="BlaI_Bacillus_licheniformis" alt="" width="23" best-possible-match="AAAGTATTACATATGTAAGTTTT"/>
+<motif name="CbbR_Rhodobacter_sphaeroides" alt="" width="15" best-possible-match="ATTTATATTACGGAT"/>
+<motif name="RicR_Mycobacterium_tuberculosis" alt="" width="15" best-possible-match="TACCCCTATGGGGTA"/>
+<motif name="NdhR_Synechocystis_sp." alt="" width="13" best-possible-match="TGATTCAAAAACA"/>
+<motif name="RirA_Dinoroseobacter_shibae" alt="" width="14" best-possible-match="TTTTATATTATTTT"/>
+<motif name="RstA_Clostridioides_difficile" alt="" width="9" best-possible-match="ATGTTTTCA"/>
+<motif name="FapR_Bacillus_subtilis" alt="" width="17" best-possible-match="TTAGTACCTGATACTAA"/>
+<motif name="ExuR_Escherichia_coli" alt="" width="16" best-possible-match="AGTGTTTTACCAGTTA"/>
+<motif name="UxuR_Escherichia_coli" alt="" width="16" best-possible-match="TGTGTTTTACATGTTA"/>
+<motif name="BioQ_Corynebacterium_glutamicum" alt="" width="13" best-possible-match="TGAACACTGTTCA"/>
+<motif name="CsoR_Corynebacterium_glutamicum" alt="" width="17" best-possible-match="ATACCCCATAGGGGTAT"/>
+<motif name="NanR_Corynebacterium_glutamicum" alt="" width="21" best-possible-match="ACGTATGATGTCTTATGTATA"/>
+<motif name="FabT_Streptococcus_agalactiae" alt="" width="17" best-possible-match="AGTTTGATTTTCAAATT"/>
+<motif name="Rex_Clostridioides_difficile" alt="" width="18" best-possible-match="TTGTTAATTTAATAACAA"/>
+<motif name="PapR2_Streptomyces_pristinaespiralis" alt="" width="29" best-possible-match="GTCAGGCGCGGGTCAGCGCCGCGTCAGCG"/>
+<background source="--nrdb--">
+<value letter="A">0.275</value>
+<value letter="C">0.225</value>
+<value letter="G">0.225</value>
+<value letter="T">0.275</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>
