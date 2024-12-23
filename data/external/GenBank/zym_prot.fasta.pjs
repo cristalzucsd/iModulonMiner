@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "zym_prot.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "../data/external/GenBank/zym_prot.fasta",
+  "number-of-letters": 619789,
+  "number-of-sequences": 1840,
+  "last-updated": "2024-12-22T09:33:00",
+  "number-of-volumes": 1,
+  "bytes-total": 888978,
+  "bytes-to-cache": 636478,
+  "files": [
+    "zym_prot.fasta.pdb",
+    "zym_prot.fasta.phr",
+    "zym_prot.fasta.pin",
+    "zym_prot.fasta.pog",
+    "zym_prot.fasta.pos",
+    "zym_prot.fasta.pot",
+    "zym_prot.fasta.psq",
+    "zym_prot.fasta.ptf",
+    "zym_prot.fasta.pto"
+  ]
+}
