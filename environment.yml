@@ -319,4 +319,4 @@ dependencies:
   - zstd=1.5.6=h915ae27_0
   - pip:
       - jupyterlab-code-formatter==3.0.2
-prefix: /opt/anaconda3/envs/pymodulon
+prefix: /opt/anaconda3/envs/iM_miner
