@@ -10,6 +10,10 @@ export NXF_HOME=/home/glbrc.org/cdalldorf/.nextflow
 # clear previous trace files
 rm -rf trace/*
 
+# setup privelages
+chmod +x ./bin/*.py
+chmod +x ./*.sh
+
 # record time, run nextflow
 printf "Start time: "; /bin/date
 printf "Job is running on node: "; /bin/hostname
