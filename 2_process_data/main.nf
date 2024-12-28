@@ -62,6 +62,7 @@ import static com.xlson.groovycsv.CsvParser.parseCsv
 // Read in fasta and gff file for genome and plasmids (if any)
 Channel
     .fromFilePairs("${params.sequence_dir}/*.{fasta,gff3}", checkIfExists:true)
+    .view { "Debug - Genome files: $it" }
     .into{ genome_ch1; genome_ch2 }
 
 // Isolate fasta files for bowtie
@@ -79,31 +80,32 @@ genome_ch2
     .first()
     .set{ bedtools_gff_ch }
 
+// After the fasta channel definition
+fasta_ch.view { "Debug - Fasta input: $it" }
+
 // Build bowtie index
 
 process bowtie_build {
-
-    label 'bowtie'
-    label 'small'
-
+    echo true   // Add this to see process execution
+    
     input:
     file(fasta) from fasta_ch.collect()
 
     output:
     file('index*') into index_ch
-    /// file('cspace_index*') into cspace_index_ch
 
     script:
-    full_fasta = "${params.organism}.fasta"
     """
-    cat ${fasta} > ${full_fasta}
-    bowtie2-build --threads ${task.cpus} ${full_fasta} index
+    set -x  # Print commands as they execute
+    echo "Input fasta files: ${fasta}"
+    ls -l  # List files in working directory
+    cat ${fasta} > ${params.organism}.fasta
+    bowtie2-build --threads ${task.cpus} ${params.organism}.fasta index
     """
-    // the below line was included above, but I'm not sure it's purpose and it doesn't work
-    // bowtie2-build -C --threads ${task.cpus} ${full_fasta} cspace_index
-    
-
 }
+
+// After bowtie_build process
+index_ch.view { "Debug - Bowtie index files: $it" }
 
 // Convert GFF to BED file for strand inference
 
