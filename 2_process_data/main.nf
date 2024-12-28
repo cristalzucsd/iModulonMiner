@@ -312,7 +312,7 @@ process trim_galore {
     tuple sample_id, layout, platform, file(fastq) from fastq_output_ch
 
     output:
-    tuple sample_id, layout, platform, file("*.fq.gz") into bowtie_input_ch
+    tuple sample_id, layout, platform, file("*.fq.gz") into trim_output_ch
     file "*trimming_report.txt" optional true into cutadapt_results_ch
     file "*_fastqc.{zip,html}" into fastqc_results_ch
 
@@ -341,7 +341,12 @@ process trim_galore {
         """
 }
 
-bowtie_input_ch.view { "Debug - Input to bowtie: $it" }
+// Branch the trim output channel
+trim_output_ch
+    .into { bowtie_input_ch; debug_ch }
+
+// Add debug view on the debug channel
+debug_ch.view { "Debug - Trim output: $it" }
 
 // *********************************
 // * Step 5: Align reads to genome *
