@@ -341,6 +341,8 @@ process trim_galore {
         """
 }
 
+bowtie_input_ch.view { "Debug - Input to bowtie: $it" }
+
 // *********************************
 // * Step 5: Align reads to genome *
 // *********************************
