@@ -62,7 +62,6 @@ import static com.xlson.groovycsv.CsvParser.parseCsv
 // Read in fasta and gff file for genome and plasmids (if any)
 Channel
     .fromFilePairs("${params.sequence_dir}/*.{fasta,gff3}", checkIfExists:true)
-    .view { "Debug - Genome files: $it" }
     .into{ genome_ch1; genome_ch2 }
 
 // Isolate fasta files for bowtie
@@ -80,32 +79,31 @@ genome_ch2
     .first()
     .set{ bedtools_gff_ch }
 
-// After the fasta channel definition
-fasta_ch.view { "Debug - Fasta input: $it" }
-
 // Build bowtie index
 
 process bowtie_build {
-    echo true   // Add this to see process execution
-    
+
+    label 'bowtie'
+    label 'small'
+
     input:
     file(fasta) from fasta_ch.collect()
 
     output:
     file('index*') into index_ch
+    /// file('cspace_index*') into cspace_index_ch
 
     script:
+    full_fasta = "${params.organism}.fasta"
     """
-    set -x  # Print commands as they execute
-    echo "Input fasta files: ${fasta}"
-    ls -l  # List files in working directory
-    cat ${fasta} > ${params.organism}.fasta
-    bowtie2-build --threads ${task.cpus} ${params.organism}.fasta index
+    cat ${fasta} > ${full_fasta}
+    bowtie2-build --threads ${task.cpus} ${full_fasta} index
     """
-}
+    // the below line was included above, but I'm not sure it's purpose and it doesn't work
+    // bowtie2-build -C --threads ${task.cpus} ${full_fasta} cspace_index
+    
 
-// After bowtie_build process
-index_ch.view { "Debug - Bowtie index files: $it" }
+}
 
 // Convert GFF to BED file for strand inference
 
@@ -302,7 +300,7 @@ process trim_galore {
 
     time '8h'
     maxRetries 2
-    errorStrategy { task.attempt <= maxRetries ? 'retry' : 'ignore' }
+    errorStrategy  { task.attempt <= maxRetries  ? 'retry' : 'ignore' }
 
     label 'large'
     label 'trim_galore'
@@ -314,7 +312,7 @@ process trim_galore {
     tuple sample_id, layout, platform, file(fastq) from fastq_output_ch
 
     output:
-    tuple sample_id, layout, platform, file("*.fq.gz") into trim_output_ch
+    tuple sample_id, layout, platform, file("*.fq.gz") into bowtie_input_ch
     file "*trimming_report.txt" optional true into cutadapt_results_ch
     file "*_fastqc.{zip,html}" into fastqc_results_ch
 
@@ -342,13 +340,6 @@ process trim_galore {
         trim_galore --cores ${task.cpus} --fastqc --paired --basename ${sample_id} ${fastq}
         """
 }
-
-// Branch the trim output channel
-trim_output_ch
-    .into { bowtie_input_ch; debug_ch }
-
-// Add debug view on the debug channel
-debug_ch.view { "Debug - Trim output: $it" }
 
 // *********************************
 // * Step 5: Align reads to genome *
