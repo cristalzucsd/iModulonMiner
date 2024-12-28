@@ -300,7 +300,7 @@ process trim_galore {
 
     time '8h'
     maxRetries 2
-    errorStrategy  { task.attempt <= maxRetries  ? 'retry' : 'ignore' }
+    errorStrategy { task.attempt <= maxRetries ? 'retry' : 'ignore' }
 
     label 'large'
     label 'trim_galore'
@@ -509,7 +509,7 @@ process multiqc {
     file('cutadapt/*') from cutadapt_results_ch.collect().ifEmpty([])
     file('rseqc/*') from rseqc_results_ch.collect().ifEmpty([])
     file('bowtie/*') from bowtie_results_ch.collect().ifEmpty([])
-    file('featureCounts/*') from fc_results_ch.collect().ifEmpty([])
+    file('featureCounts/*') from fc_results_ch.collect()//.ifEmpty([])
     file(myconfig) from multiqc_config_ch
 
 
