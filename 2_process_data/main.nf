@@ -52,6 +52,36 @@ if ( params.sequence_dir == "None" ) {
     exit 0
 }
 
+def gff_file = file("${params.sequence_dir}/*.gff3")
+if( !gff_file.exists() ) {
+    log.error"""
+    
+    ERROR: No GFF3 files found in ${params.sequence_dir}
+    
+    Please ensure:
+    1. The --sequence_dir parameter points to the correct directory
+    2. The GFF file has a .gff3 extension (found: ${params.sequence_dir}/*.gff)
+    3. You have read permissions for the directory
+    
+    """.stripIndent()
+    exit 1
+}
+
+def fasta_file = file("${params.sequence_dir}/*.fasta")
+if( !fasta_file.exists() ) {
+    log.error"""
+    
+    ERROR: No FASTA files found in ${params.sequence_dir}
+    
+    Please ensure:
+    1. The --sequence_dir parameter points to the correct directory
+    2. The FASTA file has a .fasta extension
+    3. You have read permissions for the directory
+    
+    """.stripIndent()
+    exit 1
+}
+
 @Grab('com.xlson.groovycsv:groovycsv:1.3')
 import static com.xlson.groovycsv.CsvParser.parseCsv
 
