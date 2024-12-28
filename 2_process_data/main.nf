@@ -532,7 +532,7 @@ process assemble_tpm {
     label 'large'
 
     input:
-    file('featureCounts/*') from counts_ch.collect().ifEmpty([])
+    file('featureCounts/*') from counts_ch.collect() //.ifEmpty([])
 
     output:
     file('log_tpm.csv')
@@ -541,5 +541,4 @@ process assemble_tpm {
     """
     assemble_tpm.py -d featureCounts -o .
     """
-
 }

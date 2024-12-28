@@ -7,6 +7,9 @@ unset $PYTHONPATH
 conda activate modulome
 export NXF_HOME=/home/glbrc.org/cdalldorf/.nextflow
 
+# clear previous trace files
+rm -rf trace/*
+
 # record time, run nextflow
 printf "Start time: "; /bin/date
 printf "Job is running on node: "; /bin/hostname
