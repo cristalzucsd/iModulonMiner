@@ -53,7 +53,7 @@ if ( params.sequence_dir == "None" ) {
 }
 
 def gff_file = file("${params.sequence_dir}/*.gff3")
-if( !gff_file.exists() ) {
+if(gff_files.size() == 0)  {
     log.error"""
     
     ERROR: No GFF3 files found in ${params.sequence_dir}
@@ -68,7 +68,7 @@ if( !gff_file.exists() ) {
 }
 
 def fasta_file = file("${params.sequence_dir}/*.fasta")
-if( !fasta_file.exists() ) {
+if( fasta_file.size() == 0 ) {
     log.error"""
     
     ERROR: No FASTA files found in ${params.sequence_dir}
