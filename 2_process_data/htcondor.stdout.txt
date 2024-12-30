@@ -1,157 +1,138 @@
-Start time: Fri Dec 27 12:12:11 CST 2024
+Start time: Mon Dec 30 08:54:17 CST 2024
 Job is running on node: scarcity-10.glbrc.org
 Job running as user: uid=444017102(cdalldorf) gid=444000513(domain users) groups=444000513(domain users),444002651(file server users),444004692(scarcity_users),444006528(glbrc_jira-users),444010027(ml_glbrc-scarcity-users),444011153(ml_weiglbrc-all_moderated),444011156,444011193(ml_glbrc-bacterial-group),444011748(guacamole_wei--all),444011961(ml_glbrc-sbf),444012247(ml_glbrc-cop-bacterial-engineering),444012302(ad_tier2_accounts_humans),444012303(ad_tier2_accounts),444012329(sp_all-users),444013091(y16_sbf),444013933(y16_role_all-teams),444014733(rundeck_glbrc_public),444017101(vpn_users),444018224(sp2013_all-users)
 Job is running in directory: /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data
 
 N E X T F L O W  ~  version 22.10.0
-Launching `main.nf` [cranky_lumiere] DSL1 - revision: 8f89b4c717
-[-        ] process > bowtie_build       -
-[-        ] process > gff2bed            -
+Launching `main.nf` [trusting_sanger] DSL1 - revision: d2579ab094
+[-        ] process > bowtie_build -
+[-        ] process > gff2bed      -
+
+[95/9e7808] process > bowtie_build       [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed            [100%] 1 of 1, cached: 1 ✔
 [-        ] process > download_fastq     -
 [-        ] process > stage_fastq_single -
 [-        ] process > stage_fastq_paired -
 [-        ] process > trim_galore        -
+[-        ] process > bowtie_align       -
+[-        ] process > sam2bam            -
+[-        ] process > get_read_direction -
+[-        ] process > featureCounts      -
 
-[-        ] process > bowtie_build       -
-[-        ] process > gff2bed            -
-[skipped  ] process > download_fastq (1) [100%] 2 of 2, stored: 2
+[95/9e7808] process > bowtie_build       [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed            [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (2) [100%] 2 of 2, stored: 2
 [-        ] process > stage_fastq_single -
 [-        ] process > stage_fastq_paired -
-[-        ] process > trim_galore        -
+[1a/f9a61d] process > trim_galore (1)    [100%] 2 of 2, cached: 2
 [-        ] process > bowtie_align       -
 [-        ] process > sam2bam            -
 [-        ] process > get_read_direction -
 [-        ] process > featureCounts      -
 [-        ] process > multiqc            -
 [-        ] process > assemble_tpm       -
-[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
 
-[-        ] process > bowtie_build       -
-[-        ] process > gff2bed            -
-[skipped  ] process > download_fastq (4) [100%] 3 of 3, stored: 3
-[-        ] process > stage_fastq_single -
-[-        ] process > stage_fastq_paired -
-[-        ] process > trim_galore        [  0%] 0 of 2
-[-        ] process > bowtie_align       -
-[-        ] process > sam2bam            -
-[-        ] process > get_read_direction -
-[-        ] process > featureCounts      -
-[-        ] process > multiqc            -
-[-        ] process > assemble_tpm       -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build           [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (4)     [100%] 4 of 4, stored: 4
+[-        ] process > stage_fastq_single     -
+[-        ] process > stage_fastq_paired     -
+[f1/afa71f] process > trim_galore (4)        [100%] 4 of 4, cached: 4
+[74/e068c8] process > bowtie_align (3)       [100%] 3 of 3, cached: 3
+[64/24fbfa] process > sam2bam (2)            [100%] 2 of 2, cached: 2
+[de/5595b1] process > get_read_direction (1) [100%] 2 of 2, cached: 2
+[17/f7c7c1] process > featureCounts (2)      [100%] 2 of 2, cached: 2
+[-        ] process > multiqc                -
+[-        ] process > assemble_tpm           -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
-
-executor >  local (1)
-[-        ] process > bowtie_build       -
-[-        ] process > gff2bed            -
-[skipped  ] process > download_fastq (6) [100%] 6 of 6, stored: 6
-[-        ] process > stage_fastq_single -
-[-        ] process > stage_fastq_paired -
-[1a/f9a61d] process > trim_galore (2)    [  0%] 0 of 5
-[-        ] process > bowtie_align       -
-[-        ] process > sam2bam            -
-[-        ] process > get_read_direction -
-[-        ] process > featureCounts      -
-[-        ] process > multiqc            -
-[-        ] process > assemble_tpm       -
 [skipping] Stored process > download_fastq (2)
-[skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+
+[95/9e7808] process > bowtie_build           [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (6)     [100%] 6 of 6, stored: 6
+[-        ] process > stage_fastq_single     -
+[-        ] process > stage_fastq_paired     -
+[2f/0105f5] process > trim_galore (5)        [ 83%] 5 of 6, cached: 5
+[e8/38cbee] process > bowtie_align (5)       [100%] 5 of 5, cached: 5
+[a2/6c6cda] process > sam2bam (5)            [100%] 5 of 5, cached: 5
+[4a/edd3bd] process > get_read_direction (5) [100%] 5 of 5, cached: 5
+[ce/0c7927] process > featureCounts (4)      [100%] 4 of 4, cached: 4
+[-        ] process > multiqc                -
+[-        ] process > assemble_tpm           -
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 
 executor >  local (1)
-[-        ] process > bowtie_build       -
-[-        ] process > gff2bed            -
-[skipped  ] process > download_fastq (8) [100%] 8 of 8, stored: 8
-[-        ] process > stage_fastq_single -
-[-        ] process > stage_fastq_paired -
-[1a/f9a61d] process > trim_galore (2)    [  0%] 0 of 8
-[-        ] process > bowtie_align       -
-[-        ] process > sam2bam            -
-[-        ] process > get_read_direction -
-[-        ] process > featureCounts      -
-[-        ] process > multiqc            -
-[-        ] process > assemble_tpm       -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build           [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (8)     [100%] 8 of 8, stored: 8
+[-        ] process > stage_fastq_single     -
+[-        ] process > stage_fastq_paired     -
+[58/1d3967] process > trim_galore (8)        [ 87%] 7 of 8, cached: 7
+[7f/028656] process > bowtie_align (7)       [100%] 7 of 7, cached: 7
+[88/f57ab9] process > sam2bam (7)            [100%] 7 of 7, cached: 7
+[93/ce471c] process > get_read_direction (7) [100%] 7 of 7, cached: 7
+[6f/f76cdb] process > featureCounts (6)      [100%] 6 of 6, cached: 6
+[-        ] process > multiqc                -
+[-        ] process > assemble_tpm           -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
-[skipping] Stored process > download_fastq (3)
-[skipping] Stored process > download_fastq (5)
-[skipping] Stored process > download_fastq (6)
-[skipping] Stored process > download_fastq (7)
-[skipping] Stored process > download_fastq (8)
-
-executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (10) [100%] 10 of 10, stored: 10
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 10
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
 [skipping] Stored process > download_fastq (2)
-[skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
 [skipping] Stored process > download_fastq (8)
-[skipping] Stored process > download_fastq (9)
-[skipping] Stored process > download_fastq (10)
 
 executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (12) [100%] 12 of 12, stored: 12
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 12
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build           [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (10)    [100%] 10 of 10, stored: 10
+[-        ] process > stage_fastq_single     -
+[-        ] process > stage_fastq_paired     -
+[8b/401ee7] process > trim_galore (10)       [ 90%] 9 of 10, cached: 9
+[f3/c37a3a] process > bowtie_align (9)       [100%] 9 of 9, cached: 9
+[79/ad74f0] process > sam2bam (9)            [100%] 9 of 9, cached: 9
+[51/fcd95c] process > get_read_direction (9) [100%] 9 of 9, cached: 9
+[08/d923e8] process > featureCounts (9)      [100%] 9 of 9, cached: 9
+[-        ] process > multiqc                -
+[-        ] process > assemble_tpm           -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
 [skipping] Stored process > download_fastq (8)
 [skipping] Stored process > download_fastq (9)
 [skipping] Stored process > download_fastq (10)
-[skipping] Stored process > download_fastq (11)
-[skipping] Stored process > download_fastq (12)
 
 executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (14) [100%] 14 of 14, stored: 14
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 14
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (12)     [100%] 12 of 12, stored: 12
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[3e/0a532e] process > trim_galore (12)        [ 91%] 11 of 12, cached: 11
+[6e/36d203] process > bowtie_align (11)       [100%] 11 of 11, cached: 11
+[e3/ba55e1] process > sam2bam (11)            [100%] 11 of 11, cached: 11
+[89/762c32] process > get_read_direction (11) [100%] 11 of 11, cached: 11
+[be/a76866] process > featureCounts (11)      [100%] 11 of 11, cached: 11
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
@@ -160,26 +141,24 @@ executor >  local (1)
 [skipping] Stored process > download_fastq (10)
 [skipping] Stored process > download_fastq (11)
 [skipping] Stored process > download_fastq (12)
-[skipping] Stored process > download_fastq (13)
-[skipping] Stored process > download_fastq (14)
 
 executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (16) [100%] 16 of 16, stored: 16
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 16
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (14)     [100%] 14 of 14, stored: 14
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[a0/419c9c] process > trim_galore (14)        [ 92%] 13 of 14, cached: 13
+[4d/4b4041] process > bowtie_align (13)       [100%] 13 of 13, cached: 13
+[dd/b9735f] process > sam2bam (13)            [100%] 13 of 13, cached: 13
+[e9/3b438d] process > get_read_direction (13) [100%] 13 of 13, cached: 13
+[f9/98196c] process > featureCounts (13)      [100%] 13 of 13, cached: 13
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
@@ -190,26 +169,24 @@ executor >  local (1)
 [skipping] Stored process > download_fastq (12)
 [skipping] Stored process > download_fastq (13)
 [skipping] Stored process > download_fastq (14)
-[skipping] Stored process > download_fastq (15)
-[skipping] Stored process > download_fastq (16)
 
 executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (18) [100%] 18 of 18, stored: 18
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 18
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (17)     [100%] 17 of 17, stored: 17
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[fd/6d916c] process > trim_galore (16)        [ 93%] 15 of 16, cached: 15
+[bd/1a4afe] process > bowtie_align (15)       [100%] 15 of 15, cached: 15
+[4a/546d3b] process > sam2bam (15)            [100%] 15 of 15, cached: 15
+[72/d7deb6] process > get_read_direction (15) [100%] 15 of 15, cached: 15
+[6e/d376cb] process > featureCounts (15)      [100%] 15 of 15, cached: 15
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
@@ -223,25 +200,24 @@ executor >  local (1)
 [skipping] Stored process > download_fastq (15)
 [skipping] Stored process > download_fastq (16)
 [skipping] Stored process > download_fastq (17)
-[skipping] Stored process > download_fastq (18)
 
 executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (20) [100%] 20 of 20, stored: 20
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 20
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (20)     [100%] 20 of 20, stored: 20
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[9a/11e092] process > trim_galore (19)        [ 94%] 18 of 19, cached: 18
+[b4/3eb811] process > bowtie_align (17)       [100%] 17 of 17, cached: 17
+[b9/27192b] process > sam2bam (17)            [100%] 17 of 17, cached: 17
+[99/0c05ce] process > get_read_direction (17) [100%] 17 of 17, cached: 17
+[18/2eb29f] process > featureCounts (17)      [100%] 17 of 17, cached: 17
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
@@ -260,22 +236,58 @@ executor >  local (1)
 [skipping] Stored process > download_fastq (20)
 
 executor >  local (1)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  0%] 0 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[skipping] Stored process > download_fastq (2)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (22)     [100%] 22 of 22, stored: 22
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[35/e61712] process > trim_galore (22)        [ 95%] 21 of 22, cached: 21
+[cc/bb1fb4] process > bowtie_align (19)       [100%] 19 of 19, cached: 19
+[28/fe1350] process > sam2bam (19)            [100%] 19 of 19, cached: 19
+[7c/33da0e] process > get_read_direction (19) [100%] 19 of 19, cached: 19
+[cf/960fb9] process > featureCounts (19)      [100%] 19 of 19, cached: 19
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
 [skipping] Stored process > download_fastq (1)
-[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (2)
 [skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+
+executor >  local (1)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[c9/77d217] process > trim_galore (24)        [ 95%] 23 of 24, cached: 23
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23
+[4b/bdd8eb] process > sam2bam (22)            [100%] 22 of 22, cached: 22
+[53/cef3f8] process > get_read_direction (22) [100%] 22 of 22, cached: 22
+[59/38989f] process > featureCounts (21)      [100%] 21 of 21, cached: 21
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
 [skipping] Stored process > download_fastq (5)
 [skipping] Stored process > download_fastq (6)
 [skipping] Stored process > download_fastq (7)
@@ -298,763 +310,288 @@ executor >  local (1)
 [skipping] Stored process > download_fastq (24)
 
 executor >  local (2)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[1a/f9a61d] process > trim_galore (2)     [  4%] 1 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[4c/66d790] process > trim_galore (6)         [ 96%] 24 of 25, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
 
 executor >  local (3)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[b8/cea9ed] process > trim_galore (1)     [  8%] 2 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[5e/7492ef] process > trim_galore (6)         [ 96%] 25 of 26, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
+[4c/66d790] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
 
+executor >  local (3)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[5e/7492ef] process > trim_galore (6)         [ 96%] 25 of 26, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23
+[-        ] process > multiqc                 -
+[-        ] process > assemble_tpm            -
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
+[4c/66d790] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+executor >  local (3)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[5e/7492ef] process > trim_galore (6)         [100%] 26 of 26, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23 ✔
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23 ✔
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23 ✔
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23 ✔
+[-        ] process > multiqc                 [  0%] 0 of 1
+[bd/c45fee] process > assemble_tpm            [100%] 1 of 1, cached: 1 ✔
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
+[4c/66d790] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
+[5e/7492ef] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Error is ignored
 
 executor >  local (4)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[ba/d13d3b] process > trim_galore (4)     [  8%] 2 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[5e/7492ef] process > trim_galore (6)         [100%] 26 of 26, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23 ✔
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23 ✔
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23 ✔
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23 ✔
+[09/e3549a] process > multiqc (1)             [  0%] 0 of 1
+[bd/c45fee] process > assemble_tpm            [100%] 1 of 1, cached: 1 ✔
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
+[4c/66d790] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
+[5e/7492ef] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Error is ignored
 
 executor >  local (4)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[f1/afa71f] process > trim_galore (3)     [ 12%] 3 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (5)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[ba/d13d3b] process > trim_galore (4)     [ 16%] 4 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (6)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[2f/0105f5] process > trim_galore (5)     [ 20%] 5 of 24
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (7)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[fe/152edc] process > trim_galore (6)     [ 25%] 6 of 24, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[fe/152edc] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
-
-executor >  local (7)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[fe/152edc] process > trim_galore (6)     [ 24%] 6 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[fe/152edc] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
-
-executor >  local (8)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[a3/eda4c6] process > trim_galore (7)     [ 28%] 7 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-
-executor >  local (9)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[58/1d3967] process > trim_galore (8)     [ 32%] 8 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-
-executor >  local (10)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[94/74f0d8] process > trim_galore (9)     [ 36%] 9 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (11)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[31/81fbe9] process > trim_galore (11)    [ 40%] 10 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (12)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[31/81fbe9] process > trim_galore (11)    [ 44%] 11 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (12)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[31/81fbe9] process > trim_galore (11)    [ 44%] 11 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (13)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[3e/0a532e] process > trim_galore (12)    [ 48%] 12 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (13)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[3e/0a532e] process > trim_galore (12)    [ 48%] 12 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (14)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[a0/419c9c] process > trim_galore (14)    [ 52%] 13 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (15)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[a0/419c9c] process > trim_galore (14)    [ 56%] 14 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (16)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[a3/ad65e4] process > trim_galore (15)    [ 60%] 15 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (17)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[53/b0cfa8] process > trim_galore (17)    [ 60%] 15 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (17)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[fd/6d916c] process > trim_galore (16)    [ 64%] 16 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (18)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[53/b0cfa8] process > trim_galore (17)    [ 68%] 17 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (19)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[79/60ab1a] process > trim_galore (18)    [ 72%] 18 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (19)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[79/60ab1a] process > trim_galore (18)    [ 72%] 18 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (20)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[a0/73b715] process > trim_galore (20)    [ 76%] 19 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (21)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[a0/73b715] process > trim_galore (20)    [ 80%] 20 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (22)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[c0/62ee53] process > trim_galore (21)    [ 84%] 21 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (23)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[35/e61712] process > trim_galore (22)    [ 88%] 22 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (24)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[c9/77d217] process > trim_galore (24)    [ 92%] 23 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (25)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[93/769c69] process > trim_galore (6)     [ 96%] 24 of 25, failed: 1, retries: 1
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-
-executor >  local (26)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [ 96%] 25 of 26, failed: 2, retries: 2
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[93/769c69] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
-
-executor >  local (26)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [ 96%] 25 of 26, failed: 2, retries: 2
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[93/769c69] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
-
-executor >  local (26)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [100%] 26 of 26, failed: 3, retries...
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[-        ] process > multiqc             -
-[-        ] process > assemble_tpm        -
-[93/769c69] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
-[8d/83fd8e] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Error is ignored
-
-executor >  local (27)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [100%] 26 of 26, failed: 3, retries...
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[00/f0d0fa] process > multiqc (1)         [  0%] 0 of 1
-[-        ] process > assemble_tpm        -
-[93/769c69] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
-[8d/83fd8e] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Error is ignored
-
-executor >  local (27)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [100%] 26 of 26, failed: 3, retries...
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[00/f0d0fa] process > multiqc (1)         [  0%] 0 of 1
-[-        ] process > assemble_tpm        -
-
-
-Error executing process > 'multiqc (1)'
-
-Caused by:
-  Process `multiqc (1)` terminated with an error exit status (1)
-
-Command executed:
-
-  multiqc -f -c multiqc_config.yaml .
-  assemble_qc_stats.py multiqc_data
-
-Command exit status:
-  1
-
-Command output:
-  (empty)
-
-Command error:
-  
-    /// MultiQC 🔍 | v1.16
-  
-  |           multiqc | MultiQC Version v1.26 now available!
-  |           multiqc | Report title: Modulome
-  |           multiqc | Only using modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
-  |           multiqc | Search path : /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/00/f0d0fa9caa12cd8d64b54a60ec1814
-  |         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 146/146  
-  |          cutadapt | Found 23 reports
-  |            fastqc | Found 23 reports
-  |           multiqc | Report      : multiqc_report.html
-  |           multiqc | Data        : multiqc_data
-  |           multiqc | MultiQC complete
-  Traceback (most recent call last):
-    File "/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/bin/assemble_qc_stats.py", line 50, in <module>
-      main(args.multiqc_dir)
-    File "/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/bin/assemble_qc_stats.py", line 15, in main
-      os.path.join(mqc_dir, "multiqc_featureCounts.txt"), index_col=0, sep="\t"
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-      return func(*args, **kwargs)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-      return _read(filepath_or_buffer, kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-      parser = TextFileReader(filepath_or_buffer, **kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-      self._engine = self._make_engine(self.engine)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-      return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
-      self._open_handles(src, kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
-      errors=kwds.get("encoding_errors", "strict"),
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
-      newline="",
-  FileNotFoundError: [Errno 2] No such file or directory: 'multiqc_data/multiqc_featureCounts.txt'
-
-Work dir:
-  /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/00/f0d0fa9caa12cd8d64b54a60ec1814
-
-Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
-
-
-
-executor >  local (27)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [100%] 26 of 26, failed: 3, retries...
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[00/f0d0fa] process > multiqc (1)         [100%] 1 of 1, failed: 1 ✘
-[-        ] process > assemble_tpm        -
-Execution cancelled -- Finishing pending tasks before exit
-Error executing process > 'multiqc (1)'
-
-Caused by:
-  Process `multiqc (1)` terminated with an error exit status (1)
-
-Command executed:
-
-  multiqc -f -c multiqc_config.yaml .
-  assemble_qc_stats.py multiqc_data
-
-Command exit status:
-  1
-
-Command output:
-  (empty)
-
-Command error:
-  
-    /// MultiQC 🔍 | v1.16
-  
-  |           multiqc | MultiQC Version v1.26 now available!
-  |           multiqc | Report title: Modulome
-  |           multiqc | Only using modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
-  |           multiqc | Search path : /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/00/f0d0fa9caa12cd8d64b54a60ec1814
-  |         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 146/146  
-  |          cutadapt | Found 23 reports
-  |            fastqc | Found 23 reports
-  |           multiqc | Report      : multiqc_report.html
-  |           multiqc | Data        : multiqc_data
-  |           multiqc | MultiQC complete
-  Traceback (most recent call last):
-    File "/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/bin/assemble_qc_stats.py", line 50, in <module>
-      main(args.multiqc_dir)
-    File "/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/bin/assemble_qc_stats.py", line 15, in main
-      os.path.join(mqc_dir, "multiqc_featureCounts.txt"), index_col=0, sep="\t"
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-      return func(*args, **kwargs)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-      return _read(filepath_or_buffer, kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-      parser = TextFileReader(filepath_or_buffer, **kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-      self._engine = self._make_engine(self.engine)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-      return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
-      self._open_handles(src, kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
-      errors=kwds.get("encoding_errors", "strict"),
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
-      newline="",
-  FileNotFoundError: [Errno 2] No such file or directory: 'multiqc_data/multiqc_featureCounts.txt'
-
-Work dir:
-  /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/00/f0d0fa9caa12cd8d64b54a60ec1814
-
-Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
-
-
-
-
-executor >  local (27)
-[-        ] process > bowtie_build        -
-[-        ] process > gff2bed             -
-[skipped  ] process > download_fastq (24) [100%] 24 of 24, stored: 24 ✔
-[-        ] process > stage_fastq_single  -
-[-        ] process > stage_fastq_paired  -
-[8d/83fd8e] process > trim_galore (6)     [100%] 26 of 26, failed: 3, retries...
-[-        ] process > bowtie_align        -
-[-        ] process > sam2bam             -
-[-        ] process > get_read_direction  -
-[-        ] process > featureCounts       -
-[00/f0d0fa] process > multiqc (1)         [100%] 1 of 1, failed: 1 ✘
-[-        ] process > assemble_tpm        -
-Execution cancelled -- Finishing pending tasks before exit
-Error executing process > 'multiqc (1)'
-
-Caused by:
-  Process `multiqc (1)` terminated with an error exit status (1)
-
-Command executed:
-
-  multiqc -f -c multiqc_config.yaml .
-  assemble_qc_stats.py multiqc_data
-
-Command exit status:
-  1
-
-Command output:
-  (empty)
-
-Command error:
-  
-    /// MultiQC 🔍 | v1.16
-  
-  |           multiqc | MultiQC Version v1.26 now available!
-  |           multiqc | Report title: Modulome
-  |           multiqc | Only using modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
-  |           multiqc | Search path : /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/00/f0d0fa9caa12cd8d64b54a60ec1814
-  |         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 146/146  
-  |          cutadapt | Found 23 reports
-  |            fastqc | Found 23 reports
-  |           multiqc | Report      : multiqc_report.html
-  |           multiqc | Data        : multiqc_data
-  |           multiqc | MultiQC complete
-  Traceback (most recent call last):
-    File "/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/bin/assemble_qc_stats.py", line 50, in <module>
-      main(args.multiqc_dir)
-    File "/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/bin/assemble_qc_stats.py", line 15, in main
-      os.path.join(mqc_dir, "multiqc_featureCounts.txt"), index_col=0, sep="\t"
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-      return func(*args, **kwargs)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-      return _read(filepath_or_buffer, kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-      parser = TextFileReader(filepath_or_buffer, **kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-      self._engine = self._make_engine(self.engine)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-      return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
-      self._open_handles(src, kwds)
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
-      errors=kwds.get("encoding_errors", "strict"),
-    File "/home/glbrc.org/cdalldorf/.conda/envs/modulome/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
-      newline="",
-  FileNotFoundError: [Errno 2] No such file or directory: 'multiqc_data/multiqc_featureCounts.txt'
-
-Work dir:
-  /mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/00/f0d0fa9caa12cd8d64b54a60ec1814
-
-Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
-
-
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[5e/7492ef] process > trim_galore (6)         [100%] 26 of 26, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23 ✔
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23 ✔
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23 ✔
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23 ✔
+[09/e3549a] process > multiqc (1)             [100%] 1 of 1 ✔
+[bd/c45fee] process > assemble_tpm            [100%] 1 of 1, cached: 1 ✔
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
+[4c/66d790] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
+[5e/7492ef] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Error is ignored
+
+executor >  local (4)
+[95/9e7808] process > bowtie_build            [100%] 1 of 1, cached: 1 ✔
+[0b/f115ef] process > gff2bed                 [100%] 1 of 1, cached: 1 ✔
+[skipped  ] process > download_fastq (24)     [100%] 24 of 24, stored: 24 ✔
+[-        ] process > stage_fastq_single      -
+[-        ] process > stage_fastq_paired      -
+[5e/7492ef] process > trim_galore (6)         [100%] 26 of 26, cached: 23, fa...
+[5b/695b80] process > bowtie_align (23)       [100%] 23 of 23, cached: 23 ✔
+[7f/478b4e] process > sam2bam (23)            [100%] 23 of 23, cached: 23 ✔
+[52/969217] process > get_read_direction (23) [100%] 23 of 23, cached: 23 ✔
+[a8/2e95b7] process > featureCounts (23)      [100%] 23 of 23, cached: 23 ✔
+[09/e3549a] process > multiqc (1)             [100%] 1 of 1 ✔
+[bd/c45fee] process > assemble_tpm            [100%] 1 of 1, cached: 1 ✔
+[skipping] Stored process > download_fastq (1)
+[skipping] Stored process > download_fastq (2)
+[skipping] Stored process > download_fastq (3)
+[skipping] Stored process > download_fastq (4)
+[skipping] Stored process > download_fastq (5)
+[skipping] Stored process > download_fastq (6)
+[skipping] Stored process > download_fastq (7)
+[skipping] Stored process > download_fastq (8)
+[skipping] Stored process > download_fastq (9)
+[skipping] Stored process > download_fastq (10)
+[skipping] Stored process > download_fastq (11)
+[skipping] Stored process > download_fastq (12)
+[skipping] Stored process > download_fastq (13)
+[skipping] Stored process > download_fastq (14)
+[skipping] Stored process > download_fastq (15)
+[skipping] Stored process > download_fastq (16)
+[skipping] Stored process > download_fastq (17)
+[skipping] Stored process > download_fastq (18)
+[skipping] Stored process > download_fastq (19)
+[skipping] Stored process > download_fastq (20)
+[skipping] Stored process > download_fastq (21)
+[skipping] Stored process > download_fastq (22)
+[skipping] Stored process > download_fastq (23)
+[skipping] Stored process > download_fastq (24)
+[80/1646b9] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (1)
+[4c/66d790] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Execution is retried (2)
+[5e/7492ef] NOTE: Process `trim_galore (6)` terminated with an error exit status (25) -- Error is ignored
 
 
 Science complete!
-End time: Fri Dec 27 20:09:04 CST 2024
+End time: Mon Dec 30 08:55:02 CST 2024

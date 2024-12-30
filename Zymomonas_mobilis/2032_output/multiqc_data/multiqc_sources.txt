@@ -1,0 +1,116 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	SRX6700177	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700177_all.txt.summary
+featureCounts	all_sections	SRX6700169	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700169_all.txt.summary
+featureCounts	all_sections	SRX6700180	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700180_all.txt.summary
+featureCounts	all_sections	SRX6700179	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700179_all.txt.summary
+featureCounts	all_sections	SRX6700168	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700168_all.txt.summary
+featureCounts	all_sections	SRX6700181	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700181_all.txt.summary
+featureCounts	all_sections	SRX6700176	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700176_all.txt.summary
+featureCounts	all_sections	SRX6700166	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700166_all.txt.summary
+featureCounts	all_sections	SRX6700178	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700178_all.txt.summary
+featureCounts	all_sections	SRX6700165	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700165_all.txt.summary
+featureCounts	all_sections	SRX6700175	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700175_all.txt.summary
+featureCounts	all_sections	SRX6700182	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700182_all.txt.summary
+featureCounts	all_sections	SRX6700164	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700164_all.txt.summary
+featureCounts	all_sections	SRX6700183	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700183_all.txt.summary
+featureCounts	all_sections	SRX6700174	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700174_all.txt.summary
+featureCounts	all_sections	SRX6700162	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700162_all.txt.summary
+featureCounts	all_sections	SRX6700172	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700172_all.txt.summary
+featureCounts	all_sections	SRX6700185	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700185_all.txt.summary
+featureCounts	all_sections	SRX6700163	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700163_all.txt.summary
+featureCounts	all_sections	SRX6700184	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700184_all.txt.summary
+featureCounts	all_sections	SRX6700173	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700173_all.txt.summary
+featureCounts	all_sections	SRX6700170	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700170_all.txt.summary
+featureCounts	all_sections	SRX6700171	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/featureCounts/SRX6700171_all.txt.summary
+Bowtie 1	all_sections	SRX6700177	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700177_bowtie.txt
+Bowtie 1	all_sections	SRX6700166	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700166_bowtie.txt
+Bowtie 1	all_sections	SRX6700180	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700180_bowtie.txt
+Bowtie 1	all_sections	SRX6700170	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700170_bowtie.txt
+Bowtie 1	all_sections	SRX6700163	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700163_bowtie.txt
+Bowtie 1	all_sections	SRX6700175	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700175_bowtie.txt
+Bowtie 1	all_sections	SRX6700185	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700185_bowtie.txt
+Bowtie 1	all_sections	SRX6700168	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700168_bowtie.txt
+Bowtie 1	all_sections	SRX6700179	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700179_bowtie.txt
+Bowtie 1	all_sections	SRX6700182	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700182_bowtie.txt
+Bowtie 1	all_sections	SRX6700172	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700172_bowtie.txt
+Bowtie 1	all_sections	SRX6700164	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700164_bowtie.txt
+Bowtie 1	all_sections	SRX6700178	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700178_bowtie.txt
+Bowtie 1	all_sections	SRX6700183	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700183_bowtie.txt
+Bowtie 1	all_sections	SRX6700173	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700173_bowtie.txt
+Bowtie 1	all_sections	SRX6700165	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700165_bowtie.txt
+Bowtie 1	all_sections	SRX6700162	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700162_bowtie.txt
+Bowtie 1	all_sections	SRX6700174	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700174_bowtie.txt
+Bowtie 1	all_sections	SRX6700184	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700184_bowtie.txt
+Bowtie 1	all_sections	SRX6700169	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700169_bowtie.txt
+Bowtie 1	all_sections	SRX6700181	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700181_bowtie.txt
+Bowtie 1	all_sections	SRX6700171	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700171_bowtie.txt
+Bowtie 1	all_sections	SRX6700176	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/bowtie/SRX6700176_bowtie.txt
+RSeQC	infer_experiment	SRX6700169	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700169.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700180	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700180.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700173	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700173.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700178	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700178.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700162	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700162.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700164	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700164.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700175	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700175.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700163	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700163.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700179	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700179.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700181	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700181.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700172	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700172.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700168	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700168.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700174	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700174.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700165	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700165.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700171	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700171.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700182	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700182.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700184	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700184.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700177	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700177.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700166	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700166.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700170	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700170.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700183	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700183.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700185	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700185.infer_experiment.txt
+RSeQC	infer_experiment	SRX6700176	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/rseqc/SRX6700176.infer_experiment.txt
+Cutadapt	all_sections	SRX6700162	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700162_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700185	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700185_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700173	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700173_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700180	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700180_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700176	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700176_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700166	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700166_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700163	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700163_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700181	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700181_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700177	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700177_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700184	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700184_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700172	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700172_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700169	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700169_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700178	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700178_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700168	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700168_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700179	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700179_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700164	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700164_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700170	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700170_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700183	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700183_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700175	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700175_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700165	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700165_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700182	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700182_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700174	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700174_2.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX6700171	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/cutadapt/SRX6700171_1.fastq.gz_trimming_report.txt
+FastQC	all_sections	SRX6700177	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700177_val_2_fastqc.zip
+FastQC	all_sections	SRX6700162	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700162_val_2_fastqc.zip
+FastQC	all_sections	SRX6700176	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700176_val_2_fastqc.zip
+FastQC	all_sections	SRX6700163	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700163_val_2_fastqc.zip
+FastQC	all_sections	SRX6700185	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700185_val_1_fastqc.zip
+FastQC	all_sections	SRX6700168	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700168_val_1_fastqc.zip
+FastQC	all_sections	SRX6700175	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700175_val_2_fastqc.zip
+FastQC	all_sections	SRX6700184	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700184_val_1_fastqc.zip
+FastQC	all_sections	SRX6700174	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700174_val_2_fastqc.zip
+FastQC	all_sections	SRX6700169	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700169_val_1_fastqc.zip
+FastQC	all_sections	SRX6700172	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700172_val_2_fastqc.zip
+FastQC	all_sections	SRX6700182	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700182_val_1_fastqc.zip
+FastQC	all_sections	SRX6700173	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700173_val_2_fastqc.zip
+FastQC	all_sections	SRX6700183	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700183_val_1_fastqc.zip
+FastQC	all_sections	SRX6700166	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700166_val_2_fastqc.zip
+FastQC	all_sections	SRX6700165	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700165_val_2_fastqc.zip
+FastQC	all_sections	SRX6700178	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700178_val_1_fastqc.zip
+FastQC	all_sections	SRX6700180	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700180_val_1_fastqc.zip
+FastQC	all_sections	SRX6700170	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700170_val_2_fastqc.zip
+FastQC	all_sections	SRX6700179	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700179_val_1_fastqc.zip
+FastQC	all_sections	SRX6700181	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700181_val_1_fastqc.zip
+FastQC	all_sections	SRX6700164	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700164_val_2_fastqc.zip
+FastQC	all_sections	SRX6700171	/mnt/bigdata/linuxhome/cdalldorf/iModulonMiner/2_process_data/work/09/e3549a1f364625fbe9b9d7f1334ec8/fastqc/SRX6700171_val_2_fastqc.zip
