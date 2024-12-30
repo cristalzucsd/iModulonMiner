@@ -53,7 +53,7 @@ if ( params.sequence_dir == "None" ) {
 }
 
 def gff_file = file("${params.sequence_dir}/*.gff3")
-if(gff_files.size() == 0)  {
+if(gff_file.size() == 0)  {
     log.error"""
     
     ERROR: No GFF3 files found in ${params.sequence_dir}
