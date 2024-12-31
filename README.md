@@ -15,12 +15,12 @@ Here, we introduce the concept of the **Modulome** for an organism, which is the
 ## Setup
 
 ### Docker
-We have provided pre-built Docker containers with all necessary software.
+This repository is forked from https://github.com/SBRG/iModulonMiner, which has semi-functional Docker functionality. I made this pipeline to be run on a remote server that was not compatible with Docker, so I have not modified the Docker files. I'm unsure if this functionality works, but I have left it in case it is needed:
 
 To begin, install [Docker](https://docs.docker.com/get-docker/) and [Nextflow](https://www.nextflow.io/).
 
 ### Local installation
-You can also run each program locally, with all requirements listed in the conda `environment.yml` file. For Step 5 (Characterized iModulons), additionally install [pymodulon](https://pymodulon.readthedocs.io/en/latest/).
+You can also run each program locally, with all requirements listed in the conda `environment.yml` file.
 
 ## Cite
 
