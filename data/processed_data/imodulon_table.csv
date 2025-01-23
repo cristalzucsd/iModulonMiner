@@ -37,7 +37,7 @@ index,name,single_gene,imodulon_size,explained_variance,category,old_name,additi
 15,toxin_secretion,,6,0.009942504,structural,cell_wall_1,I think this may be a species difference,,
 38,cell_wall,,16,0.003107123,structural,cell_wall_2,maybe noise. I think it more likely is two iModulons mushed together,,
 16,motility,,16,0.015779502,structural,motility_1,,,
-37,membrane_cobalmin,,52,0.008226951,structural,noise_1,,,
+37,membrane_cobalamin,,52,0.008226951,structural,noise_1,,,
 51,translation_1,,39,0.064458144,translation,translation_1,,,
 2,translation_2,,18,0.016510241,translation,translation_2,,,
 23,sulfur_transport,,10,0.008713842,transport,ABC_transporters,,,
