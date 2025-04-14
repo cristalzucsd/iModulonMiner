@@ -1,4 +1,4 @@
-# A fork of SBRG/iModulonMiner, updated and designed for analysis of [*Zymomonas mobilis*], publication to be submitted soon
+# A fork of SBRG/iModulonMiner, updated and designed for analysis of *Zymomonas mobilis*, publication to be submitted soon
 
 This repository presents a computational workflow to compute and characterize all iModulons for a selected organism. This occurs in five steps:
 1. Gather all publicly available RNA-seq data for the organism ([Step 1](1_download_metadata))
