@@ -147,3 +147,6 @@ data/raw_data/private_reads/
 *.pdf
 *.DS_Store
 *.Identifier
+
+# Custom
+*.xml
