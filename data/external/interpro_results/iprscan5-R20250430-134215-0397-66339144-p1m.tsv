@@ -1,0 +1,271 @@
+ZMO1_ZMOp33x028	29b9ae194f3078347bf039e700055c9a	1506	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x028	29b9ae194f3078347bf039e700055c9a	1506	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	37	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x028	29b9ae194f3078347bf039e700055c9a	1506	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x019	1c2c6bdf86940af8e72528c0a660046a	240	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x024	1e72b492b5571d8a69277fdef33820ea	258	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x034	0619de5e3e83af127e3bb6b762266a04	237	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x041	999011c0211f51e51a0fd195cb502858	1020	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	52	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x022	76eb58460aaf1ccd77dcf9addfb1fae8	363	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x031	68c77154dd150565204f97239044dc8d	489	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x031	68c77154dd150565204f97239044dc8d	489	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x031	68c77154dd150565204f97239044dc8d	489	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x006	2375c9ada14b9d566931c52f5c2de0d2	918	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	918	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	231	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x020	17eef3859012bbcaa6d85ec76c516eb3	231	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x008	af5374b27275b525b41d810dd0c7d5d2	2505	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x008	af5374b27275b525b41d810dd0c7d5d2	2505	ProSiteProfiles	PS50842	Expansin, family-45 endoglucanase-like domain profile.	1898	1972	8.618114	T	30-04-2025	IPR007112	Expansin/pollen allergen, DPBB domain	-	MetaCyc:PWY-6788
+ZMO1_ZMOp36x008	af5374b27275b525b41d810dd0c7d5d2	2505	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x005	83d85c4883dd5a3897da2a4049a92d8d	759	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x005	83d85c4883dd5a3897da2a4049a92d8d	759	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x027	3884a122c04d3f24f858e3c516c3b6b0	882	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x048	aa4ff07917f46585768df34af354b116	363	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x037	517e8cb9e49a2e7f4484c3fd91b1d92b	675	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x037	517e8cb9e49a2e7f4484c3fd91b1d92b	675	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x037	517e8cb9e49a2e7f4484c3fd91b1d92b	675	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x016	98351a466b661028e355feee3abda635	3117	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x013	82025c78e47daa0570e929bbd65a7d7f	375	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x013	82025c78e47daa0570e929bbd65a7d7f	375	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x026	edafd9318050cf132458644aea54e047	285	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	37	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x012	c34880357db12fc38e7d79c78d4d85fa	2133	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	43	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x012	c34880357db12fc38e7d79c78d4d85fa	2133	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x012	c34880357db12fc38e7d79c78d4d85fa	2133	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x007	798a24a3a70b7f7afd09a3845c6c6822	552	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x007	798a24a3a70b7f7afd09a3845c6c6822	552	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x007	798a24a3a70b7f7afd09a3845c6c6822	552	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x040	9291b114cd83dcf6a85a5a632d59b724	381	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	43	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x047	6efa64aaffe2df446c7100d159bc310a	213	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x047	6efa64aaffe2df446c7100d159bc310a	213	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x047	6efa64aaffe2df446c7100d159bc310a	213	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x016	0ee7709d72b1d977b29242727cb58445	762	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x016	0ee7709d72b1d977b29242727cb58445	762	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x009	5d63315eb8b353a8e43816373b80b62a	459	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x030	54c814d80ce46f477b4d66e1777cec1e	336	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	40	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x049	886ba8e08d0a90b784461681d42ecc29	327	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x012	59c0cf284e9068663a48dee9f98afcef	513	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x012	59c0cf284e9068663a48dee9f98afcef	513	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x012	59c0cf284e9068663a48dee9f98afcef	513	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x032	54adeab632d3f2763cff65b99c111c2c	471	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x032	54adeab632d3f2763cff65b99c111c2c	471	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x032	54adeab632d3f2763cff65b99c111c2c	471	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x038	239643c372171e1fbf03bfc9c703d0d8	330	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x001	a0b1bb0e773cd171c421437a146d6936	444	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x021	b946dfedeafbf981bfa1ff1f53921153	1050	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x021	b946dfedeafbf981bfa1ff1f53921153	1050	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x033	af9ffac3182a38d9707768a2c64d391d	312	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	ProSitePatterns	PS00956	Fungal hydrophobins signature.	106	117	-	T	30-04-2025	IPR019778	Hydrophobin, conserved site	GO:0005199(InterPro)|GO:0009277(InterPro)	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	13	35	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	34	153	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x034	b13b3cf5d7979e64d82488c8def4f686	153	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x046	78a0ff1623c7b05ac3d8afe8a9f4e440	486	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x010	3983cdf6fddd9f652f83956c284968ee	288	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	41	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x033	2984e0e16886bdf7b3cc175a0db3ed12	717	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	29	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x033	2984e0e16886bdf7b3cc175a0db3ed12	717	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x016	05083f0b1d3bf857207f411c10a00599	546	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x003	e91c124af0646bc86621fe5e70cb3b65	489	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	27	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x003	e91c124af0646bc86621fe5e70cb3b65	489	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x002	e5af314b369b47c98fb10209a7af08d4	426	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x007	d219c6dcbe423c126093f868c16b6142	2241	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x018	a18cfd87c25c19954ebcefd30721e7c8	342	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x018	a18cfd87c25c19954ebcefd30721e7c8	342	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x039	1fb8ce1e3e8b521aa8e2636099c194c7	651	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x039	1fb8ce1e3e8b521aa8e2636099c194c7	651	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x035	7e962c6b1c38d895f206863f4380316a	246	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x035	7e962c6b1c38d895f206863f4380316a	246	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x004	c995ef05b55aa4b3e2e43d0e5ff7862b	486	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x004	c995ef05b55aa4b3e2e43d0e5ff7862b	486	ProSitePatterns	PS00197	2Fe-2S ferredoxin-type iron-sulfur binding region signature.	11	19	-	T	30-04-2025	IPR006058	2Fe-2S ferredoxin, iron-sulphur binding site	GO:0051537(InterPro)	MetaCyc:PWY-101|MetaCyc:PWY-1381|MetaCyc:PWY-1641|MetaCyc:PWY-1723|MetaCyc:PWY-2421|MetaCyc:PWY-2467|MetaCyc:PWY-2724|MetaCyc:PWY-3181|MetaCyc:PWY-321|MetaCyc:PWY-3641|MetaCyc:PWY-3781|MetaCyc:PWY-4302|MetaCyc:PWY-5055|MetaCyc:PWY-5301|MetaCyc:PWY-5317|MetaCyc:PWY-5318|MetaCyc:PWY-5392|MetaCyc:PWY-5412|MetaCyc:PWY-5413|MetaCyc:PWY-5414|MetaCyc:PWY-5418|MetaCyc:PWY-5421|MetaCyc:PWY-5422|MetaCyc:PWY-5434|MetaCyc:PWY-5497|MetaCyc:PWY-561|MetaCyc:PWY-5690|MetaCyc:PWY-5695|MetaCyc:PWY-5706|MetaCyc:PWY-5748|MetaCyc:PWY-581|MetaCyc:PWY-5846|MetaCyc:PWY-5855|MetaCyc:PWY-5856|MetaCyc:PWY-5857|MetaCyc:PWY-5870|MetaCyc:PWY-5871|MetaCyc:PWY-5872|MetaCyc:PWY-5873|MetaCyc:PWY-5882|MetaCyc:PWY-5913|MetaCyc:PWY-5984|MetaCyc:PWY-601|MetaCyc:PWY-6044|MetaCyc:PWY-6080|MetaCyc:PWY-6197|MetaCyc:PWY-6340|MetaCyc:PWY-6378|MetaCyc:PWY-6379|MetaCyc:PWY-6495|MetaCyc:PWY-6503|MetaCyc:PWY-6523|MetaCyc:PWY-6526|MetaCyc:PWY-6538|MetaCyc:PWY-6552|MetaCyc:PWY-6596|MetaCyc:PWY-6606|MetaCyc:PWY-6607|MetaCyc:PWY-6608|MetaCyc:PWY-6633|MetaCyc:PWY-6708|MetaCyc:PWY-6710|MetaCyc:PWY-6728|MetaCyc:PWY-6831|MetaCyc:PWY-6875|MetaCyc:PWY-6944|MetaCyc:PWY-6948|MetaCyc:PWY-695|MetaCyc:PWY-6969|MetaCyc:PWY-6971|MetaCyc:PWY-6976|MetaCyc:PWY-6978|MetaCyc:PWY-6999|MetaCyc:PWY-7009|MetaCyc:PWY-7010|MetaCyc:PWY-7011|MetaCyc:PWY-7045|MetaCyc:PWY-7046|MetaCyc:PWY-7085|MetaCyc:PWY-7128|MetaCyc:PWY-7150|MetaCyc:PWY-7151|MetaCyc:PWY-7175|MetaCyc:PWY-7212|MetaCyc:PWY-722|MetaCyc:PWY-7230|MetaCyc:PWY-7254|MetaCyc:PWY-7279|MetaCyc:PWY-7304|MetaCyc:PWY-7384|MetaCyc:PWY-7405|MetaCyc:PWY-7407|MetaCyc:PWY-7412|MetaCyc:PWY-7419|MetaCyc:PWY-7430|MetaCyc:PWY-7481|MetaCyc:PWY-7492|MetaCyc:PWY-7513|MetaCyc:PWY-7521|MetaCyc:PWY-7565|MetaCyc:PWY-7599|MetaCyc:PWY-7603|MetaCyc:PWY-7604|MetaCyc:PWY-761|MetaCyc:PWY-7615|MetaCyc:PWY-7624|MetaCyc:PWY-7626|MetaCyc:PWY-7629|MetaCyc:PWY-7637|MetaCyc:PWY-7638|MetaCyc:PWY-7648|MetaCyc:PWY-7650|MetaCyc:PWY-7659|MetaCyc:PWY-7660|MetaCyc:PWY-7667|MetaCyc:PWY-7668|MetaCyc:PWY-7673|MetaCyc:PWY-7677|MetaCyc:PWY-7687|MetaCyc:PWY-7689|MetaCyc:PWY-7692|MetaCyc:PWY-7695|MetaCyc:PWY-7698|MetaCyc:PWY-7703|MetaCyc:PWY-7705|MetaCyc:PWY-7708|MetaCyc:PWY-7733|MetaCyc:PWY-7734|MetaCyc:PWY-7749|MetaCyc:PWY-7757|MetaCyc:PWY-7775|MetaCyc:PWY-7779|MetaCyc:PWY-7780|MetaCyc:PWY-7795|MetaCyc:PWY-7826|MetaCyc:PWY-7861|MetaCyc:PWY-7895|MetaCyc:PWY-7937|MetaCyc:PWY-7949|MetaCyc:PWY-7983|MetaCyc:PWY-7984|MetaCyc:PWY-7986|MetaCyc:PWY-7988|MetaCyc:PWY-7989|MetaCyc:PWY-8012|MetaCyc:PWY-8035|MetaCyc:PWY-8036|MetaCyc:PWY-8038|MetaCyc:PWY-8049|MetaCyc:PWY-8084|MetaCyc:PWY-8085|MetaCyc:PWY-8086|MetaCyc:PWY-8087|MetaCyc:PWY-8088|MetaCyc:PWY-8100|MetaCyc:PWY-8111|MetaCyc:PWY-8158|MetaCyc:PWY-8271|MetaCyc:PWY-8325|MetaCyc:PWY-8374|MetaCyc:PWY-8382|MetaCyc:PWY-8386|MetaCyc:PWY-8432|MetaCyc:PWY-8450|MetaCyc:PWY-8451|Reactome:R-CEL-71403|Reactome:R-CEL-964975|Reactome:R-DDI-71403|Reactome:R-DDI-74259|Reactome:R-DDI-964975|Reactome:R-DDI-9748787|Reactome:R-DME-71403|Reactome:R-DME-74259|Reactome:R-DME-964975|Reactome:R-DME-9748787|Reactome:R-DRE-71403|Reactome:R-GGA-372987|Reactome:R-GGA-421178|Reactome:R-HSA-611105|Reactome:R-HSA-71403|Reactome:R-HSA-74259|Reactome:R-HSA-8851680|Reactome:R-HSA-964975|Reactome:R-HSA-9748787|Reactome:R-HSA-9854311|Reactome:R-MMU-71403|Reactome:R-MMU-74259|Reactome:R-MMU-8851680|Reactome:R-MMU-964975|Reactome:R-MMU-9748787|Reactome:R-MMU-9854311|Reactome:R-RNO-71403|Reactome:R-RNO-74259|Reactome:R-RNO-8851680|Reactome:R-RNO-964975|Reactome:R-RNO-9748787|Reactome:R-SCE-71403|Reactome:R-SPO-71403|Reactome:R-XTR-71403|Reactome:R-XTR-9854311
+ZMO1_ZMOp36x004	c995ef05b55aa4b3e2e43d0e5ff7862b	486	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x004	c995ef05b55aa4b3e2e43d0e5ff7862b	486	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x050	fe12f8f0e0d80c0d0312bc96ac7878bf	189	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x050	fe12f8f0e0d80c0d0312bc96ac7878bf	189	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x027	f49d82f02cfc807821f46bc28ab84a2b	225	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x027	f49d82f02cfc807821f46bc28ab84a2b	225	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x013	9bb61bb4e8a42ff0bafc236827904e2a	1779	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	53	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x014	ae2abcf832eeab60407222991b112bb8	135	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	38	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x036	0e363e20140fe956976c5b153924e7fd	1731	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x036	0e363e20140fe956976c5b153924e7fd	1731	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	30	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x036	0e363e20140fe956976c5b153924e7fd	1731	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	30	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x026	c6133f4f933ee532636bf5fdc58f0351	126	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x001	ff08639312ef1909701b14c9d1bcc029	138	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x018	71a1fdd959dfd694f1b4d939421e32f5	723	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	39	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x018	71a1fdd959dfd694f1b4d939421e32f5	723	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	39	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x018	71a1fdd959dfd694f1b4d939421e32f5	723	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	36	882	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	38	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	47	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	17	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	35	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x011	c17c42e35c89c5dc6f9cfa00f73fafcc	882	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	35	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x017	74014f19592f97776c5be9bd76ca2182	984	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x017	74014f19592f97776c5be9bd76ca2182	984	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	27	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x017	74014f19592f97776c5be9bd76ca2182	984	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	915	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x015	f1e6952944b6998d59e6724ebe6f7b95	915	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	23	201	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	44	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x023	9b0cb5652db2f29f36735077769a41d2	201	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	44	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x035	0a6918a956eb51efba1da79dc488169b	330	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x035	0a6918a956eb51efba1da79dc488169b	330	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x036	7232c2fa9e9f58fe158c04f30174e65a	279	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x036	7232c2fa9e9f58fe158c04f30174e65a	279	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x025	7f0c865d7ada3baf7128036cc123413a	1329	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x025	7f0c865d7ada3baf7128036cc123413a	1329	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	46	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x017	a983e866c862b212d38e644e7787fe87	177	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x003	d93d6e3cac4aaaf7e7970e5c30828bf9	282	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	39	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x014	2d732d920b440fb6ec2da3fbaeae0aa3	1716	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x051	333f76103d9768cd1f9e9c47f5676507	327	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x037	1de4576bcef7b0c9efab34264be0c250	351	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x005	16e8fd3e8121f311d627adfc236d19bd	282	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x005	16e8fd3e8121f311d627adfc236d19bd	282	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x005	16e8fd3e8121f311d627adfc236d19bd	282	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x029	948e91952a189391b21de8787c67ae53	252	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	37	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	36	813	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	17	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	35	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	29	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x038	1f2b87b326448d9842b0d4a4f9e91e7a	813	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	18	35	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x019	b5d4b7bd688bf596eea8927bf80ed46c	894	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x019	b5d4b7bd688bf596eea8927bf80ed46c	894	ProSiteProfiles	PS50842	Expansin, family-45 endoglucanase-like domain profile.	766	838	8.569081	T	30-04-2025	IPR007112	Expansin/pollen allergen, DPBB domain	-	MetaCyc:PWY-6788
+ZMO1_ZMOp33x032	4773f1c6827bbc20406de91d58dad9ad	195	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x015	5c6dea890404b9121a2ce9e37289a2e0	1341	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	2	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	462	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	3	14	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x029	cf65c84b49cce62e0b94ee3db708e680	462	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	26	318	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x030	327bd50833f237ebd4b759fb53a52438	318	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	40	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	20	381	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	22	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x013	883b190fbc4c3b8d5c9589bf23d861c5	381	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	40	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x006	7d2284d4e7d56188a02f4909224f321a	270	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	34	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x004	4ca0e5740861648dfd4f6c1f6c480aa7	780	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	36	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x031	290fb23ec948f7ee3d4d646400029d23	471	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	17	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x031	290fb23ec948f7ee3d4d646400029d23	471	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x031	290fb23ec948f7ee3d4d646400029d23	471	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x023	6d5ba62036c9d73047a822728b0e2709	990	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x023	6d5ba62036c9d73047a822728b0e2709	990	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	25	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x008	10529878605554491581bbcb96993cb7	732	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	27	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x015	152122a0af496d703aa28046e40bda33	2631	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	39	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	255	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x028	82a26d51f7d611ce304080cac2c22c09	255	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x052	15ad0e65b8f4edac98fc4dc25259962f	327	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x052	15ad0e65b8f4edac98fc4dc25259962f	327	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x011	e8c701ceb3287d5a55b63f0c5adf7a1c	1158	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x011	e8c701ceb3287d5a55b63f0c5adf7a1c	1158	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x045	4a37ed9ff7c97d4f3341892295884a65	792	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x045	4a37ed9ff7c97d4f3341892295884a65	792	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	29	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x045	4a37ed9ff7c97d4f3341892295884a65	792	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x022	95b919617af2eecc24491950bb123480	984	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x042	532c1551ee39ef4cfe31235d3ef669f0	1776	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x042	532c1551ee39ef4cfe31235d3ef669f0	1776	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	46	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	24	231	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x039	924419b5498f1cf6c36c98556aa604de	231	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	23	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x020	ecd9d947a526d5a4cb6e4d3ee44de047	1242	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x020	ecd9d947a526d5a4cb6e4d3ee44de047	1242	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x020	ecd9d947a526d5a4cb6e4d3ee44de047	1242	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	32	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	810	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x043	eb31411d5c120cd86d5f514afe0f45c3	810	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x023	f18085b371e017ccc927d2903e1ebeb4	582	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x017	3220acdb32c88d0dd5ed951d0c64542f	327	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x017	3220acdb32c88d0dd5ed951d0c64542f	327	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	18	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	5	16	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	198	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	4	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	17	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp33x014	f2bba68f521440060af620b4cddbaad6	198	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	26	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	29	537	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	16	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	17	28	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x010	079f1c79de861ae027e67d9117bc9f0a	537	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x021	16d2b4823f2272758ec14ea74ab6f31a	381	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	43	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x053	5a9348b37d4999714f78ffe2aff6d291	55	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	33	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x053	5a9348b37d4999714f78ffe2aff6d291	55	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	27	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x053	5a9348b37d4999714f78ffe2aff6d291	55	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x009	97993e6aa45499da58fd6094df3fd76c	663	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	44	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x018	d23923e1ad4dfcea78d2e2ceaa0036a4	1185	ProSitePatterns	PS00243	Integrins beta chain EGF (I-EGF) domain signature.	324	337	-	T	30-04-2025	IPR057243	Integrins beta, I-EGF domain, conserved site	-	Reactome:R-BTA-1566948|Reactome:R-BTA-166016|Reactome:R-BTA-198933|Reactome:R-BTA-202733|Reactome:R-BTA-2129379|Reactome:R-BTA-216083|Reactome:R-BTA-2173789|Reactome:R-BTA-3000178|Reactome:R-BTA-6798695|Reactome:R-CEL-114608|Reactome:R-CEL-1236973|Reactome:R-CEL-1566977|Reactome:R-CEL-198933|Reactome:R-CEL-202733|Reactome:R-CEL-210991|Reactome:R-CEL-2129379|Reactome:R-CEL-216083|Reactome:R-CEL-2173789|Reactome:R-CEL-3000157|Reactome:R-CEL-3000170|Reactome:R-CEL-3000178|Reactome:R-CEL-354192|Reactome:R-CEL-354194|Reactome:R-CEL-4420097|Reactome:R-CEL-445144|Reactome:R-CEL-445355|Reactome:R-CEL-446343|Reactome:R-CEL-5674135|Reactome:R-CEL-6798695|Reactome:R-CEL-8874081|Reactome:R-CEL-8875513|Reactome:R-CEL-9013149|Reactome:R-CEL-9013404|Reactome:R-CEL-9013408|Reactome:R-CEL-9013423|Reactome:R-CEL-9860927|Reactome:R-DME-114608|Reactome:R-DME-1236973|Reactome:R-DME-198933|Reactome:R-DME-202733|Reactome:R-DME-210991|Reactome:R-DME-2129379|Reactome:R-DME-216083|Reactome:R-DME-2173789|Reactome:R-DME-3000170|Reactome:R-DME-3000178|Reactome:R-DME-354192|Reactome:R-DME-445355|Reactome:R-DME-446343|Reactome:R-DME-5674135|Reactome:R-DME-6798695|Reactome:R-DME-9013149|Reactome:R-DME-9013404|Reactome:R-DME-9013408|Reactome:R-DME-9013423|Reactome:R-DME-9860927|Reactome:R-HSA-114608|Reactome:R-HSA-1566948|Reactome:R-HSA-1566977|Reactome:R-HSA-166016|Reactome:R-HSA-198933|Reactome:R-HSA-2022090|Reactome:R-HSA-202733|Reactome:R-HSA-210990|Reactome:R-HSA-210991|Reactome:R-HSA-2129379|Reactome:R-HSA-216083|Reactome:R-HSA-2173789|Reactome:R-HSA-3000157|Reactome:R-HSA-3000170|Reactome:R-HSA-3000178|Reactome:R-HSA-354192|Reactome:R-HSA-354194|Reactome:R-HSA-372708|Reactome:R-HSA-416700|Reactome:R-HSA-4420097|Reactome:R-HSA-445144|Reactome:R-HSA-446107|Reactome:R-HSA-446343|Reactome:R-HSA-447041|Reactome:R-HSA-5663220|Reactome:R-HSA-5674135|Reactome:R-HSA-6785807|Reactome:R-HSA-6798695|Reactome:R-HSA-6802946|Reactome:R-HSA-6802948|Reactome:R-HSA-6802952|Reactome:R-HSA-6802955|Reactome:R-HSA-75892|Reactome:R-HSA-8874081|Reactome:R-HSA-8875513|Reactome:R-HSA-8941332|Reactome:R-HSA-9013149|Reactome:R-HSA-9013404|Reactome:R-HSA-9013408|Reactome:R-HSA-9013423|Reactome:R-HSA-9609690|Reactome:R-HSA-9634597|Reactome:R-HSA-9649948|Reactome:R-HSA-9656223|Reactome:R-HSA-9679191|Reactome:R-HSA-9725554|Reactome:R-HSA-9830674|Reactome:R-HSA-9856532|Reactome:R-HSA-9860927|Reactome:R-MMU-114608|Reactome:R-MMU-1566948|Reactome:R-MMU-1566977|Reactome:R-MMU-166016|Reactome:R-MMU-198933|Reactome:R-MMU-202733|Reactome:R-MMU-210990|Reactome:R-MMU-210991|Reactome:R-MMU-2129379|Reactome:R-MMU-216083|Reactome:R-MMU-2173789|Reactome:R-MMU-3000157|Reactome:R-MMU-3000170|Reactome:R-MMU-3000178|Reactome:R-MMU-354192|Reactome:R-MMU-354194|Reactome:R-MMU-372708|Reactome:R-MMU-4420097|Reactome:R-MMU-445144|Reactome:R-MMU-446107|Reactome:R-MMU-446343|Reactome:R-MMU-5674135|Reactome:R-MMU-6798695|Reactome:R-MMU-8874081|Reactome:R-MMU-8875513|Reactome:R-MMU-9013149|Reactome:R-MMU-9013404|Reactome:R-MMU-9013408|Reactome:R-MMU-9013423|Reactome:R-MMU-9634597|Reactome:R-MMU-9860927|Reactome:R-RNO-114608|Reactome:R-RNO-1566948|Reactome:R-RNO-1566977|Reactome:R-RNO-198933|Reactome:R-RNO-202733|Reactome:R-RNO-210990|Reactome:R-RNO-210991|Reactome:R-RNO-2129379|Reactome:R-RNO-216083|Reactome:R-RNO-2173789|Reactome:R-RNO-3000157|Reactome:R-RNO-3000170|Reactome:R-RNO-3000178|Reactome:R-RNO-354192|Reactome:R-RNO-354194|Reactome:R-RNO-372708|Reactome:R-RNO-4420097|Reactome:R-RNO-445144|Reactome:R-RNO-446107|Reactome:R-RNO-446343|Reactome:R-RNO-5674135|Reactome:R-RNO-8874081|Reactome:R-RNO-8875513|Reactome:R-RNO-9013149|Reactome:R-RNO-9013404|Reactome:R-RNO-9013408|Reactome:R-RNO-9634597|Reactome:R-RNO-9860927
+ZMO1_ZMOp39x018	d23923e1ad4dfcea78d2e2ceaa0036a4	1185	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	30	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp39x018	d23923e1ad4dfcea78d2e2ceaa0036a4	1185	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	30	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x040	477ce0cefb4d21e2dd021caac9891aeb	228	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x040	477ce0cefb4d21e2dd021caac9891aeb	228	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x040	477ce0cefb4d21e2dd021caac9891aeb	228	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	24	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x020	0129b7d98e3369f728564b1c2de04a99	330	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	48	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	21	1152	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	16	20	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	SignalP_GRAM_NEGATIVE	SignalP-noTM	SignalP-noTM	1	19	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	15	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	T	30-04-2025	-	-	-	-
+ZMO1_ZMOp36x044	87775ab7fb042fd9fa681dd771db7c83	1152	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	20	-	T	30-04-2025	-	-	-	-

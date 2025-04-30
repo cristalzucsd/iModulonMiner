@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "zym_CP4_prot.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/chris/zuniga/iModulonMiner/data/external/GenBank/zym_CP4_prot.fasta",
+  "number-of-letters": 619789,
+  "number-of-sequences": 1840,
+  "last-updated": "2025-04-30T13:43:00",
+  "number-of-volumes": 1,
+  "bytes-total": 889018,
+  "bytes-to-cache": 636518,
+  "files": [
+    "zym_CP4_prot.fasta.pdb",
+    "zym_CP4_prot.fasta.phr",
+    "zym_CP4_prot.fasta.pin",
+    "zym_CP4_prot.fasta.pog",
+    "zym_CP4_prot.fasta.pos",
+    "zym_CP4_prot.fasta.pot",
+    "zym_CP4_prot.fasta.psq",
+    "zym_CP4_prot.fasta.ptf",
+    "zym_CP4_prot.fasta.pto"
+  ]
+}
