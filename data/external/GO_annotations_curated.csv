@@ -1,1 +1,49 @@
 ,gene_id,gene_name,gene_ontology
+335,ZMO1_ZMO2031,rpmF,structural constituent of ribosome
+339,ZMO1_ZMO1639,murJ,plasma membrane
+1220,ZMO1_ZMO2004,rpsS,ribosomal small subunit assembly
+1221,ZMO1_ZMO2004,rpsS,structural constituent of ribosome
+1222,ZMO1_ZMO2004,rpsS,cytosolic small ribosomal subunit
+1230,ZMO1_ZMO2002,rpsL,ribosome
+1231,ZMO1_ZMO2002,rpsL,structural constituent of ribosome
+1232,ZMO1_ZMO2002,rpsL,translation
+1233,ZMO1_ZMO2003,rpsJ,structural constituent of ribosome
+1234,ZMO1_ZMO2003,rpsJ,small ribosomal subunit
+1251,ZMO1_ZMO0296,tadA,tRNA-specific adenosine-34 deaminase activity
+1252,ZMO1_ZMO0296,tadA,tRNA wobble adenosine to inosine editing
+1296,ZMO1_ZMO0515,fusA,cytosol
+1297,ZMO1_ZMO0515,fusA,ribosome disassembly
+2008,ZMO1_ZMO0557,rimP,cytosol
+2009,ZMO1_ZMO0557,rimP,translation
+2010,ZMO1_ZMO0557,rimP,ribosomal small subunit assembly
+2013,ZMO1_ZMO0516,tuf,translation elongation factor activity
+2014,ZMO1_ZMO0516,tuf,translational elongation
+2790,ZMO1_ZMO1904,tsaD,tRNA threonylcarbamoyladenosine modification
+3263,ZMO1_ZMO0516,tuf,protein binding
+3264,ZMO1_ZMO0516,tuf,protein binding
+3265,ZMO1_ZMO0516,tuf,protein binding
+3266,ZMO1_ZMO0516,tuf,protein binding
+3596,ZMO1_ZMO2002,rpsL,protein binding
+3605,ZMO1_ZMO1295,queE,magnesium ion binding
+3606,ZMO1_ZMO1295,queE,carbon-nitrogen lyase activity
+3607,ZMO1_ZMO1295,queE,protein homodimerization activity
+3608,ZMO1_ZMO1295,queE,"4 iron, 4 sulfur cluster binding"
+3609,ZMO1_ZMO1295,queE,S-adenosyl-L-methionine binding
+3671,ZMO1_ZMO1663,rsfS,negative regulation of ribosome biogenesis
+3672,ZMO1_ZMO1663,rsfS,ribosomal large subunit binding
+3673,ZMO1_ZMO1663,rsfS,negative regulation of translation
+3818,ZMO1_ZMO1646,mfd,DNA binding
+3819,ZMO1_ZMO1646,mfd,RNA polymerase core enzyme binding
+3820,ZMO1_ZMO1646,mfd,DNA translocase activity
+3821,ZMO1_ZMO1646,mfd,regulation of DNA-templated transcription
+3822,ZMO1_ZMO1646,mfd,"transcription-coupled nucleotide-excision repair, DNA damage recognition"
+4171,ZMO1_ZMO2006,secE,protein transport by the Sec complex
+4172,ZMO1_ZMO2006,secE,protein transmembrane transporter activity
+4303,ZMO1_ZMO1180,nnrD,metabolite repair
+4304,ZMO1_ZMO1180,nnrD,ADP-dependent NAD(P)H-hydrate dehydratase activity
+4305,ZMO1_ZMO1180,nnrD,NADPHX epimerase activity
+4306,ZMO1_ZMO1180,nnrD,NADHX epimerase activity
+4331,ZMO1_ZMO1044,mscL,monoatomic ion transport
+4332,ZMO1_ZMO1044,mscL,mechanosensitive monoatomic ion channel activity
+4676,ZMO1_ZMO0899,nadE,NAD biosynthetic process
+4677,ZMO1_ZMO0899,nadE,cytoplasm

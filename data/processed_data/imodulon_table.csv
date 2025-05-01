@@ -1,0 +1,64 @@
+,name,category,regulator,pvalue,qvalue,precision,recall,f1score,TP,regulon_size,imodulon_size,n_regs,single_gene,percent_anaero_essential,percent_aero_essential,explained_variance
+10,heat_response,stress response,,,,,,,,,48,,,0.041666667,0.0625,0.082349455
+40,translation_1,translation,,,,,,,,,47,,,0.106382979,0.14893617,0.069874464
+9,ethanol_fermentation,metabolism,,,,,,,,,20,,,0,0.05,0.032759038
+62,noise_5,noise,,,,,,,,,156,,TRUE,0.141025641,0.134615385,0.027218206
+28,fructose_transport_maybe,poorly characterized,,,,,,,,,24,,,0,0,0.023696993
+26,glycolysis_and_ATP_synthase,metabolism,,,,,,,,,28,,,0.25,0.25,0.020950148
+15,motility_plasmid,structural,,,,,,,,,22,,,0.045454545,0.045454545,0.019382205
+41,translation_2,translation,,,,,,,,,20,,,0.05,0,0.018795397
+0,nitrogen_fixation,metabolism,,,,,,,,,12,,,0,0,0.018629652
+31,SG_10,single gene,,,,,,,,,1,,,0,0,0.015726422
+2,siderophore_receptor,transport,,,,,,,,,9,,,0,0.222222222,0.015617125
+36,oxidation_response,stress response,,,,,,,,,19,,,0.052631579,0.315789474,0.014669902
+53,unknown_5,uncharacterized,,,,,,,,,9,,,0,0,0.0140252
+7,DNA_repair_maybe,poorly characterized,,,,,,,,,19,,,0,0,0.013848608
+3,motility,structural,,,,,,,,,19,,,0,0,0.013538643
+14,noise_1,noise,,,,,,,,,15,,,0.133333333,0.2,0.012360275
+58,plasmid_unknown_1,uncharacterized,,,,,,,,,57,,,0.070175439,0.035087719,0.011822231
+6,phage_shock,stress response,,,,,,,,,4,,,0,0,0.011237448
+24,transport_1,transport,,,,,,,,,21,,,0.19047619,0.19047619,0.011073558
+13,unknown_1,uncharacterized,,,,,,,,,2,,,0,0,0.010567346
+18,toxin_secretion,stress response,,,,,,,,,5,,,0,0,0.008526598
+54,noise_4,noise,,,,,,,,,35,,,0.171428571,0.142857143,0.008423555
+56,unknown_6,uncharacterized,,,,,,,,,5,,,0.6,0.6,0.008413298
+55,ETC_and_MEP,metabolism,,,,,,,,,20,,,0.4,0.15,0.008161214
+22,membrane_cobalmin,transport,,,,,,,,,40,,TRUE,0.075,0.075,0.007713993
+38,ribonucleoside_reductase,stress response,,,,,,,,,5,,,0.2,0.4,0.007006612
+44,transport_2,transport,,,,,,,,,4,,,0.25,0.25,0.006925377
+25,NaAc_response,stress response,,,,,,,,,2,,,0,0,0.006881938
+39,cell_cycle,regulatory,,,,,,,,,40,,,0.1,0.175,0.006868278
+35,iron_ABC_transport,transport,,,,,,,,,8,,,0.125,0.375,0.006811209
+21,low_pH_response,stress response,,,,,,,,,9,,,0,0,0.006627444
+46,alternative_carbon_maybe,poorly characterized,,,,,,,,,7,,,0,0,0.00651574
+61,unknown_8,uncharacterized,,,,,,,,,26,,,0.076923077,0.115384615,0.006470499
+20,regulatory_plasmid,regulatory,,,,,,,,,14,,,0.285714286,0.285714286,0.00623798
+4,SG_2,single gene,,,,,,,,,1,,TRUE,0,0,0.005723502
+42,SG_15,single gene,,,,,,,,,1,,TRUE,0,0,0.00514064
+11,zur_KO,experiment specific,,,,,,,,,4,,,0,0,0.005059201
+34,SG_13,single gene,,,,,,,,,1,,TRUE,0,0,0.004916125
+23,SG_6,single gene,,,,,,,,,1,,TRUE,0,0,0.004541416
+48,tetR_family_KO_1,experiment specific,,,,,,,,,10,,,0.1,0,0.004366813
+52,sulfate_transport_maybe,poorly characterized,,,,,,,,,19,,,0.052631579,0.052631579,0.004314773
+19,SG_5,single gene,ZMO0203+ZMO1235,0,0,1,1,1,1,1,1,2,TRUE,0,0,0.004182861
+8,tetR_family_KO_2,experiment specific,,,,,,,,,4,,,0,0,0.003233192
+59,SG_19,single gene,,,,,,,,,1,,TRUE,0,0,0.002873043
+5,SG_3,single gene,,,,,,,,,1,,TRUE,0,0,0.002828908
+49,SG_17,single gene,,,,,,,,,1,,TRUE,0,0,0.002555103
+12,SG_4,single gene,,,,,,,,,1,,TRUE,1,1,0.002409598
+32,SG_11,single gene,,,,,,,,,1,,TRUE,1,1,0.002367989
+33,SG_12,single gene,ZMO0199+ZMO0471,0,0,1,1,1,1,1,1,2,TRUE,0,0,0.002239347
+45,unknown_4,uncharacterized,ZMO1412,4.58E-09,6.87E-08,0.8,0.049180328,0.092664093,12,244,15,1,,0.066666667,0.066666667,0.0021227
+43,sulfur_metabolism,metabolism,,,,,,,,,7,,,0.285714286,0.285714286,0.00204525
+51,noise_3,noise,,,,,,,,,45,,,0.066666667,0.111111111,0.00203014
+29,SG_8,single gene,,,,,,,,,1,,TRUE,0,0,0.001833864
+27,SG_7,single gene,,,,,,,,,1,,TRUE,0,0,0.001358483
+60,SG_20,single gene,,,,,,,,,1,,TRUE,0,0,0.001292804
+16,unknown_2,uncharacterized,,,,,,,,,5,,,0.2,0.2,0.00121079
+17,unknown_3,uncharacterized,,,,,,,,,11,,TRUE,0,0,0.001178202
+1,SG_1,single gene,,,,,,,,,1,,TRUE,0,0,0.001165958
+37,SG_14,single gene,,,,,,,,,1,,TRUE,0,0,0.001067692
+30,SG_9,single gene,ZMO0050+ZMO0244,0,0,1,1,1,1,1,1,2,TRUE,0,0,0.000950081
+50,SG_18,single gene,,,,,,,,,1,,TRUE,1,1,0.000753386
+47,SG_16,single gene,ZMO0100+ZMO0478,0,0,1,1,1,1,1,1,2,TRUE,0,0,0.000683662
+57,unknown_7,uncharacterized,,,,,,,,,34,,TRUE,0,0.029411765,0.000664111
