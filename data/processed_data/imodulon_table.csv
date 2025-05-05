@@ -2,7 +2,7 @@
 10,heat_response,stress response,,,,,,,,,48,,,0.041666667,0.0625,0.082349455
 40,translation_1,translation,,,,,,,,,47,,,0.106382979,0.14893617,0.069874464
 9,ethanol_fermentation,metabolism,,,,,,,,,20,,,0,0.05,0.032759038
-62,noise_5,noise,,,,,,,,,156,,TRUE,0.141025641,0.134615385,0.027218206
+62,noise_2,noise,,,,,,,,,156,,TRUE,0.141025641,0.134615385,0.027218206
 28,fructose_transport_maybe,poorly characterized,,,,,,,,,24,,,0,0,0.023696993
 26,glycolysis_and_ATP_synthase,metabolism,,,,,,,,,28,,,0.25,0.25,0.020950148
 15,motility_plasmid,structural,,,,,,,,,22,,,0.045454545,0.045454545,0.019382205
