@@ -4,7 +4,7 @@
 9,ethanol_fermentation,metabolism,,,,,,,,,20,,,0,0.05,0.032759038
 62,noise_2,noise,,,,,,,,,156,,TRUE,0.141025641,0.134615385,0.027218206
 28,fructose_transport_maybe,poorly characterized,,,,,,,,,24,,,0,0,0.023696993
-26,glycolysis_and_ATP_synthase,metabolism,,,,,,,,,28,,,0.25,0.25,0.020950148
+26,glycolysis_plus_ATP_synthase,metabolism,,,,,,,,,28,,,0.25,0.25,0.020950148
 15,motility_plasmid,structural,,,,,,,,,22,,,0.045454545,0.045454545,0.019382205
 41,translation_2,translation,,,,,,,,,20,,,0.05,0,0.018795397
 0,nitrogen_fixation,metabolism,,,,,,,,,12,,,0,0,0.018629652
@@ -22,7 +22,7 @@
 18,toxin_secretion,stress response,,,,,,,,,5,,,0,0,0.008526598
 54,noise_4,noise,,,,,,,,,35,,,0.171428571,0.142857143,0.008423555
 56,unknown_6,uncharacterized,,,,,,,,,5,,,0.6,0.6,0.008413298
-55,ETC_and_MEP,metabolism,,,,,,,,,20,,,0.4,0.15,0.008161214
+55,ETC_plus_MEP,metabolism,,,,,,,,,20,,,0.4,0.15,0.008161214
 22,membrane_cobalmin,transport,,,,,,,,,40,,TRUE,0.075,0.075,0.007713993
 38,ribonucleoside_reductase,stress response,,,,,,,,,5,,,0.2,0.4,0.007006612
 44,transport_2,transport,,,,,,,,,4,,,0.25,0.25,0.006925377
